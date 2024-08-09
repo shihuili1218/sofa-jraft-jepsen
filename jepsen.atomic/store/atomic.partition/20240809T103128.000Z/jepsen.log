@@ -1,0 +1,287 @@
+2024-08-09 10:31:29,071{GMT}	INFO	[jepsen test runner] jepsen.core: Running test:
+ {:ssh-private-key "/home/admin/.ssh/id_rsa",
+ :nodes-file "./nodes",
+ :concurrency 5,
+ :slots 1,
+ :db
+ #object[jepsen.atomic$db$reify__390 0x7f5538a1 "jepsen.atomic$db$reify__390@7f5538a1"],
+ :name "atomic.partition",
+ :ops-per-key 100,
+ :start-time
+ #object[org.joda.time.DateTime 0x7dbe2ebf "2024-08-09T10:31:28.000Z"],
+ :net
+ #object[jepsen.net$reify__3910 0x7a485a36 "jepsen.net$reify__3910@7a485a36"],
+ :client {:conn nil},
+ :quorum false,
+ :barrier
+ #object[java.util.concurrent.CyclicBarrier 0x79e66b2f "java.util.concurrent.CyclicBarrier@79e66b2f"],
+ :ssh
+ {:username "admin",
+  :password "123456",
+  :strict-host-key-checking false,
+  :private-key-path "/home/admin/.ssh/id_rsa"},
+ :rate 10,
+ :checker
+ #object[jepsen.checker$compose$reify__3577 0x6cbd0674 "jepsen.checker$compose$reify__3577@6cbd0674"],
+ :nemesis
+ #object[jepsen.nemesis$partitioner$reify__4013 0x6e7c351d "jepsen.nemesis$partitioner$reify__4013@6e7c351d"],
+ :active-histories #<Atom@37b52340: #{}>,
+ :nodes
+ ["jraft.host1"
+  "jraft.host2"
+  "jraft.host3"
+  "jraft.host4"
+  "jraft.host5"],
+ :test-count 1,
+ :generator
+ #object[jepsen.generator$time_limit$reify__2293 0x23f86d8a "jepsen.generator$time_limit$reify__2293@23f86d8a"],
+ :os
+ #object[jepsen.os$reify__1415 0x2100d047 "jepsen.os$reify__1415@2100d047"],
+ :time-limit 60,
+ :testfn "partition-test",
+ :model {:value 0}}
+
+2024-08-09 10:31:30,323{GMT}	INFO	[jepsen node jraft.host5] jepsen.atomic: Stop jraft.host5
+2024-08-09 10:31:30,326{GMT}	INFO	[jepsen node jraft.host2] jepsen.atomic: Stop jraft.host2
+2024-08-09 10:31:30,327{GMT}	INFO	[jepsen node jraft.host1] jepsen.atomic: Stop jraft.host1
+2024-08-09 10:31:30,328{GMT}	INFO	[jepsen node jraft.host3] jepsen.atomic: Stop jraft.host3
+2024-08-09 10:31:30,330{GMT}	INFO	[jepsen node jraft.host4] jepsen.atomic: Stop jraft.host4
+2024-08-09 10:31:35,740{GMT}	INFO	[jepsen node jraft.host1] jepsen.atomic: 
+2024-08-09 10:31:35,741{GMT}	INFO	[jepsen node jraft.host4] jepsen.atomic: 
+2024-08-09 10:31:35,741{GMT}	INFO	[jepsen node jraft.host3] jepsen.atomic: 
+2024-08-09 10:31:35,741{GMT}	INFO	[jepsen node jraft.host5] jepsen.atomic: 
+2024-08-09 10:31:35,804{GMT}	INFO	[jepsen node jraft.host2] jepsen.atomic: 
+2024-08-09 10:31:35,842{GMT}	INFO	[jepsen node jraft.host1] jepsen.atomic: 
+2024-08-09 10:31:35,842{GMT}	INFO	[jepsen node jraft.host4] jepsen.atomic: 
+2024-08-09 10:31:35,842{GMT}	INFO	[jepsen node jraft.host5] jepsen.atomic: 
+2024-08-09 10:31:35,842{GMT}	INFO	[jepsen node jraft.host3] jepsen.atomic: 
+2024-08-09 10:31:35,907{GMT}	INFO	[jepsen node jraft.host2] jepsen.atomic: 
+2024-08-09 10:31:35,943{GMT}	INFO	[jepsen node jraft.host3] jepsen.atomic: 
+2024-08-09 10:31:35,943{GMT}	INFO	[jepsen node jraft.host1] jepsen.atomic: 
+2024-08-09 10:31:35,943{GMT}	INFO	[jepsen node jraft.host5] jepsen.atomic: 
+2024-08-09 10:31:35,943{GMT}	INFO	[jepsen node jraft.host4] jepsen.atomic: 
+2024-08-09 10:31:35,944{GMT}	INFO	[jepsen node jraft.host3] jepsen.atomic: Start jraft.host3
+2024-08-09 10:31:35,944{GMT}	INFO	[jepsen node jraft.host1] jepsen.atomic: Start jraft.host1
+2024-08-09 10:31:35,944{GMT}	INFO	[jepsen node jraft.host5] jepsen.atomic: Start jraft.host5
+2024-08-09 10:31:35,944{GMT}	INFO	[jepsen node jraft.host4] jepsen.atomic: Start jraft.host4
+2024-08-09 10:31:36,012{GMT}	INFO	[jepsen node jraft.host2] jepsen.atomic: 
+2024-08-09 10:31:36,013{GMT}	INFO	[jepsen node jraft.host2] jepsen.atomic: Start jraft.host2
+2024-08-09 10:31:46,121{GMT}	INFO	[jepsen worker 0] jepsen.core: Starting worker 0
+2024-08-09 10:31:46,124{GMT}	INFO	[jepsen nemesis] jepsen.core: Starting nemesis
+2024-08-09 10:31:46,129{GMT}	INFO	[jepsen worker 1] jepsen.core: Starting worker 1
+2024-08-09 10:31:46,129{GMT}	INFO	[jepsen worker 0] com.alipay.sofa.jraft.util.JRaftServiceLoader: SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+2024-08-09 10:31:46,134{GMT}	INFO	[jepsen worker 2] jepsen.core: Starting worker 2
+2024-08-09 10:31:46,135{GMT}	INFO	[jepsen worker 3] jepsen.core: Starting worker 3
+2024-08-09 10:31:46,138{GMT}	INFO	[jepsen worker 4] jepsen.core: Starting worker 4
+2024-08-09 10:31:46,258{GMT}	WARN	[jepsen nemesis] jepsen.core: Error setting up nemesis
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: sudo -S -u root bash -c "cd /; iptables -F -w" returned non-zero exit status 127 on jraft.host1. STDOUT:
+
+
+STDERR:
+[sudo] password for admin: bash: line 1: iptables: command not found
+
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[na:1.8.0_422]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[na:1.8.0_422]
+	at clojure.core$deref_future.invokeStatic(core.clj:2292) ~[clojure-1.9.0.jar:na]
+	at clojure.core$future_call$reify__8097.deref(core.clj:6894) ~[clojure-1.9.0.jar:na]
+	at clojure.core$deref.invokeStatic(core.clj:2312) ~[clojure-1.9.0.jar:na]
+	at clojure.core$deref.invoke(core.clj:2298) ~[clojure-1.9.0.jar:na]
+	at clojure.core$map$fn__5587.invoke(core.clj:2745) ~[clojure-1.9.0.jar:na]
+	at clojure.lang.LazySeq.sval(LazySeq.java:40) ~[clojure-1.9.0.jar:na]
+	at clojure.lang.LazySeq.seq(LazySeq.java:49) ~[clojure-1.9.0.jar:na]
+	at clojure.lang.RT.seq(RT.java:528) ~[clojure-1.9.0.jar:na]
+	at clojure.core$seq__5124.invokeStatic(core.clj:137) ~[clojure-1.9.0.jar:na]
+	at clojure.core.protocols$seq_reduce.invokeStatic(protocols.clj:24) ~[clojure-1.9.0.jar:na]
+	at clojure.core.protocols$fn__7835.invokeStatic(protocols.clj:75) ~[clojure-1.9.0.jar:na]
+	at clojure.core.protocols$fn__7835.invoke(protocols.clj:75) ~[clojure-1.9.0.jar:na]
+	at clojure.core.protocols$fn__7781$G__7776__7794.invoke(protocols.clj:13) ~[clojure-1.9.0.jar:na]
+	at clojure.core$reduce.invokeStatic(core.clj:6748) ~[clojure-1.9.0.jar:na]
+	at clojure.core$into.invokeStatic(core.clj:6815) ~[clojure-1.9.0.jar:na]
+	at clojure.core$into.invoke(core.clj:6807) ~[clojure-1.9.0.jar:na]
+	at jepsen.control$on_nodes.invokeStatic(control.clj:373) ~[jepsen-0.1.8.jar:na]
+	at jepsen.control$on_nodes.invoke(control.clj:357) ~[jepsen-0.1.8.jar:na]
+	at jepsen.control$on_nodes.invokeStatic(control.clj:362) ~[jepsen-0.1.8.jar:na]
+	at jepsen.control$on_nodes.invoke(control.clj:357) ~[jepsen-0.1.8.jar:na]
+	at jepsen.net$reify__3910.heal_BANG_(net.clj:65) ~[jepsen-0.1.8.jar:na]
+	at jepsen.nemesis$partitioner$reify__4013.setup_BANG_(nemesis.clj:97) ~[jepsen-0.1.8.jar:na]
+	at jepsen.nemesis$setup_compat_BANG_.invokeStatic(nemesis.clj:27) ~[jepsen-0.1.8.jar:na]
+	at jepsen.nemesis$setup_compat_BANG_.invoke(nemesis.clj:21) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core.NemesisWorker.setup_worker_BANG_(core.clj:427) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invokeStatic(core.clj:165) [jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invoke(core.clj:155) [jepsen-0.1.8.jar:na]
+	at jepsen.core$run_workers_BANG_$fn__4221$fn__4222.invoke(core.clj:221) [jepsen-0.1.8.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:152) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:657) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.invokeStatic(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:156) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.applyTo(RestFn.java:132) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:661) [clojure-1.9.0.jar:na]
+	at clojure.core$bound_fn_STAR_$fn__5471.doInvoke(core.clj:1995) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:397) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.run(AFn.java:22) [clojure-1.9.0.jar:na]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_422]
+Caused by: java.lang.RuntimeException: sudo -S -u root bash -c "cd /; iptables -F -w" returned non-zero exit status 127 on jraft.host1. STDOUT:
+
+
+STDERR:
+[sudo] password for admin: bash: line 1: iptables: command not found
+
+	at jepsen.control$throw_on_nonzero_exit.invokeStatic(control.clj:129) ~[jepsen-0.1.8.jar:na]
+	at jepsen.control$throw_on_nonzero_exit.invoke(control.clj:122) ~[jepsen-0.1.8.jar:na]
+	at jepsen.control$exec_STAR_.invokeStatic(control.clj:166) ~[jepsen-0.1.8.jar:na]
+	at jepsen.control$exec_STAR_.doInvoke(control.clj:163) ~[jepsen-0.1.8.jar:na]
+	at clojure.lang.RestFn.applyTo(RestFn.java:137) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:657) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:652) [clojure-1.9.0.jar:na]
+	at jepsen.control$exec.invokeStatic(control.clj:182) ~[jepsen-0.1.8.jar:na]
+	at jepsen.control$exec.doInvoke(control.clj:176) ~[jepsen-0.1.8.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:436) [clojure-1.9.0.jar:na]
+	at jepsen.net$reify__3910$fn__3911.invoke(net.clj:67) ~[jepsen-0.1.8.jar:na]
+	at jepsen.control$on_nodes$fn__2069.invoke(control.clj:372) ~[jepsen-0.1.8.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:657) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.invokeStatic(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.applyTo(RestFn.java:142) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:661) [clojure-1.9.0.jar:na]
+	at clojure.core$bound_fn_STAR_$fn__5471.doInvoke(core.clj:1995) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:408) [clojure-1.9.0.jar:na]
+	at jepsen.util$real_pmap$launcher__1160$fn__1161.invoke(util.clj:49) ~[jepsen-0.1.8.jar:na]
+	at clojure.core$binding_conveyor_fn$fn__5476.invoke(core.clj:2022) ~[clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.9.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_422]
+	... 1 common frames omitted
+2024-08-09 10:31:46,260{GMT}	INFO	[jepsen worker 0] com.alipay.sofa.jraft.util.JRaftServiceLoader: SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.BoltRaftRpcFactory] loading.
+2024-08-09 10:31:46,266{GMT}	INFO	[jepsen nemesis] jepsen.core: Stopping nemesis
+2024-08-09 10:31:46,445{GMT}	INFO	[jepsen worker 3] com.alipay.sofa.common.log: Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.remoting Logback ]
+2024-08-09 10:31:47,133{GMT}	WARN	[jepsen worker 2] com.alipay.sofa.jraft.test.atomic.client.AtomicClient: Fail to get slots from peer jraft.host1:8609, error: null
+2024-08-09 10:31:47,133{GMT}	WARN	[jepsen worker 1] com.alipay.sofa.jraft.test.atomic.client.AtomicClient: Fail to get slots from peer jraft.host1:8609, error: null
+2024-08-09 10:31:47,133{GMT}	WARN	[jepsen worker 3] com.alipay.sofa.jraft.test.atomic.client.AtomicClient: Fail to get slots from peer jraft.host1:8609, error: null
+2024-08-09 10:31:47,133{GMT}	WARN	[jepsen worker 4] com.alipay.sofa.jraft.test.atomic.client.AtomicClient: Fail to get slots from peer jraft.host1:8609, error: null
+2024-08-09 10:31:47,133{GMT}	WARN	[jepsen worker 0] com.alipay.sofa.jraft.test.atomic.client.AtomicClient: Fail to get slots from peer jraft.host1:8609, error: null
+2024-08-09 10:31:47,254{GMT}	INFO	[jepsen worker 4] com.alipay.sofa.jraft.test.atomic.client.AtomicClient: All groups  is {0=atomic_0}
+2024-08-09 10:31:47,254{GMT}	INFO	[jepsen worker 0] com.alipay.sofa.jraft.test.atomic.client.AtomicClient: All groups  is {0=atomic_0}
+2024-08-09 10:31:47,254{GMT}	INFO	[jepsen worker 3] com.alipay.sofa.jraft.test.atomic.client.AtomicClient: All groups  is {0=atomic_0}
+2024-08-09 10:31:47,254{GMT}	INFO	[jepsen worker 2] com.alipay.sofa.jraft.test.atomic.client.AtomicClient: All groups  is {0=atomic_0}
+2024-08-09 10:31:47,254{GMT}	INFO	[jepsen worker 1] com.alipay.sofa.jraft.test.atomic.client.AtomicClient: All groups  is {0=atomic_0}
+2024-08-09 10:31:47,563{GMT}	INFO	[jepsen worker 1] jepsen.core: Running worker 1
+2024-08-09 10:31:47,564{GMT}	INFO	[jepsen worker 2] jepsen.core: Running worker 2
+2024-08-09 10:31:47,566{GMT}	INFO	[jepsen worker 0] jepsen.core: Running worker 0
+2024-08-09 10:31:47,566{GMT}	INFO	[jepsen worker 3] jepsen.core: Running worker 3
+2024-08-09 10:31:47,567{GMT}	INFO	[jepsen worker 4] jepsen.core: Running worker 4
+2024-08-09 10:31:47,568{GMT}	WARN	[jepsen worker 4] jepsen.core: Error running worker 4
+clojure.lang.ExceptionInfo: throw+: {:type :worker-abort}
+	at slingshot.support$stack_trace.invoke(support.clj:201) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core.ClientWorker.run_worker_BANG_(core.clj:352) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invokeStatic(core.clj:168) [jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invoke(core.clj:155) [jepsen-0.1.8.jar:na]
+	at jepsen.core$run_workers_BANG_$fn__4221$fn__4222.invoke(core.clj:221) [jepsen-0.1.8.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:152) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:657) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.invokeStatic(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:156) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.applyTo(RestFn.java:132) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:661) [clojure-1.9.0.jar:na]
+	at clojure.core$bound_fn_STAR_$fn__5471.doInvoke(core.clj:1995) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:397) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.run(AFn.java:22) [clojure-1.9.0.jar:na]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_422]
+2024-08-09 10:31:47,568{GMT}	WARN	[jepsen worker 1] jepsen.core: Error running worker 1
+clojure.lang.ExceptionInfo: throw+: {:type :worker-abort}
+	at slingshot.support$stack_trace.invoke(support.clj:201) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core.ClientWorker.run_worker_BANG_(core.clj:352) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invokeStatic(core.clj:168) [jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invoke(core.clj:155) [jepsen-0.1.8.jar:na]
+	at jepsen.core$run_workers_BANG_$fn__4221$fn__4222.invoke(core.clj:221) [jepsen-0.1.8.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:152) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:657) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.invokeStatic(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:156) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.applyTo(RestFn.java:132) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:661) [clojure-1.9.0.jar:na]
+	at clojure.core$bound_fn_STAR_$fn__5471.doInvoke(core.clj:1995) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:397) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.run(AFn.java:22) [clojure-1.9.0.jar:na]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_422]
+2024-08-09 10:31:47,568{GMT}	WARN	[jepsen worker 3] jepsen.core: Error running worker 3
+clojure.lang.ExceptionInfo: throw+: {:type :worker-abort}
+	at slingshot.support$stack_trace.invoke(support.clj:201) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core.ClientWorker.run_worker_BANG_(core.clj:352) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invokeStatic(core.clj:168) [jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invoke(core.clj:155) [jepsen-0.1.8.jar:na]
+	at jepsen.core$run_workers_BANG_$fn__4221$fn__4222.invoke(core.clj:221) [jepsen-0.1.8.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:152) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:657) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.invokeStatic(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:156) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.applyTo(RestFn.java:132) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:661) [clojure-1.9.0.jar:na]
+	at clojure.core$bound_fn_STAR_$fn__5471.doInvoke(core.clj:1995) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:397) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.run(AFn.java:22) [clojure-1.9.0.jar:na]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_422]
+2024-08-09 10:31:47,568{GMT}	WARN	[jepsen worker 0] jepsen.core: Error running worker 0
+clojure.lang.ExceptionInfo: throw+: {:type :worker-abort}
+	at slingshot.support$stack_trace.invoke(support.clj:201) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core.ClientWorker.run_worker_BANG_(core.clj:352) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invokeStatic(core.clj:168) [jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invoke(core.clj:155) [jepsen-0.1.8.jar:na]
+	at jepsen.core$run_workers_BANG_$fn__4221$fn__4222.invoke(core.clj:221) [jepsen-0.1.8.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:152) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:657) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.invokeStatic(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:156) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.applyTo(RestFn.java:132) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:661) [clojure-1.9.0.jar:na]
+	at clojure.core$bound_fn_STAR_$fn__5471.doInvoke(core.clj:1995) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:397) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.run(AFn.java:22) [clojure-1.9.0.jar:na]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_422]
+2024-08-09 10:31:47,568{GMT}	WARN	[jepsen worker 2] jepsen.core: Error running worker 2
+clojure.lang.ExceptionInfo: throw+: {:type :worker-abort}
+	at slingshot.support$stack_trace.invoke(support.clj:201) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core.ClientWorker.run_worker_BANG_(core.clj:352) ~[jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invokeStatic(core.clj:168) [jepsen-0.1.8.jar:na]
+	at jepsen.core$do_worker_BANG_.invoke(core.clj:155) [jepsen-0.1.8.jar:na]
+	at jepsen.core$run_workers_BANG_$fn__4221$fn__4222.invoke(core.clj:221) [jepsen-0.1.8.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:152) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:657) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.invokeStatic(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1965) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:156) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.applyTo(RestFn.java:132) [clojure-1.9.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:661) [clojure-1.9.0.jar:na]
+	at clojure.core$bound_fn_STAR_$fn__5471.doInvoke(core.clj:1995) [clojure-1.9.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:397) [clojure-1.9.0.jar:na]
+	at clojure.lang.AFn.run(AFn.java:22) [clojure-1.9.0.jar:na]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_422]
+2024-08-09 10:31:47,570{GMT}	INFO	[jepsen worker 4] jepsen.core: Stopping worker 4
+2024-08-09 10:31:47,571{GMT}	INFO	[jepsen worker 2] jepsen.core: Stopping worker 2
+2024-08-09 10:31:47,572{GMT}	INFO	[jepsen worker 0] jepsen.core: Stopping worker 0
+2024-08-09 10:31:47,573{GMT}	INFO	[jepsen worker 3] jepsen.core: Stopping worker 3
+2024-08-09 10:31:47,574{GMT}	INFO	[jepsen worker 1] jepsen.core: Stopping worker 1
+2024-08-09 10:31:47,588{GMT}	INFO	[jepsen node jraft.host1] jepsen.atomic: Stop jraft.host1
+2024-08-09 10:31:47,588{GMT}	INFO	[jepsen node jraft.host4] jepsen.atomic: Stop jraft.host4
+2024-08-09 10:31:47,588{GMT}	INFO	[jepsen node jraft.host2] jepsen.atomic: Stop jraft.host2
+2024-08-09 10:31:47,588{GMT}	INFO	[jepsen node jraft.host3] jepsen.atomic: Stop jraft.host3
+2024-08-09 10:31:47,588{GMT}	INFO	[jepsen node jraft.host5] jepsen.atomic: Stop jraft.host5

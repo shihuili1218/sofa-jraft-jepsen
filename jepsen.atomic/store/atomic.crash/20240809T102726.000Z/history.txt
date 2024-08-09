@@ -1,0 +1,5760 @@
+2	:invoke	:write	2
+4	:invoke	:cas	[2 1]
+2	:info	:write	2	Remoting error:null
+4	:info	:cas	[2 1]	Remoting error:null
+1	:invoke	:cas	[3 3]
+1	:info	:cas	[3 3]	Remoting error:null
+3	:invoke	:cas	[3 2]
+3	:info	:cas	[3 2]	Remoting error:null
+7	:invoke	:read	nil
+0	:invoke	:write	4
+7	:fail	:read	nil	Remoting error:null
+0	:info	:write	4	Remoting error:null
+6	:invoke	:write	2
+9	:invoke	:write	0
+6	:info	:write	2	Remoting error:null
+9	:info	:write	0	Remoting error:null
+8	:invoke	:read	nil
+8	:fail	:read	nil	Remoting error:null
+7	:invoke	:write	1
+7	:info	:write	1	Remoting error:null
+11	:invoke	:read	nil
+11	:fail	:read	nil	Remoting error:null
+14	:invoke	:cas	[1 3]
+5	:invoke	:read	nil
+14	:info	:cas	[1 3]	Remoting error:null
+5	:fail	:read	nil	Remoting error:null
+11	:invoke	:cas	[0 0]
+12	:invoke	:read	nil
+11	:info	:cas	[0 0]	Remoting error:null
+12	:fail	:read	nil	Remoting error:null
+8	:invoke	:write	4
+8	:info	:write	4	Remoting error:null
+5	:invoke	:cas	[4 3]
+5	:info	:cas	[4 3]	Remoting error:null
+19	:invoke	:write	2
+16	:invoke	:write	1
+19	:info	:write	2	Remoting error:null
+16	:info	:write	1	Remoting error:null
+13	:invoke	:cas	[1 4]
+13	:info	:cas	[1 4]	Remoting error:null
+12	:invoke	:write	1
+12	:info	:write	1	Remoting error:null
+10	:invoke	:cas	[3 2]
+10	:info	:cas	[3 2]	Remoting error:null
+21	:invoke	:cas	[4 3]
+21	:info	:cas	[4 3]	Remoting error:null
+18	:invoke	:write	2
+18	:info	:write	2	Remoting error:null
+17	:invoke	:cas	[3 1]
+17	:info	:cas	[3 1]	Remoting error:null
+24	:invoke	:cas	[2 4]
+24	:info	:cas	[2 4]	Remoting error:null
+15	:invoke	:write	1
+15	:info	:write	1	Remoting error:null
+26	:invoke	:read	nil
+23	:invoke	:read	nil
+26	:fail	:read	nil	Remoting error:null
+23	:fail	:read	nil	Remoting error:null
+29	:invoke	:write	0
+22	:invoke	:read	nil
+29	:info	:write	0	Remoting error:null
+22	:fail	:read	nil	Remoting error:null
+22	:invoke	:cas	[1 3]
+22	:info	:cas	[1 3]	Remoting error:null
+20	:invoke	:write	4
+20	:info	:write	4	Remoting error:null
+26	:invoke	:cas	[3 2]
+23	:invoke	:write	4
+26	:info	:cas	[3 2]	Remoting error:null
+23	:info	:write	4	Remoting error:null
+34	:invoke	:write	1
+34	:info	:write	1	Remoting error:null
+27	:invoke	:write	2
+27	:info	:write	2	Remoting error:null
+25	:invoke	:cas	[1 0]
+25	:info	:cas	[1 0]	Remoting error:null
+28	:invoke	:cas	[1 0]
+28	:info	:cas	[1 0]	Remoting error:null
+39	:invoke	:cas	[2 0]
+39	:info	:cas	[2 0]	Remoting error:null
+30	:invoke	:cas	[3 1]
+32	:invoke	:write	2
+30	:info	:cas	[3 1]	Remoting error:null
+31	:invoke	:cas	[4 3]
+31	:info	:cas	[4 3]	Remoting error:null
+32	:info	:write	2	Remoting error:null
+33	:invoke	:write	3
+33	:info	:write	3	Remoting error:null
+36	:invoke	:cas	[3 3]
+36	:info	:cas	[3 3]	Remoting error:null
+44	:invoke	:read	nil
+44	:fail	:read	nil	Remoting error:null
+35	:invoke	:write	4
+35	:info	:write	4	Remoting error:null
+37	:invoke	:write	4
+37	:info	:write	4	Remoting error:null
+38	:invoke	:read	nil
+38	:fail	:read	nil	Remoting error:null
+42	:invoke	:read	nil
+42	:fail	:read	nil	Remoting error:null
+41	:invoke	:write	1
+41	:info	:write	1	Remoting error:null
+40	:invoke	:cas	[1 3]
+40	:info	:cas	[1 3]	Remoting error:null
+44	:invoke	:read	nil
+44	:fail	:read	nil	Remoting error:null
+38	:invoke	:cas	[0 4]
+38	:info	:cas	[0 4]	Remoting error:null
+44	:invoke	:read	nil
+44	:fail	:read	nil	Remoting error:null
+46	:invoke	:write	2
+45	:invoke	:cas	[4 1]
+46	:info	:write	2	Remoting error:null
+45	:info	:cas	[4 1]	Remoting error:null
+42	:invoke	:read	nil
+42	:fail	:read	nil	Remoting error:null
+44	:invoke	:cas	[0 0]
+44	:info	:cas	[0 0]	Remoting error:null
+43	:invoke	:read	nil
+43	:fail	:read	nil	Remoting error:null
+50	:invoke	:write	3
+50	:info	:write	3	Remoting error:null
+51	:invoke	:read	nil
+51	:fail	:read	nil	Remoting error:null
+49	:invoke	:cas	[0 1]
+49	:info	:cas	[0 1]	Remoting error:null
+42	:invoke	:read	nil
+42	:fail	:read	nil	Remoting error:null
+51	:invoke	:cas	[3 1]
+51	:info	:cas	[3 1]	Remoting error:null
+43	:invoke	:cas	[4 0]
+43	:info	:cas	[4 0]	Remoting error:null
+55	:invoke	:cas	[0 1]
+55	:info	:cas	[0 1]	Remoting error:null
+54	:invoke	:read	nil
+54	:fail	:read	nil	Remoting error:null
+42	:invoke	:read	nil
+42	:fail	:read	nil	Remoting error:null
+60	:invoke	:write	1
+60	:info	:write	1	Remoting error:null
+56	:invoke	:read	nil
+48	:invoke	:write	3
+48	:info	:write	3	Remoting error:null
+56	:fail	:read	nil	Remoting error:null
+54	:invoke	:read	nil
+54	:fail	:read	nil	Remoting error:null
+65	:invoke	:write	0
+65	:info	:write	0	Remoting error:null
+56	:invoke	:write	0
+56	:info	:write	0	Remoting error:null
+42	:invoke	:cas	[4 3]
+42	:info	:cas	[4 3]	Remoting error:null
+53	:invoke	:cas	[2 0]
+54	:invoke	:read	nil
+53	:info	:cas	[2 0]	Remoting error:null
+54	:fail	:read	nil	Remoting error:null
+61	:invoke	:read	nil
+47	:invoke	:read	nil
+61	:fail	:read	nil	Remoting error:null
+47	:fail	:read	nil	Remoting error:null
+54	:invoke	:cas	[1 2]
+54	:info	:cas	[1 2]	Remoting error:null
+70	:invoke	:write	2
+70	:info	:write	2	Remoting error:null
+58	:invoke	:write	0
+58	:info	:write	0	Remoting error:null
+61	:invoke	:read	nil
+61	:fail	:read	nil	Remoting error:null
+47	:invoke	:read	nil
+47	:fail	:read	nil	Remoting error:null
+75	:invoke	:write	3
+75	:info	:write	3	Remoting error:null
+47	:invoke	:write	0
+47	:info	:write	0	Remoting error:null
+63	:invoke	:read	nil
+59	:invoke	:read	nil
+63	:fail	:read	nil	Remoting error:null
+59	:fail	:read	nil	Remoting error:null
+61	:invoke	:cas	[1 1]
+61	:info	:cas	[1 1]	Remoting error:null
+80	:invoke	:read	nil
+80	:fail	:read	nil	Remoting error:null
+52	:invoke	:write	0
+52	:info	:write	0	Remoting error:null
+63	:invoke	:write	2
+63	:info	:write	2	Remoting error:null
+80	:invoke	:cas	[0 1]
+80	:info	:cas	[0 1]	Remoting error:null
+59	:invoke	:cas	[1 1]
+59	:info	:cas	[1 1]	Remoting error:null
+66	:invoke	:read	nil
+68	:invoke	:cas	[4 1]
+68	:info	:cas	[4 1]	Remoting error:null
+66	:fail	:read	nil	Remoting error:null
+57	:invoke	:cas	[2 4]
+57	:info	:cas	[2 4]	Remoting error:null
+64	:invoke	:cas	[0 4]
+66	:invoke	:write	4
+64	:info	:cas	[0 4]	Remoting error:null
+66	:info	:write	4	Remoting error:null
+85	:invoke	:cas	[0 4]
+85	:info	:cas	[0 4]	Remoting error:null
+62	:invoke	:write	4
+62	:info	:write	4	Remoting error:null
+73	:invoke	:cas	[2 4]
+73	:info	:cas	[2 4]	Remoting error:null
+71	:invoke	:read	nil
+71	:fail	:read	nil	Remoting error:null
+90	:invoke	:read	nil
+90	:fail	:read	nil	Remoting error:null
+69	:invoke	:cas	[1 3]
+69	:info	:cas	[1 3]	Remoting error:null
+78	:invoke	:cas	[2 3]
+78	:info	:cas	[2 3]	Remoting error:null
+71	:invoke	:cas	[4 4]
+71	:info	:cas	[4 4]	Remoting error:null
+67	:invoke	:cas	[2 1]
+74	:invoke	:cas	[4 3]
+67	:info	:cas	[2 1]	Remoting error:null
+74	:info	:cas	[4 3]	Remoting error:null
+90	:invoke	:read	nil
+90	:fail	:read	nil	Remoting error:null
+83	:invoke	:write	1
+83	:info	:write	1	Remoting error:null
+76	:invoke	:read	nil
+76	:fail	:read	nil	Remoting error:null
+79	:invoke	:cas	[2 3]
+72	:invoke	:read	nil
+79	:info	:cas	[2 3]	Remoting error:null
+72	:fail	:read	nil	Remoting error:null
+88	:invoke	:read	nil
+88	:fail	:read	nil	Remoting error:null
+90	:invoke	:write	0
+90	:info	:write	0	Remoting error:null
+76	:invoke	:write	1
+76	:info	:write	1	Remoting error:null
+84	:invoke	:write	1
+84	:info	:write	1	Remoting error:null
+72	:invoke	:read	nil
+72	:fail	:read	nil	Remoting error:null
+95	:invoke	:read	nil
+95	:fail	:read	nil	Remoting error:null
+88	:invoke	:read	nil
+88	:fail	:read	nil	Remoting error:null
+81	:invoke	:write	4
+81	:info	:write	4	Remoting error:null
+89	:invoke	:read	nil
+89	:fail	:read	nil	Remoting error:null
+86	:invoke	:cas	[2 2]
+86	:info	:cas	[2 2]	Remoting error:null
+89	:invoke	:read	nil
+95	:invoke	:write	2
+89	:fail	:read	nil	Remoting error:null
+95	:info	:write	2	Remoting error:null
+88	:invoke	:read	nil
+88	:fail	:read	nil	Remoting error:null
+72	:invoke	:write	1
+72	:info	:write	1	Remoting error:null
+91	:invoke	:read	nil
+91	:fail	:read	nil	Remoting error:null
+88	:invoke	:read	nil
+88	:fail	:read	nil	Remoting error:null
+89	:invoke	:write	3
+89	:info	:write	3	Remoting error:null
+77	:invoke	:read	nil
+77	:fail	:read	nil	Remoting error:null
+91	:invoke	:read	nil
+91	:fail	:read	nil	Remoting error:null
+100	:invoke	:read	nil
+100	:fail	:read	nil	Remoting error:null
+94	:invoke	:cas	[1 0]
+94	:info	:cas	[1 0]	Remoting error:null
+88	:invoke	:read	nil
+88	:fail	:read	nil	Remoting error:null
+100	:invoke	:write	0
+100	:info	:write	0	Remoting error:null
+91	:invoke	:write	4
+91	:info	:write	4	Remoting error:null
+77	:invoke	:cas	[0 1]
+77	:info	:cas	[0 1]	Remoting error:null
+99	:invoke	:read	nil
+99	:fail	:read	nil	Remoting error:null
+88	:invoke	:cas	[2 3]
+88	:info	:cas	[2 3]	Remoting error:null
+105	:invoke	:write	2
+105	:info	:write	2	Remoting error:null
+99	:invoke	:read	nil
+99	:fail	:read	nil	Remoting error:null
+82	:invoke	:write	2
+82	:info	:write	2	Remoting error:null
+96	:invoke	:cas	[3 2]
+96	:info	:cas	[3 2]	Remoting error:null
+93	:invoke	:cas	[4 1]
+93	:info	:cas	[4 1]	Remoting error:null
+101	:invoke	:write	1
+101	:info	:write	1	Remoting error:null
+110	:invoke	:read	nil
+110	:fail	:read	nil	Remoting error:null
+87	:invoke	:cas	[0 1]
+87	:info	:cas	[0 1]	Remoting error:null
+99	:invoke	:read	nil
+99	:fail	:read	nil	Remoting error:null
+92	:invoke	:write	4
+110	:invoke	:write	3
+92	:info	:write	4	Remoting error:null
+110	:info	:write	3	Remoting error:null
+98	:invoke	:cas	[2 1]
+98	:info	:cas	[2 1]	Remoting error:null
+106	:invoke	:write	1
+106	:info	:write	1	Remoting error:null
+99	:invoke	:write	4
+99	:info	:write	4	Remoting error:null
+115	:invoke	:read	nil
+115	:fail	:read	nil	Remoting error:null
+97	:invoke	:write	2
+97	:info	:write	2	Remoting error:null
+103	:invoke	:read	nil
+103	:fail	:read	nil	Remoting error:null
+111	:invoke	:cas	[1 1]
+111	:info	:cas	[1 1]	Remoting error:null
+104	:invoke	:cas	[3 4]
+104	:info	:cas	[3 4]	Remoting error:null
+115	:invoke	:cas	[3 0]
+115	:info	:cas	[3 0]	Remoting error:null
+103	:invoke	:read	nil
+103	:fail	:read	nil	Remoting error:null
+116	:invoke	:write	3
+102	:invoke	:cas	[0 1]
+109	:invoke	:read	nil
+116	:info	:write	3	Remoting error:null
+102	:info	:cas	[0 1]	Remoting error:null
+109	:fail	:read	nil	Remoting error:null
+103	:invoke	:cas	[4 1]
+103	:info	:cas	[4 1]	Remoting error:null
+120	:invoke	:cas	[1 3]
+120	:info	:cas	[1 3]	Remoting error:null
+107	:invoke	:write	4
+107	:info	:write	4	Remoting error:null
+109	:invoke	:cas	[2 1]
+109	:info	:cas	[2 1]	Remoting error:null
+108	:invoke	:write	4
+108	:info	:write	4	Remoting error:null
+121	:invoke	:cas	[2 3]
+121	:info	:cas	[2 3]	Remoting error:null
+125	:invoke	:write	3
+125	:info	:write	3	Remoting error:null
+112	:invoke	:read	nil
+112	:fail	:read	nil	Remoting error:null
+113	:invoke	:cas	[3 3]
+113	:info	:cas	[3 3]	Remoting error:null
+112	:invoke	:read	nil
+112	:fail	:read	nil	Remoting error:null
+114	:invoke	:read	nil
+114	:fail	:read	nil	Remoting error:null
+126	:invoke	:cas	[0 0]
+126	:info	:cas	[0 0]	Remoting error:null
+130	:invoke	:cas	[1 2]
+130	:info	:cas	[1 2]	Remoting error:null
+118	:invoke	:cas	[2 0]
+118	:info	:cas	[2 0]	Remoting error:null
+114	:invoke	:read	nil
+114	:fail	:read	nil	Remoting error:null
+131	:invoke	:write	3
+131	:info	:write	3	Remoting error:null
+112	:invoke	:cas	[1 0]
+112	:info	:cas	[1 0]	Remoting error:null
+135	:invoke	:write	2
+135	:info	:write	2	Remoting error:null
+136	:invoke	:read	nil
+136	:fail	:read	nil	Remoting error:null
+123	:invoke	:write	1
+123	:info	:write	1	Remoting error:null
+114	:invoke	:cas	[3 1]
+114	:info	:cas	[3 1]	Remoting error:null
+128	:invoke	:write	2
+128	:info	:write	2	Remoting error:null
+117	:invoke	:cas	[4 3]
+140	:invoke	:write	0
+117	:info	:cas	[4 3]	Remoting error:null
+140	:info	:write	0	Remoting error:null
+119	:invoke	:read	nil
+119	:fail	:read	nil	Remoting error:null
+136	:invoke	:read	nil
+136	:fail	:read	nil	Remoting error:null
+145	:invoke	:read	nil
+145	:fail	:read	nil	Remoting error:null
+119	:invoke	:write	2
+119	:info	:write	2	Remoting error:null
+133	:invoke	:write	1
+122	:invoke	:cas	[3 4]
+133	:info	:write	1	Remoting error:null
+122	:info	:cas	[3 4]	Remoting error:null
+145	:invoke	:read	nil
+145	:fail	:read	nil	Remoting error:null
+136	:invoke	:write	0
+136	:info	:write	0	Remoting error:null
+145	:invoke	:write	0
+124	:invoke	:cas	[1 3]
+145	:info	:write	0	Remoting error:null
+124	:info	:cas	[1 3]	Remoting error:null
+127	:invoke	:write	3
+138	:invoke	:read	nil
+127	:info	:write	3	Remoting error:null
+138	:fail	:read	nil	Remoting error:null
+141	:invoke	:cas	[3 3]
+141	:info	:cas	[3 3]	Remoting error:null
+129	:invoke	:write	0
+129	:info	:write	0	Remoting error:null
+132	:invoke	:cas	[4 0]
+132	:info	:cas	[4 0]	Remoting error:null
+150	:invoke	:write	2
+150	:info	:write	2	Remoting error:null
+138	:invoke	:cas	[1 2]
+138	:info	:cas	[1 2]	Remoting error:null
+137	:invoke	:read	nil
+137	:fail	:read	nil	Remoting error:null
+146	:invoke	:read	nil
+146	:fail	:read	nil	Remoting error:null
+134	:invoke	:read	nil
+134	:fail	:read	nil	Remoting error:null
+155	:invoke	:read	nil
+155	:fail	:read	nil	Remoting error:null
+143	:invoke	:cas	[0 0]
+143	:info	:cas	[0 0]	Remoting error:null
+137	:invoke	:write	1
+137	:info	:write	1	Remoting error:null
+146	:invoke	:cas	[3 4]
+146	:info	:cas	[3 4]	Remoting error:null
+134	:invoke	:write	1
+134	:info	:write	1	Remoting error:null
+155	:invoke	:read	nil
+155	:fail	:read	nil	Remoting error:null
+148	:invoke	:read	nil
+148	:fail	:read	nil	Remoting error:null
+151	:invoke	:read	nil
+151	:fail	:read	nil	Remoting error:null
+142	:invoke	:write	0
+142	:info	:write	0	Remoting error:null
+139	:invoke	:cas	[3 4]
+139	:info	:cas	[3 4]	Remoting error:null
+151	:invoke	:write	4
+151	:info	:write	4	Remoting error:null
+155	:invoke	:read	nil
+155	:fail	:read	nil	Remoting error:null
+147	:invoke	:cas	[3 3]
+147	:info	:cas	[3 3]	Remoting error:null
+148	:invoke	:write	3
+148	:info	:write	3	Remoting error:null
+144	:invoke	:read	nil
+144	:fail	:read	nil	Remoting error:null
+155	:invoke	:read	nil
+155	:fail	:read	nil	Remoting error:null
+153	:invoke	:cas	[4 4]
+153	:info	:cas	[4 4]	Remoting error:null
+156	:invoke	:write	0
+156	:info	:write	0	Remoting error:null
+144	:invoke	:read	nil
+144	:fail	:read	nil	Remoting error:null
+152	:invoke	:read	nil
+152	:fail	:read	nil	Remoting error:null
+161	:invoke	:write	2
+161	:info	:write	2	Remoting error:null
+155	:invoke	:write	0
+155	:info	:write	0	Remoting error:null
+144	:invoke	:cas	[1 0]
+144	:info	:cas	[1 0]	Remoting error:null
+158	:invoke	:read	nil
+158	:fail	:read	nil	Remoting error:null
+152	:invoke	:write	3
+152	:info	:write	3	Remoting error:null
+160	:invoke	:write	2
+160	:info	:write	2	Remoting error:null
+149	:invoke	:write	1
+149	:info	:write	1	Remoting error:null
+166	:invoke	:cas	[3 0]
+166	:info	:cas	[3 0]	Remoting error:null
+158	:invoke	:cas	[3 4]
+158	:info	:cas	[3 4]	Remoting error:null
+157	:invoke	:read	nil
+157	:fail	:read	nil	Remoting error:null
+:nemesis	:info	:start	nil
+171	:invoke	:cas	[1 2]
+171	:info	:cas	[1 2]	Remoting error:null
+154	:invoke	:read	nil
+154	:fail	:read	nil	Remoting error:null
+157	:invoke	:write	1
+157	:info	:write	1	Remoting error:null
+163	:invoke	:cas	[4 2]
+163	:info	:cas	[4 2]	Remoting error:null
+165	:invoke	:read	nil
+165	:fail	:read	nil	Remoting error:null
+154	:invoke	:write	3
+168	:invoke	:read	nil
+154	:info	:write	3	Remoting error:null
+176	:invoke	:read	nil
+168	:fail	:read	nil	Remoting error:null
+176	:fail	:read	nil	Remoting error:null
+165	:invoke	:read	nil
+:nemesis	:info	:start	{"jraft.host4" [:killed "jraft.host4"]}
+162	:invoke	:write	2
+168	:invoke	:read	nil
+176	:invoke	:read	nil
+159	:invoke	:read	nil
+162	:info	:write	2	Remoting error:null
+159	:fail	:read	nil	Remoting error:null
+176	:fail	:read	nil	Remoting error:null
+168	:fail	:read	nil	Remoting error:null
+165	:fail	:read	nil	Remoting error:null
+159	:invoke	:read	nil
+165	:invoke	:write	4
+167	:invoke	:read	nil
+159	:fail	:read	nil	Remoting error:null
+165	:info	:write	4	Remoting error:null
+167	:fail	:read	nil	Remoting error:null
+176	:invoke	:read	nil
+176	:fail	:read	nil	Remoting error:null
+168	:invoke	:read	nil
+168	:fail	:read	nil	Remoting error:null
+159	:invoke	:write	1
+159	:info	:write	1	Remoting error:null
+168	:invoke	:read	nil
+167	:invoke	:read	nil
+168	:fail	:read	nil	Remoting error:null
+167	:fail	:read	nil	Remoting error:null
+170	:invoke	:write	4
+170	:info	:write	4	Remoting error:null
+176	:invoke	:write	4
+176	:info	:write	4	Remoting error:null
+167	:invoke	:cas	[3 1]
+167	:info	:cas	[3 1]	Remoting error:null
+164	:invoke	:cas	[0 3]
+164	:info	:cas	[0 3]	Remoting error:null
+181	:invoke	:write	4
+181	:info	:write	4	Remoting error:null
+175	:invoke	:write	3
+175	:info	:write	3	Remoting error:null
+172	:invoke	:write	0
+172	:info	:write	0	Remoting error:null
+168	:invoke	:write	3
+168	:info	:write	3	Remoting error:null
+180	:invoke	:read	nil
+169	:invoke	:read	nil
+180	:fail	:read	nil	Remoting error:null
+169	:fail	:read	nil	Remoting error:null
+177	:invoke	:read	nil
+177	:fail	:read	nil	Remoting error:null
+186	:invoke	:write	4
+186	:info	:write	4	Remoting error:null
+173	:invoke	:read	nil
+173	:fail	:read	nil	Remoting error:null
+177	:invoke	:read	nil
+177	:fail	:read	nil	Remoting error:null
+169	:invoke	:read	nil
+169	:fail	:read	nil	Remoting error:null
+180	:invoke	:write	1
+180	:info	:write	1	Remoting error:null
+191	:invoke	:read	nil
+191	:fail	:read	nil	Remoting error:null
+177	:invoke	:cas	[2 0]
+177	:info	:cas	[2 0]	Remoting error:null
+173	:invoke	:read	nil
+173	:fail	:read	nil	Remoting error:null
+169	:invoke	:read	nil
+169	:fail	:read	nil	Remoting error:null
+185	:invoke	:write	4
+191	:invoke	:read	nil
+185	:info	:write	4	Remoting error:null
+182	:invoke	:write	4
+191	:fail	:read	nil	Remoting error:null
+182	:info	:write	4	Remoting error:null
+173	:invoke	:write	1
+173	:info	:write	1	Remoting error:null
+169	:invoke	:write	0
+169	:info	:write	0	Remoting error:null
+190	:invoke	:cas	[1 0]
+190	:info	:cas	[1 0]	Remoting error:null
+187	:invoke	:cas	[2 3]
+187	:info	:cas	[2 3]	Remoting error:null
+191	:invoke	:read	nil
+191	:fail	:read	nil	Remoting error:null
+178	:invoke	:read	nil
+178	:fail	:read	nil	Remoting error:null
+192	:invoke	:read	nil
+192	:fail	:read	nil	Remoting error:null
+195	:invoke	:read	nil
+195	:fail	:read	nil	Remoting error:null
+191	:invoke	:read	nil
+191	:fail	:read	nil	Remoting error:null
+178	:invoke	:write	2
+174	:invoke	:write	0
+178	:info	:write	2	Remoting error:null
+174	:info	:write	0	Remoting error:null
+191	:invoke	:write	2
+191	:info	:write	2	Remoting error:null
+192	:invoke	:cas	[3 4]
+192	:info	:cas	[3 4]	Remoting error:null
+183	:invoke	:write	3
+179	:invoke	:write	4
+183	:info	:write	3	Remoting error:null
+179	:info	:write	4	Remoting error:null
+195	:invoke	:cas	[0 4]
+195	:info	:cas	[0 4]	Remoting error:null
+197	:invoke	:cas	[3 4]
+197	:info	:cas	[3 4]	Remoting error:null
+196	:invoke	:read	nil
+196	:fail	:read	nil	Remoting error:null
+188	:invoke	:cas	[4 2]
+188	:info	:cas	[4 2]	Remoting error:null
+184	:invoke	:read	nil
+184	:fail	:read	nil	Remoting error:null
+200	:invoke	:read	nil
+200	:fail	:read	nil	Remoting error:null
+202	:invoke	:cas	[4 1]
+202	:info	:cas	[4 1]	Remoting error:null
+196	:invoke	:write	0
+196	:info	:write	0	Remoting error:null
+200	:invoke	:write	4
+200	:info	:write	4	Remoting error:null
+193	:invoke	:write	2
+193	:info	:write	2	Remoting error:null
+184	:invoke	:read	nil
+184	:fail	:read	nil	Remoting error:null
+201	:invoke	:read	nil
+201	:fail	:read	nil	Remoting error:null
+207	:invoke	:cas	[0 2]
+207	:info	:cas	[0 2]	Remoting error:null
+205	:invoke	:write	4
+205	:info	:write	4	Remoting error:null
+184	:invoke	:cas	[0 4]
+198	:invoke	:read	nil
+184	:info	:cas	[0 4]	Remoting error:null
+198	:fail	:read	nil	Remoting error:null
+212	:invoke	:read	nil
+212	:fail	:read	nil	Remoting error:null
+201	:invoke	:read	nil
+201	:fail	:read	nil	Remoting error:null
+210	:invoke	:write	3
+210	:info	:write	3	Remoting error:null
+189	:invoke	:write	4
+189	:info	:write	4	Remoting error:null
+198	:invoke	:write	1
+198	:info	:write	1	Remoting error:null
+201	:invoke	:write	2
+201	:info	:write	2	Remoting error:null
+212	:invoke	:read	nil
+212	:fail	:read	nil	Remoting error:null
+203	:invoke	:read	nil
+203	:fail	:read	nil	Remoting error:null
+215	:invoke	:cas	[0 0]
+215	:info	:cas	[0 0]	Remoting error:null
+206	:invoke	:write	4
+194	:invoke	:write	4
+206	:info	:write	4	Remoting error:null
+194	:info	:write	4	Remoting error:null
+220	:invoke	:cas	[2 1]
+220	:info	:cas	[2 1]	Remoting error:null
+212	:invoke	:cas	[0 0]
+212	:info	:cas	[0 0]	Remoting error:null
+203	:invoke	:cas	[1 2]
+203	:info	:cas	[1 2]	Remoting error:null
+225	:invoke	:cas	[3 1]
+211	:invoke	:cas	[1 3]
+199	:invoke	:write	0
+225	:info	:cas	[3 1]	Remoting error:null
+211	:info	:cas	[1 3]	Remoting error:null
+199	:info	:write	0	Remoting error:null
+217	:invoke	:write	0
+217	:info	:write	0	Remoting error:null
+208	:invoke	:write	1
+208	:info	:write	1	Remoting error:null
+204	:invoke	:read	nil
+204	:fail	:read	nil	Remoting error:null
+230	:invoke	:write	1
+230	:info	:write	1	Remoting error:null
+216	:invoke	:read	nil
+222	:invoke	:write	0
+213	:invoke	:write	3
+216	:fail	:read	nil	Remoting error:null
+222	:info	:write	0	Remoting error:null
+213	:info	:write	3	Remoting error:null
+227	:invoke	:read	nil
+227	:fail	:read	nil	Remoting error:null
+204	:invoke	:write	0
+204	:info	:write	0	Remoting error:null
+218	:invoke	:cas	[2 0]
+218	:info	:cas	[2 0]	Remoting error:null
+235	:invoke	:write	0
+216	:invoke	:read	nil
+235	:info	:write	0	Remoting error:null
+216	:fail	:read	nil	Remoting error:null
+209	:invoke	:write	2
+209	:info	:write	2	Remoting error:null
+240	:invoke	:read	nil
+223	:invoke	:cas	[4 0]
+240	:fail	:read	nil	Remoting error:null
+223	:info	:cas	[4 0]	Remoting error:null
+227	:invoke	:write	1
+227	:info	:write	1	Remoting error:null
+216	:invoke	:cas	[2 1]
+216	:info	:cas	[2 1]	Remoting error:null
+240	:invoke	:write	3
+240	:info	:write	3	Remoting error:null
+214	:invoke	:write	0
+214	:info	:write	0	Remoting error:null
+228	:invoke	:read	nil
+228	:fail	:read	nil	Remoting error:null
+232	:invoke	:write	2
+232	:info	:write	2	Remoting error:null
+245	:invoke	:write	2
+245	:info	:write	2	Remoting error:null
+221	:invoke	:read	nil
+221	:fail	:read	nil	Remoting error:null
+228	:invoke	:read	nil
+228	:fail	:read	nil	Remoting error:null
+237	:invoke	:write	2
+237	:info	:write	2	Remoting error:null
+219	:invoke	:cas	[0 4]
+219	:info	:cas	[0 4]	Remoting error:null
+250	:invoke	:read	nil
+250	:fail	:read	nil	Remoting error:null
+221	:invoke	:cas	[4 1]
+221	:info	:cas	[4 1]	Remoting error:null
+228	:invoke	:read	nil
+228	:fail	:read	nil	Remoting error:null
+224	:invoke	:write	1
+242	:invoke	:write	0
+224	:info	:write	1	Remoting error:null
+242	:info	:write	0	Remoting error:null
+250	:invoke	:read	nil
+250	:fail	:read	nil	Remoting error:null
+226	:invoke	:write	0
+226	:info	:write	0	Remoting error:null
+228	:invoke	:write	2
+228	:info	:write	2	Remoting error:null
+229	:invoke	:cas	[0 2]
+229	:info	:cas	[0 2]	Remoting error:null
+231	:invoke	:cas	[0 2]
+231	:info	:cas	[0 2]	Remoting error:null
+233	:invoke	:write	1
+247	:invoke	:cas	[0 4]
+233	:info	:write	1	Remoting error:null
+247	:info	:cas	[0 4]	Remoting error:null
+250	:invoke	:write	3
+250	:info	:write	3	Remoting error:null
+236	:invoke	:cas	[2 1]
+236	:info	:cas	[2 1]	Remoting error:null
+255	:invoke	:write	1
+234	:invoke	:read	nil
+255	:info	:write	1	Remoting error:null
+234	:fail	:read	nil	Remoting error:null
+238	:invoke	:write	1
+238	:info	:write	1	Remoting error:null
+252	:invoke	:write	4
+252	:info	:write	4	Remoting error:null
+241	:invoke	:write	4
+241	:info	:write	4	Remoting error:null
+234	:invoke	:write	2
+234	:info	:write	2	Remoting error:null
+243	:invoke	:read	nil
+243	:fail	:read	nil	Remoting error:null
+260	:invoke	:cas	[0 4]
+257	:invoke	:cas	[3 3]
+260	:info	:cas	[0 4]	Remoting error:null
+257	:info	:cas	[3 3]	Remoting error:null
+243	:invoke	:read	nil
+243	:fail	:read	nil	Remoting error:null
+246	:invoke	:write	0
+246	:info	:write	0	Remoting error:null
+239	:invoke	:cas	[0 1]
+262	:invoke	:write	3
+239	:info	:cas	[0 1]	Remoting error:null
+262	:info	:write	3	Remoting error:null
+265	:invoke	:read	nil
+265	:fail	:read	nil	Remoting error:null
+243	:invoke	:cas	[2 2]
+243	:info	:cas	[2 2]	Remoting error:null
+244	:invoke	:read	nil
+244	:fail	:read	nil	Remoting error:null
+251	:invoke	:cas	[0 2]
+251	:info	:cas	[0 2]	Remoting error:null
+248	:invoke	:write	1
+248	:info	:write	1	Remoting error:null
+265	:invoke	:read	nil
+267	:invoke	:cas	[3 0]
+265	:fail	:read	nil	Remoting error:null
+267	:info	:cas	[3 0]	Remoting error:null
+253	:invoke	:cas	[1 3]
+253	:info	:cas	[1 3]	Remoting error:null
+256	:invoke	:write	2
+244	:invoke	:write	0
+256	:info	:write	2	Remoting error:null
+244	:info	:write	0	Remoting error:null
+272	:invoke	:cas	[4 4]
+272	:info	:cas	[4 4]	Remoting error:null
+265	:invoke	:cas	[4 4]
+265	:info	:cas	[4 4]	Remoting error:null
+261	:invoke	:read	nil
+249	:invoke	:cas	[4 3]
+261	:fail	:read	nil	Remoting error:null
+249	:info	:cas	[4 3]	Remoting error:null
+258	:invoke	:read	nil
+258	:fail	:read	nil	Remoting error:null
+270	:invoke	:write	3
+270	:info	:write	3	Remoting error:null
+277	:invoke	:read	nil
+277	:fail	:read	nil	Remoting error:null
+261	:invoke	:read	nil
+261	:fail	:read	nil	Remoting error:null
+275	:invoke	:write	3
+275	:info	:write	3	Remoting error:null
+258	:invoke	:read	nil
+258	:fail	:read	nil	Remoting error:null
+254	:invoke	:read	nil
+254	:fail	:read	nil	Remoting error:null
+280	:invoke	:write	3
+280	:info	:write	3	Remoting error:null
+261	:invoke	:read	nil
+261	:fail	:read	nil	Remoting error:null
+277	:invoke	:cas	[0 3]
+277	:info	:cas	[0 3]	Remoting error:null
+258	:invoke	:write	2
+258	:info	:write	2	Remoting error:null
+254	:invoke	:write	0
+254	:info	:write	0	Remoting error:null
+282	:invoke	:write	0
+282	:info	:write	0	Remoting error:null
+285	:invoke	:cas	[2 4]
+285	:info	:cas	[2 4]	Remoting error:null
+261	:invoke	:write	4
+261	:info	:write	4	Remoting error:null
+259	:invoke	:cas	[0 0]
+259	:info	:cas	[0 0]	Remoting error:null
+290	:invoke	:read	nil
+290	:fail	:read	nil	Remoting error:null
+263	:invoke	:write	3
+263	:info	:write	3	Remoting error:null
+287	:invoke	:read	nil
+287	:fail	:read	nil	Remoting error:null
+290	:invoke	:cas	[4 2]
+290	:info	:cas	[4 2]	Remoting error:null
+266	:invoke	:cas	[2 3]
+266	:info	:cas	[2 3]	Remoting error:null
+264	:invoke	:read	nil
+264	:fail	:read	nil	Remoting error:null
+268	:invoke	:cas	[4 0]
+268	:info	:cas	[4 0]	Remoting error:null
+287	:invoke	:read	nil
+287	:fail	:read	nil	Remoting error:null
+271	:invoke	:cas	[4 4]
+271	:info	:cas	[4 4]	Remoting error:null
+295	:invoke	:read	nil
+295	:fail	:read	nil	Remoting error:null
+273	:invoke	:read	nil
+273	:fail	:read	nil	Remoting error:null
+264	:invoke	:cas	[3 1]
+264	:info	:cas	[3 1]	Remoting error:null
+295	:invoke	:cas	[0 0]
+295	:info	:cas	[0 0]	Remoting error:null
+287	:invoke	:write	1
+287	:info	:write	1	Remoting error:null
+273	:invoke	:cas	[3 4]
+273	:info	:cas	[3 4]	Remoting error:null
+276	:invoke	:cas	[4 2]
+276	:info	:cas	[4 2]	Remoting error:null
+300	:invoke	:read	nil
+300	:fail	:read	nil	Remoting error:null
+269	:invoke	:write	0
+269	:info	:write	0	Remoting error:null
+278	:invoke	:read	nil
+278	:fail	:read	nil	Remoting error:null
+292	:invoke	:cas	[0 4]
+292	:info	:cas	[0 4]	Remoting error:null
+278	:invoke	:write	0
+278	:info	:write	0	Remoting error:null
+281	:invoke	:write	4
+281	:info	:write	4	Remoting error:null
+274	:invoke	:read	nil
+300	:invoke	:read	nil
+274	:fail	:read	nil	Remoting error:null
+300	:fail	:read	nil	Remoting error:null
+297	:invoke	:cas	[1 0]
+300	:invoke	:write	3
+297	:info	:cas	[1 0]	Remoting error:null
+300	:info	:write	3	Remoting error:null
+286	:invoke	:write	1
+286	:info	:write	1	Remoting error:null
+302	:invoke	:write	3
+302	:info	:write	3	Remoting error:null
+283	:invoke	:write	4
+283	:info	:write	4	Remoting error:null
+274	:invoke	:cas	[3 4]
+274	:info	:cas	[3 4]	Remoting error:null
+291	:invoke	:read	nil
+291	:fail	:read	nil	Remoting error:null
+305	:invoke	:write	1
+305	:info	:write	1	Remoting error:null
+307	:invoke	:read	nil
+307	:fail	:read	nil	Remoting error:null
+288	:invoke	:write	0
+288	:info	:write	0	Remoting error:null
+279	:invoke	:cas	[0 0]
+279	:info	:cas	[0 0]	Remoting error:null
+310	:invoke	:write	4
+310	:info	:write	4	Remoting error:null
+307	:invoke	:cas	[2 0]
+307	:info	:cas	[2 0]	Remoting error:null
+291	:invoke	:write	0
+291	:info	:write	0	Remoting error:null
+293	:invoke	:write	0
+293	:info	:write	0	Remoting error:null
+315	:invoke	:read	nil
+312	:invoke	:cas	[3 0]
+312	:info	:cas	[3 0]	Remoting error:null
+315	:fail	:read	nil	Remoting error:null
+284	:invoke	:read	nil
+284	:fail	:read	nil	Remoting error:null
+296	:invoke	:read	nil
+296	:fail	:read	nil	Remoting error:null
+298	:invoke	:write	1
+298	:info	:write	1	Remoting error:null
+315	:invoke	:write	3
+315	:info	:write	3	Remoting error:null
+317	:invoke	:write	3
+317	:info	:write	3	Remoting error:null
+284	:invoke	:cas	[2 2]
+284	:info	:cas	[2 2]	Remoting error:null
+303	:invoke	:write	3
+303	:info	:write	3	Remoting error:null
+296	:invoke	:write	4
+296	:info	:write	4	Remoting error:null
+320	:invoke	:cas	[4 1]
+320	:info	:cas	[4 1]	Remoting error:null
+325	:invoke	:write	2
+325	:info	:write	2	Remoting error:null
+322	:invoke	:write	3
+322	:info	:write	3	Remoting error:null
+301	:invoke	:write	3
+308	:invoke	:cas	[0 2]
+301	:info	:write	3	Remoting error:null
+308	:info	:cas	[0 2]	Remoting error:null
+289	:invoke	:write	0
+289	:info	:write	0	Remoting error:null
+327	:invoke	:write	4
+327	:info	:write	4	Remoting error:null
+330	:invoke	:cas	[0 2]
+330	:info	:cas	[0 2]	Remoting error:null
+306	:invoke	:write	3
+306	:info	:write	3	Remoting error:null
+313	:invoke	:cas	[0 3]
+313	:info	:cas	[0 3]	Remoting error:null
+294	:invoke	:cas	[0 1]
+294	:info	:cas	[0 1]	Remoting error:null
+311	:invoke	:read	nil
+311	:fail	:read	nil	Remoting error:null
+335	:invoke	:write	4
+335	:info	:write	4	Remoting error:null
+332	:invoke	:write	2
+332	:info	:write	2	Remoting error:null
+:nemesis	:info	:stop	nil
+318	:invoke	:cas	[1 3]
+318	:info	:cas	[1 3]	Remoting error:null
+340	:invoke	:cas	[0 2]
+340	:info	:cas	[0 2]	Remoting error:null
+299	:invoke	:read	nil
+299	:fail	:read	nil	Remoting error:null
+311	:invoke	:read	nil
+311	:fail	:read	nil	Remoting error:null
+337	:invoke	:read	nil
+337	:fail	:read	nil	Remoting error:null
+:nemesis	:info	:stop	{"jraft.host4" [:restarted "jraft.host4"]}
+311	:invoke	:cas	[3 4]
+311	:info	:cas	[3 4]	Remoting error:null
+299	:invoke	:write	4
+299	:info	:write	4	Remoting error:null
+345	:invoke	:write	0
+345	:info	:write	0	Remoting error:null
+323	:invoke	:read	nil
+323	:fail	:read	nil	Remoting error:null
+316	:invoke	:read	nil
+316	:fail	:read	nil	Remoting error:null
+304	:invoke	:write	2
+304	:info	:write	2	Remoting error:null
+350	:invoke	:read	nil
+337	:invoke	:write	0
+350	:fail	:read	nil	Remoting error:null
+337	:info	:write	0	Remoting error:null
+323	:invoke	:cas	[3 4]
+323	:info	:cas	[3 4]	Remoting error:null
+316	:invoke	:cas	[4 4]
+316	:info	:cas	[4 4]	Remoting error:null
+309	:invoke	:cas	[2 2]
+309	:info	:cas	[2 2]	Remoting error:null
+350	:invoke	:write	4
+350	:info	:write	4	Remoting error:null
+321	:invoke	:read	nil
+321	:fail	:read	nil	Remoting error:null
+342	:invoke	:cas	[2 2]
+342	:info	:cas	[2 2]	Remoting error:null
+355	:invoke	:read	nil
+328	:invoke	:write	2
+355	:fail	:read	nil	Remoting error:null
+328	:info	:write	2	Remoting error:null
+321	:invoke	:read	nil
+321	:fail	:read	nil	Remoting error:null
+314	:invoke	:cas	[4 1]
+314	:info	:cas	[4 1]	Remoting error:null
+355	:invoke	:read	nil
+355	:fail	:read	nil	Remoting error:null
+321	:invoke	:write	0
+321	:info	:write	0	Remoting error:null
+333	:invoke	:write	3
+333	:info	:write	3	Remoting error:null
+347	:invoke	:read	nil
+347	:fail	:read	nil	Remoting error:null
+319	:invoke	:write	0
+319	:info	:write	0	Remoting error:null
+326	:invoke	:write	3
+326	:info	:write	3	Remoting error:null
+355	:invoke	:read	nil
+355	:fail	:read	nil	Remoting error:null
+347	:invoke	:write	2
+347	:info	:write	2	Remoting error:null
+338	:invoke	:cas	[4 4]
+338	:info	:cas	[4 4]	Remoting error:null
+331	:invoke	:cas	[2 0]
+324	:invoke	:write	0
+331	:info	:cas	[2 0]	Remoting error:null
+324	:info	:write	0	Remoting error:null
+355	:invoke	:write	3
+352	:invoke	:read	nil
+355	:info	:write	3	Remoting error:null
+352	:fail	:read	nil	Remoting error:null
+336	:invoke	:read	nil
+336	:fail	:read	nil	Remoting error:null
+329	:invoke	:write	0
+360	:invoke	:write	4
+329	:info	:write	0	Remoting error:null
+336	:invoke	:write	3
+360	:info	:write	4	Remoting error:null
+336	:info	:write	3	Remoting error:null
+343	:invoke	:cas	[2 2]
+343	:info	:cas	[2 2]	Remoting error:null
+352	:invoke	:write	3
+352	:info	:write	3	Remoting error:null
+334	:invoke	:write	1
+334	:info	:write	1	Remoting error:null
+365	:invoke	:cas	[3 4]
+341	:invoke	:cas	[1 2]
+341	:info	:cas	[1 2]	Remoting error:null
+365	:info	:cas	[3 4]	Remoting error:null
+348	:invoke	:read	nil
+339	:invoke	:read	nil
+348	:fail	:read	nil	Remoting error:null
+339	:fail	:read	nil	Remoting error:null
+357	:invoke	:read	nil
+357	:fail	:read	nil	Remoting error:null
+370	:invoke	:read	nil
+370	:fail	:read	nil	Remoting error:null
+346	:invoke	:read	nil
+346	:fail	:read	nil	Remoting error:null
+348	:invoke	:read	nil
+348	:fail	:read	nil	Remoting error:null
+357	:invoke	:write	3
+357	:info	:write	3	Remoting error:null
+339	:invoke	:cas	[2 0]
+339	:info	:cas	[2 0]	Remoting error:null
+346	:invoke	:read	nil
+346	:fail	:read	nil	Remoting error:null
+370	:invoke	:write	0
+348	:invoke	:read	nil
+344	:invoke	:read	nil
+348	:fail	:read	nil	Remoting error:null
+370	:info	:write	0	Remoting error:null
+344	:fail	:read	nil	Remoting error:null
+362	:invoke	:read	nil
+362	:fail	:read	nil	Remoting error:null
+346	:invoke	:cas	[2 1]
+346	:info	:cas	[2 1]	Remoting error:null
+348	:invoke	:write	0
+348	:info	:write	0	Remoting error:null
+344	:invoke	:cas	[3 3]
+344	:info	:cas	[3 3]	Remoting error:null
+375	:invoke	:write	1
+375	:info	:write	1	Remoting error:null
+351	:invoke	:write	1
+351	:info	:write	1	Remoting error:null
+353	:invoke	:write	1
+362	:invoke	:read	nil
+353	:info	:write	1	Remoting error:null
+349	:invoke	:read	nil
+362	:fail	:read	nil	Remoting error:null
+349	:fail	:read	nil	Remoting error:null
+380	:invoke	:read	nil
+380	:fail	:read	nil	Remoting error:null
+362	:invoke	:write	2
+362	:info	:write	2	Remoting error:null
+358	:invoke	:read	nil
+356	:invoke	:write	1
+358	:fail	:read	nil	Remoting error:null
+356	:info	:write	1	Remoting error:null
+349	:invoke	:cas	[1 4]
+349	:info	:cas	[1 4]	Remoting error:null
+380	:invoke	:read	nil
+380	:fail	:read	nil	Remoting error:null
+361	:invoke	:write	3
+361	:info	:write	3	Remoting error:null
+367	:invoke	:read	nil
+367	:fail	:read	nil	Remoting error:null
+354	:invoke	:cas	[1 0]
+354	:info	:cas	[1 0]	Remoting error:null
+358	:invoke	:cas	[4 1]
+358	:info	:cas	[4 1]	Remoting error:null
+367	:invoke	:cas	[4 1]
+367	:info	:cas	[4 1]	Remoting error:null
+366	:invoke	:cas	[0 3]
+366	:info	:cas	[0 3]	Remoting error:null
+380	:invoke	:cas	[3 3]
+380	:info	:cas	[3 3]	Remoting error:null
+385	:invoke	:write	2
+385	:info	:write	2	Remoting error:null
+359	:invoke	:cas	[2 3]
+359	:info	:cas	[2 3]	Remoting error:null
+363	:invoke	:write	4
+363	:info	:write	4	Remoting error:null
+371	:invoke	:read	nil
+371	:fail	:read	nil	Remoting error:null
+372	:invoke	:write	3
+372	:info	:write	3	Remoting error:null
+364	:invoke	:read	nil
+390	:invoke	:cas	[0 3]
+364	:fail	:read	nil	Remoting error:null
+390	:info	:cas	[0 3]	Remoting error:null
+368	:invoke	:cas	[4 3]
+371	:invoke	:cas	[2 1]
+371	:info	:cas	[2 1]	Remoting error:null
+368	:info	:cas	[4 3]	Remoting error:null
+364	:invoke	:read	nil
+364	:fail	:read	nil	Remoting error:null
+395	:invoke	:cas	[4 3]
+395	:info	:cas	[4 3]	Remoting error:null
+377	:invoke	:write	0
+377	:info	:write	0	Remoting error:null
+373	:invoke	:cas	[1 0]
+373	:info	:cas	[1 0]	Remoting error:null
+400	:invoke	:read	nil
+400	:fail	:read	nil	Remoting error:null
+382	:invoke	:write	4
+382	:info	:write	4	Remoting error:null
+376	:invoke	:read	nil
+376	:fail	:read	nil	Remoting error:null
+364	:invoke	:cas	[1 0]
+378	:invoke	:cas	[2 3]
+378	:info	:cas	[2 3]	Remoting error:null
+364	:info	:cas	[1 0]	Remoting error:null
+387	:invoke	:read	nil
+387	:fail	:read	nil	Remoting error:null
+400	:invoke	:read	nil
+369	:invoke	:cas	[4 4]
+400	:fail	:read	nil	Remoting error:null
+369	:info	:cas	[4 4]	Remoting error:null
+387	:invoke	:write	2
+387	:info	:write	2	Remoting error:null
+376	:invoke	:write	0
+376	:info	:write	0	Remoting error:null
+383	:invoke	:cas	[1 1]
+383	:info	:cas	[1 1]	Remoting error:null
+400	:invoke	:write	2
+400	:info	:write	2	Remoting error:null
+374	:invoke	:cas	[3 2]
+374	:info	:cas	[3 2]	Remoting error:null
+392	:invoke	:write	4
+392	:info	:write	4	Remoting error:null
+388	:invoke	:read	nil
+388	:fail	:read	nil	Remoting error:null
+381	:invoke	:read	nil
+381	:fail	:read	nil	Remoting error:null
+405	:invoke	:cas	[2 0]
+405	:info	:cas	[2 0]	Remoting error:null
+397	:invoke	:cas	[1 3]
+379	:invoke	:cas	[3 1]
+397	:info	:cas	[1 3]	Remoting error:null
+379	:info	:cas	[3 1]	Remoting error:null
+388	:invoke	:read	nil
+388	:fail	:read	nil	Remoting error:null
+381	:invoke	:write	2
+381	:info	:write	2	Remoting error:null
+402	:invoke	:write	1
+402	:info	:write	1	Remoting error:null
+384	:invoke	:cas	[1 3]
+388	:invoke	:write	4
+384	:info	:cas	[1 3]	Remoting error:null
+388	:info	:write	4	Remoting error:null
+410	:invoke	:read	nil
+410	:fail	:read	nil	Remoting error:null
+386	:invoke	:write	3
+386	:info	:write	3	Remoting error:null
+407	:invoke	:cas	[2 0]
+407	:info	:cas	[2 0]	Remoting error:null
+389	:invoke	:read	nil
+389	:fail	:read	nil	Remoting error:null
+393	:invoke	:write	4
+393	:info	:write	4	Remoting error:null
+410	:invoke	:read	nil
+391	:invoke	:write	1
+410	:fail	:read	nil	Remoting error:null
+391	:info	:write	1	Remoting error:null
+389	:invoke	:cas	[0 2]
+389	:info	:cas	[0 2]	Remoting error:null
+412	:invoke	:write	3
+412	:info	:write	3	Remoting error:null
+398	:invoke	:read	nil
+398	:fail	:read	nil	Remoting error:null
+396	:invoke	:write	0
+396	:info	:write	0	Remoting error:null
+417	:invoke	:write	2
+398	:invoke	:write	3
+417	:info	:write	2	Remoting error:null
+398	:info	:write	3	Remoting error:null
+410	:invoke	:read	nil
+410	:fail	:read	nil	Remoting error:null
+403	:invoke	:read	nil
+403	:fail	:read	nil	Remoting error:null
+422	:invoke	:write	4
+422	:info	:write	4	Remoting error:null
+394	:invoke	:cas	[1 0]
+401	:invoke	:write	2
+394	:info	:cas	[1 0]	Remoting error:null
+401	:info	:write	2	Remoting error:null
+410	:invoke	:cas	[4 2]
+410	:info	:cas	[4 2]	Remoting error:null
+427	:invoke	:cas	[3 0]
+427	:info	:cas	[3 0]	Remoting error:null
+399	:invoke	:read	nil
+399	:fail	:read	nil	Remoting error:null
+432	:invoke	:read	nil
+432	:fail	:read	nil	Remoting error:null
+403	:invoke	:write	1
+403	:info	:write	1	Remoting error:null
+406	:invoke	:cas	[0 4]
+406	:info	:cas	[0 4]	Remoting error:null
+415	:invoke	:write	4
+415	:info	:write	4	Remoting error:null
+432	:invoke	:cas	[1 3]
+432	:info	:cas	[1 3]	Remoting error:null
+420	:invoke	:read	nil
+420	:fail	:read	nil	Remoting error:null
+399	:invoke	:read	nil
+399	:fail	:read	nil	Remoting error:null
+437	:invoke	:read	nil
+437	:fail	:read	nil	Remoting error:null
+408	:invoke	:read	nil
+408	:fail	:read	nil	Remoting error:null
+411	:invoke	:read	nil
+411	:fail	:read	nil	Remoting error:null
+408	:invoke	:read	nil
+408	:fail	:read	nil	Remoting error:null
+420	:invoke	:write	4
+420	:info	:write	4	Remoting error:null
+437	:invoke	:cas	[4 0]
+437	:info	:cas	[4 0]	Remoting error:null
+399	:invoke	:cas	[2 4]
+399	:info	:cas	[2 4]	Remoting error:null
+411	:invoke	:cas	[1 4]
+411	:info	:cas	[1 4]	Remoting error:null
+425	:invoke	:cas	[2 0]
+425	:info	:cas	[2 0]	Remoting error:null
+408	:invoke	:cas	[4 2]
+408	:info	:cas	[4 2]	Remoting error:null
+404	:invoke	:read	nil
+404	:fail	:read	nil	Remoting error:null
+442	:invoke	:write	3
+442	:info	:write	3	Remoting error:null
+416	:invoke	:write	3
+430	:invoke	:read	nil
+416	:info	:write	3	Remoting error:null
+430	:fail	:read	nil	Remoting error:null
+413	:invoke	:cas	[2 3]
+413	:info	:cas	[2 3]	Remoting error:null
+404	:invoke	:write	4
+404	:info	:write	4	Remoting error:null
+421	:invoke	:write	2
+421	:info	:write	2	Remoting error:null
+447	:invoke	:read	nil
+447	:fail	:read	nil	Remoting error:null
+430	:invoke	:read	nil
+430	:fail	:read	nil	Remoting error:null
+447	:invoke	:write	2
+447	:info	:write	2	Remoting error:null
+409	:invoke	:cas	[0 2]
+409	:info	:cas	[0 2]	Remoting error:null
+426	:invoke	:write	0
+426	:info	:write	0	Remoting error:null
+418	:invoke	:write	2
+418	:info	:write	2	Remoting error:null
+431	:invoke	:cas	[3 0]
+431	:info	:cas	[3 0]	Remoting error:null
+430	:invoke	:cas	[0 4]
+430	:info	:cas	[0 4]	Remoting error:null
+423	:invoke	:cas	[1 4]
+423	:info	:cas	[1 4]	Remoting error:null
+414	:invoke	:cas	[3 2]
+414	:info	:cas	[3 2]	Remoting error:null
+452	:invoke	:write	1
+452	:info	:write	1	Remoting error:null
+428	:invoke	:read	nil
+428	:fail	:read	nil	Remoting error:null
+436	:invoke	:write	4
+436	:info	:write	4	Remoting error:null
+435	:invoke	:read	nil
+435	:fail	:read	nil	Remoting error:null
+419	:invoke	:cas	[0 4]
+419	:info	:cas	[0 4]	Remoting error:null
+428	:invoke	:write	2
+428	:info	:write	2	Remoting error:null
+457	:invoke	:read	nil
+457	:fail	:read	nil	Remoting error:null
+424	:invoke	:read	nil
+424	:fail	:read	nil	Remoting error:null
+457	:invoke	:read	nil
+457	:fail	:read	nil	Remoting error:null
+433	:invoke	:write	1
+433	:info	:write	1	Remoting error:null
+441	:invoke	:write	4
+441	:info	:write	4	Remoting error:null
+435	:invoke	:read	nil
+435	:fail	:read	nil	Remoting error:null
+424	:invoke	:read	nil
+424	:fail	:read	nil	Remoting error:null
+446	:invoke	:write	3
+446	:info	:write	3	Remoting error:null
+438	:invoke	:read	nil
+438	:fail	:read	nil	Remoting error:null
+457	:invoke	:write	0
+457	:info	:write	0	Remoting error:null
+451	:invoke	:write	4
+451	:info	:write	4	Remoting error:null
+435	:invoke	:cas	[1 4]
+435	:info	:cas	[1 4]	Remoting error:null
+438	:invoke	:write	4
+438	:info	:write	4	Remoting error:null
+424	:invoke	:read	nil
+424	:fail	:read	nil	Remoting error:null
+462	:invoke	:read	nil
+462	:fail	:read	nil	Remoting error:null
+440	:invoke	:read	nil
+440	:fail	:read	nil	Remoting error:null
+462	:invoke	:read	nil
+462	:fail	:read	nil	Remoting error:null
+456	:invoke	:cas	[3 3]
+456	:info	:cas	[3 3]	Remoting error:null
+424	:invoke	:cas	[0 1]
+424	:info	:cas	[0 1]	Remoting error:null
+443	:invoke	:cas	[4 3]
+443	:info	:cas	[4 3]	Remoting error:null
+440	:invoke	:write	1
+440	:info	:write	1	Remoting error:null
+462	:invoke	:write	1
+462	:info	:write	1	Remoting error:null
+429	:invoke	:cas	[4 1]
+429	:info	:cas	[4 1]	Remoting error:null
+448	:invoke	:cas	[3 0]
+448	:info	:cas	[3 0]	Remoting error:null
+461	:invoke	:read	nil
+461	:fail	:read	nil	Remoting error:null
+445	:invoke	:cas	[1 2]
+445	:info	:cas	[1 2]	Remoting error:null
+467	:invoke	:read	nil
+434	:invoke	:write	0
+467	:fail	:read	nil	Remoting error:null
+434	:info	:write	0	Remoting error:null
+453	:invoke	:cas	[3 0]
+453	:info	:cas	[3 0]	Remoting error:null
+461	:invoke	:cas	[4 3]
+461	:info	:cas	[4 3]	Remoting error:null
+450	:invoke	:read	nil
+450	:fail	:read	nil	Remoting error:null
+467	:invoke	:read	nil
+467	:fail	:read	nil	Remoting error:null
+458	:invoke	:write	1
+458	:info	:write	1	Remoting error:null
+439	:invoke	:cas	[2 0]
+439	:info	:cas	[2 0]	Remoting error:null
+466	:invoke	:cas	[1 0]
+466	:info	:cas	[1 0]	Remoting error:null
+467	:invoke	:write	0
+467	:info	:write	0	Remoting error:null
+463	:invoke	:write	0
+463	:info	:write	0	Remoting error:null
+450	:invoke	:write	3
+450	:info	:write	3	Remoting error:null
+471	:invoke	:cas	[4 2]
+471	:info	:cas	[4 2]	Remoting error:null
+468	:invoke	:read	nil
+468	:fail	:read	nil	Remoting error:null
+444	:invoke	:read	nil
+444	:fail	:read	nil	Remoting error:null
+472	:invoke	:write	2
+472	:info	:write	2	Remoting error:null
+476	:invoke	:read	nil
+476	:fail	:read	nil	Remoting error:null
+444	:invoke	:cas	[3 1]
+455	:invoke	:read	nil
+444	:info	:cas	[3 1]	Remoting error:null
+455	:fail	:read	nil	Remoting error:null
+468	:invoke	:cas	[1 0]
+468	:info	:cas	[1 0]	Remoting error:null
+477	:invoke	:read	nil
+477	:fail	:read	nil	Remoting error:null
+476	:invoke	:read	nil
+476	:fail	:read	nil	Remoting error:null
+455	:invoke	:write	2
+455	:info	:write	2	Remoting error:null
+449	:invoke	:cas	[2 2]
+449	:info	:cas	[2 2]	Remoting error:null
+477	:invoke	:cas	[4 1]
+477	:info	:cas	[4 1]	Remoting error:null
+473	:invoke	:write	1
+473	:info	:write	1	Remoting error:null
+460	:invoke	:cas	[4 2]
+476	:invoke	:read	nil
+460	:info	:cas	[4 2]	Remoting error:null
+476	:fail	:read	nil	Remoting error:null
+454	:invoke	:cas	[4 4]
+454	:info	:cas	[4 4]	Remoting error:null
+482	:invoke	:cas	[1 2]
+482	:info	:cas	[1 2]	Remoting error:null
+478	:invoke	:write	4
+465	:invoke	:cas	[0 3]
+478	:info	:write	4	Remoting error:null
+465	:info	:cas	[0 3]	Remoting error:null
+459	:invoke	:cas	[0 1]
+459	:info	:cas	[0 1]	Remoting error:null
+483	:invoke	:read	nil
+483	:fail	:read	nil	Remoting error:null
+476	:invoke	:cas	[3 1]
+476	:info	:cas	[3 1]	Remoting error:null
+487	:invoke	:read	nil
+487	:fail	:read	nil	Remoting error:null
+464	:invoke	:cas	[0 3]
+464	:info	:cas	[0 3]	Remoting error:null
+470	:invoke	:read	nil
+470	:fail	:read	nil	Remoting error:null
+483	:invoke	:cas	[4 1]
+483	:info	:cas	[4 1]	Remoting error:null
+469	:invoke	:cas	[4 3]
+469	:info	:cas	[4 3]	Remoting error:null
+487	:invoke	:read	nil
+487	:fail	:read	nil	Remoting error:null
+481	:invoke	:read	nil
+481	:fail	:read	nil	Remoting error:null
+470	:invoke	:read	nil
+470	:fail	:read	nil	Remoting error:null
+:nemesis	:info	:start	nil
+487	:invoke	:write	4
+474	:invoke	:cas	[0 1]
+487	:info	:write	4	Remoting error:null
+474	:info	:cas	[0 1]	Remoting error:null
+488	:invoke	:cas	[2 4]
+481	:invoke	:write	1
+488	:info	:cas	[2 4]	Remoting error:null
+481	:info	:write	1	Remoting error:null
+479	:invoke	:read	nil
+470	:invoke	:write	4
+479	:fail	:read	nil	Remoting error:null
+470	:info	:write	4	Remoting error:null
+493	:invoke	:read	nil
+493	:fail	:read	nil	Remoting error:null
+492	:invoke	:read	nil
+486	:invoke	:write	1
+:nemesis	:info	:start	{"jraft.host5" [:killed "jraft.host5"]}
+479	:invoke	:read	nil
+493	:invoke	:read	nil
+475	:invoke	:write	3
+486	:info	:write	1	Remoting error:null
+475	:info	:write	3	Remoting error:null
+492	:fail	:read	nil	Remoting error:null
+493	:fail	:read	nil	Remoting error:null
+479	:fail	:read	nil	Remoting error:null
+480	:invoke	:cas	[3 0]
+480	:info	:cas	[3 0]	Remoting error:null
+479	:invoke	:read	nil
+479	:fail	:read	nil	Remoting error:null
+493	:invoke	:read	nil
+493	:fail	:read	nil	Remoting error:null
+492	:invoke	:write	0
+492	:info	:write	0	Remoting error:null
+491	:invoke	:read	nil
+491	:fail	:read	nil	Remoting error:null
+485	:invoke	:cas	[1 0]
+485	:info	:cas	[1 0]	Remoting error:null
+479	:invoke	:cas	[2 1]
+479	:info	:cas	[2 1]	Remoting error:null
+497	:invoke	:write	1
+497	:info	:write	1	Remoting error:null
+493	:invoke	:read	nil
+493	:fail	:read	nil	Remoting error:null
+490	:invoke	:write	1
+493	:invoke	:write	4
+490	:info	:write	1	Remoting error:null
+493	:info	:write	4	Remoting error:null
+491	:invoke	:read	nil
+491	:fail	:read	nil	Remoting error:null
+484	:invoke	:write	4
+484	:info	:write	4	Remoting error:null
+502	:invoke	:read	nil
+502	:fail	:read	nil	Remoting error:null
+495	:invoke	:read	nil
+495	:fail	:read	nil	Remoting error:null
+498	:invoke	:read	nil
+498	:fail	:read	nil	Remoting error:null
+502	:invoke	:cas	[2 3]
+502	:info	:cas	[2 3]	Remoting error:null
+491	:invoke	:cas	[4 1]
+491	:info	:cas	[4 1]	Remoting error:null
+489	:invoke	:cas	[4 3]
+489	:info	:cas	[4 3]	Remoting error:null
+496	:invoke	:read	nil
+496	:fail	:read	nil	Remoting error:null
+494	:invoke	:cas	[2 3]
+494	:info	:cas	[2 3]	Remoting error:null
+495	:invoke	:write	0
+495	:info	:write	0	Remoting error:null
+507	:invoke	:cas	[4 4]
+498	:invoke	:write	4
+507	:info	:cas	[4 4]	Remoting error:null
+498	:info	:write	4	Remoting error:null
+499	:invoke	:read	nil
+499	:fail	:read	nil	Remoting error:null
+496	:invoke	:read	nil
+496	:fail	:read	nil	Remoting error:null
+500	:invoke	:cas	[4 4]
+500	:info	:cas	[4 4]	Remoting error:null
+512	:invoke	:write	3
+512	:info	:write	3	Remoting error:null
+499	:invoke	:read	nil
+499	:fail	:read	nil	Remoting error:null
+503	:invoke	:cas	[4 3]
+503	:info	:cas	[4 3]	Remoting error:null
+517	:invoke	:cas	[0 2]
+517	:info	:cas	[0 2]	Remoting error:null
+496	:invoke	:cas	[0 0]
+496	:info	:cas	[0 0]	Remoting error:null
+508	:invoke	:read	nil
+508	:fail	:read	nil	Remoting error:null
+505	:invoke	:read	nil
+505	:fail	:read	nil	Remoting error:null
+522	:invoke	:cas	[4 3]
+522	:info	:cas	[4 3]	Remoting error:null
+501	:invoke	:read	nil
+501	:fail	:read	nil	Remoting error:null
+499	:invoke	:read	nil
+499	:fail	:read	nil	Remoting error:null
+508	:invoke	:cas	[4 3]
+508	:info	:cas	[4 3]	Remoting error:null
+505	:invoke	:cas	[1 4]
+505	:info	:cas	[1 4]	Remoting error:null
+527	:invoke	:write	3
+527	:info	:write	3	Remoting error:null
+501	:invoke	:read	nil
+501	:fail	:read	nil	Remoting error:null
+499	:invoke	:cas	[1 1]
+499	:info	:cas	[1 1]	Remoting error:null
+510	:invoke	:cas	[3 0]
+510	:info	:cas	[3 0]	Remoting error:null
+513	:invoke	:read	nil
+513	:fail	:read	nil	Remoting error:null
+515	:invoke	:read	nil
+515	:fail	:read	nil	Remoting error:null
+532	:invoke	:cas	[0 0]
+532	:info	:cas	[0 0]	Remoting error:null
+513	:invoke	:cas	[4 4]
+513	:info	:cas	[4 4]	Remoting error:null
+501	:invoke	:write	4
+501	:info	:write	4	Remoting error:null
+504	:invoke	:write	1
+504	:info	:write	1	Remoting error:null
+509	:invoke	:cas	[0 3]
+509	:info	:cas	[0 3]	Remoting error:null
+506	:invoke	:cas	[0 2]
+506	:info	:cas	[0 2]	Remoting error:null
+515	:invoke	:write	3
+515	:info	:write	3	Remoting error:null
+537	:invoke	:read	nil
+518	:invoke	:read	nil
+537	:fail	:read	nil	Remoting error:null
+518	:fail	:read	nil	Remoting error:null
+514	:invoke	:write	2
+514	:info	:write	2	Remoting error:null
+537	:invoke	:write	1
+537	:info	:write	1	Remoting error:null
+511	:invoke	:read	nil
+511	:fail	:read	nil	Remoting error:null
+518	:invoke	:read	nil
+518	:fail	:read	nil	Remoting error:null
+520	:invoke	:cas	[4 1]
+520	:info	:cas	[4 1]	Remoting error:null
+511	:invoke	:cas	[4 1]
+511	:info	:cas	[4 1]	Remoting error:null
+519	:invoke	:cas	[2 3]
+519	:info	:cas	[2 3]	Remoting error:null
+518	:invoke	:read	nil
+518	:fail	:read	nil	Remoting error:null
+542	:invoke	:write	4
+542	:info	:write	4	Remoting error:null
+525	:invoke	:read	nil
+525	:fail	:read	nil	Remoting error:null
+518	:invoke	:write	0
+518	:info	:write	0	Remoting error:null
+547	:invoke	:write	0
+516	:invoke	:cas	[4 1]
+547	:info	:write	0	Remoting error:null
+516	:info	:cas	[4 1]	Remoting error:null
+524	:invoke	:cas	[3 0]
+524	:info	:cas	[3 0]	Remoting error:null
+525	:invoke	:read	nil
+525	:fail	:read	nil	Remoting error:null
+552	:invoke	:read	nil
+552	:fail	:read	nil	Remoting error:null
+523	:invoke	:cas	[0 0]
+523	:info	:cas	[0 0]	Remoting error:null
+552	:invoke	:read	nil
+552	:fail	:read	nil	Remoting error:null
+529	:invoke	:write	2
+521	:invoke	:cas	[3 0]
+529	:info	:write	2	Remoting error:null
+521	:info	:cas	[3 0]	Remoting error:null
+525	:invoke	:write	2
+525	:info	:write	2	Remoting error:null
+526	:invoke	:cas	[4 1]
+526	:info	:cas	[4 1]	Remoting error:null
+552	:invoke	:write	3
+528	:invoke	:read	nil
+552	:info	:write	3	Remoting error:null
+528	:fail	:read	nil	Remoting error:null
+531	:invoke	:write	3
+531	:info	:write	3	Remoting error:null
+534	:invoke	:write	0
+534	:info	:write	0	Remoting error:null
+557	:invoke	:read	nil
+557	:fail	:read	nil	Remoting error:null
+530	:invoke	:write	1
+530	:info	:write	1	Remoting error:null
+539	:invoke	:cas	[1 1]
+539	:info	:cas	[1 1]	Remoting error:null
+536	:invoke	:write	4
+536	:info	:write	4	Remoting error:null
+528	:invoke	:cas	[3 3]
+528	:info	:cas	[3 3]	Remoting error:null
+544	:invoke	:read	nil
+544	:fail	:read	nil	Remoting error:null
+557	:invoke	:cas	[1 0]
+557	:info	:cas	[1 0]	Remoting error:null
+535	:invoke	:write	4
+535	:info	:write	4	Remoting error:null
+540	:invoke	:write	0
+540	:info	:write	0	Remoting error:null
+541	:invoke	:cas	[4 0]
+541	:info	:cas	[4 0]	Remoting error:null
+533	:invoke	:write	4
+533	:info	:write	4	Remoting error:null
+544	:invoke	:read	nil
+544	:fail	:read	nil	Remoting error:null
+562	:invoke	:read	nil
+562	:fail	:read	nil	Remoting error:null
+546	:invoke	:cas	[0 0]
+546	:info	:cas	[0 0]	Remoting error:null
+545	:invoke	:read	nil
+545	:fail	:read	nil	Remoting error:null
+562	:invoke	:write	4
+562	:info	:write	4	Remoting error:null
+538	:invoke	:read	nil
+538	:fail	:read	nil	Remoting error:null
+544	:invoke	:write	2
+544	:info	:write	2	Remoting error:null
+551	:invoke	:write	2
+551	:info	:write	2	Remoting error:null
+538	:invoke	:read	nil
+545	:invoke	:write	1
+538	:fail	:read	nil	Remoting error:null
+545	:info	:write	1	Remoting error:null
+556	:invoke	:cas	[0 1]
+556	:info	:cas	[0 1]	Remoting error:null
+549	:invoke	:read	nil
+567	:invoke	:read	nil
+549	:fail	:read	nil	Remoting error:null
+567	:fail	:read	nil	Remoting error:null
+538	:invoke	:write	2
+538	:info	:write	2	Remoting error:null
+567	:invoke	:cas	[0 4]
+567	:info	:cas	[0 4]	Remoting error:null
+549	:invoke	:cas	[1 4]
+549	:info	:cas	[1 4]	Remoting error:null
+561	:invoke	:read	nil
+561	:fail	:read	nil	Remoting error:null
+550	:invoke	:read	nil
+572	:invoke	:read	nil
+550	:fail	:read	nil	Remoting error:null
+572	:fail	:read	nil	Remoting error:null
+543	:invoke	:cas	[1 0]
+543	:info	:cas	[1 0]	Remoting error:null
+554	:invoke	:cas	[2 3]
+554	:info	:cas	[2 3]	Remoting error:null
+561	:invoke	:cas	[1 3]
+561	:info	:cas	[1 3]	Remoting error:null
+550	:invoke	:write	1
+550	:info	:write	1	Remoting error:null
+548	:invoke	:read	nil
+548	:fail	:read	nil	Remoting error:null
+566	:invoke	:write	1
+566	:info	:write	1	Remoting error:null
+572	:invoke	:cas	[3 3]
+572	:info	:cas	[3 3]	Remoting error:null
+559	:invoke	:read	nil
+559	:fail	:read	nil	Remoting error:null
+555	:invoke	:read	nil
+555	:fail	:read	nil	Remoting error:null
+559	:invoke	:write	4
+559	:info	:write	4	Remoting error:null
+577	:invoke	:write	4
+577	:info	:write	4	Remoting error:null
+548	:invoke	:read	nil
+548	:fail	:read	nil	Remoting error:null
+571	:invoke	:read	nil
+571	:fail	:read	nil	Remoting error:null
+582	:invoke	:read	nil
+582	:fail	:read	nil	Remoting error:null
+564	:invoke	:cas	[0 4]
+564	:info	:cas	[0 4]	Remoting error:null
+555	:invoke	:write	2
+555	:info	:write	2	Remoting error:null
+571	:invoke	:write	4
+571	:info	:write	4	Remoting error:null
+548	:invoke	:write	4
+548	:info	:write	4	Remoting error:null
+582	:invoke	:cas	[0 2]
+582	:info	:cas	[0 2]	Remoting error:null
+560	:invoke	:write	0
+560	:info	:write	0	Remoting error:null
+569	:invoke	:write	3
+569	:info	:write	3	Remoting error:null
+576	:invoke	:read	nil
+576	:fail	:read	nil	Remoting error:null
+587	:invoke	:write	4
+587	:info	:write	4	Remoting error:null
+553	:invoke	:write	2
+553	:info	:write	2	Remoting error:null
+565	:invoke	:read	nil
+565	:fail	:read	nil	Remoting error:null
+576	:invoke	:cas	[1 0]
+576	:info	:cas	[1 0]	Remoting error:null
+558	:invoke	:cas	[2 2]
+558	:info	:cas	[2 2]	Remoting error:null
+574	:invoke	:write	0
+574	:info	:write	0	Remoting error:null
+592	:invoke	:write	3
+592	:info	:write	3	Remoting error:null
+565	:invoke	:write	3
+565	:info	:write	3	Remoting error:null
+563	:invoke	:write	0
+597	:invoke	:read	nil
+563	:info	:write	0	Remoting error:null
+597	:fail	:read	nil	Remoting error:null
+579	:invoke	:read	nil
+579	:fail	:read	nil	Remoting error:null
+581	:invoke	:write	2
+581	:info	:write	2	Remoting error:null
+597	:invoke	:read	nil
+579	:invoke	:cas	[0 3]
+579	:info	:cas	[0 3]	Remoting error:null
+597	:fail	:read	nil	Remoting error:null
+568	:invoke	:read	nil
+568	:fail	:read	nil	Remoting error:null
+597	:invoke	:cas	[4 2]
+597	:info	:cas	[4 2]	Remoting error:null
+570	:invoke	:cas	[4 2]
+570	:info	:cas	[4 2]	Remoting error:null
+584	:invoke	:cas	[3 3]
+584	:info	:cas	[3 3]	Remoting error:null
+586	:invoke	:read	nil
+586	:fail	:read	nil	Remoting error:null
+575	:invoke	:write	4
+575	:info	:write	4	Remoting error:null
+568	:invoke	:write	0
+602	:invoke	:cas	[2 1]
+568	:info	:write	0	Remoting error:null
+602	:info	:cas	[2 1]	Remoting error:null
+573	:invoke	:write	3
+573	:info	:write	3	Remoting error:null
+589	:invoke	:write	2
+589	:info	:write	2	Remoting error:null
+586	:invoke	:cas	[0 2]
+586	:info	:cas	[0 2]	Remoting error:null
+580	:invoke	:write	1
+607	:invoke	:read	nil
+580	:info	:write	1	Remoting error:null
+607	:fail	:read	nil	Remoting error:null
+591	:invoke	:write	3
+591	:info	:write	3	Remoting error:null
+578	:invoke	:cas	[3 3]
+578	:info	:cas	[3 3]	Remoting error:null
+594	:invoke	:cas	[4 3]
+594	:info	:cas	[4 3]	Remoting error:null
+596	:invoke	:cas	[0 2]
+596	:info	:cas	[0 2]	Remoting error:null
+607	:invoke	:write	0
+607	:info	:write	0	Remoting error:null
+583	:invoke	:read	nil
+583	:fail	:read	nil	Remoting error:null
+585	:invoke	:write	0
+585	:info	:write	0	Remoting error:null
+612	:invoke	:cas	[2 1]
+612	:info	:cas	[2 1]	Remoting error:null
+583	:invoke	:write	0
+599	:invoke	:write	4
+599	:info	:write	4	Remoting error:null
+583	:info	:write	0	Remoting error:null
+601	:invoke	:write	2
+601	:info	:write	2	Remoting error:null
+617	:invoke	:read	nil
+617	:fail	:read	nil	Remoting error:null
+590	:invoke	:read	nil
+590	:fail	:read	nil	Remoting error:null
+604	:invoke	:read	nil
+604	:fail	:read	nil	Remoting error:null
+617	:invoke	:read	nil
+617	:fail	:read	nil	Remoting error:null
+590	:invoke	:write	2
+590	:info	:write	2	Remoting error:null
+588	:invoke	:read	nil
+588	:fail	:read	nil	Remoting error:null
+606	:invoke	:cas	[1 3]
+606	:info	:cas	[1 3]	Remoting error:null
+588	:invoke	:cas	[3 2]
+588	:info	:cas	[3 2]	Remoting error:null
+595	:invoke	:cas	[3 4]
+595	:info	:cas	[3 4]	Remoting error:null
+611	:invoke	:read	nil
+604	:invoke	:write	0
+604	:info	:write	0	Remoting error:null
+611	:fail	:read	nil	Remoting error:null
+617	:invoke	:cas	[4 3]
+617	:info	:cas	[4 3]	Remoting error:null
+593	:invoke	:cas	[0 0]
+593	:info	:cas	[0 0]	Remoting error:null
+600	:invoke	:cas	[0 4]
+600	:info	:cas	[0 4]	Remoting error:null
+622	:invoke	:read	nil
+622	:fail	:read	nil	Remoting error:null
+611	:invoke	:cas	[1 3]
+611	:info	:cas	[1 3]	Remoting error:null
+605	:invoke	:cas	[4 0]
+605	:info	:cas	[4 0]	Remoting error:null
+609	:invoke	:read	nil
+609	:fail	:read	nil	Remoting error:null
+622	:invoke	:cas	[4 1]
+622	:info	:cas	[4 1]	Remoting error:null
+598	:invoke	:write	2
+598	:info	:write	2	Remoting error:null
+609	:invoke	:read	nil
+609	:fail	:read	nil	Remoting error:null
+616	:invoke	:write	4
+616	:info	:write	4	Remoting error:null
+627	:invoke	:read	nil
+627	:fail	:read	nil	Remoting error:null
+610	:invoke	:read	nil
+610	:fail	:read	nil	Remoting error:null
+603	:invoke	:read	nil
+603	:fail	:read	nil	Remoting error:null
+609	:invoke	:cas	[1 4]
+609	:info	:cas	[1 4]	Remoting error:null
+621	:invoke	:cas	[4 4]
+621	:info	:cas	[4 4]	Remoting error:null
+610	:invoke	:cas	[0 3]
+610	:info	:cas	[0 3]	Remoting error:null
+614	:invoke	:cas	[3 1]
+614	:info	:cas	[3 1]	Remoting error:null
+603	:invoke	:read	nil
+603	:fail	:read	nil	Remoting error:null
+627	:invoke	:write	2
+627	:info	:write	2	Remoting error:null
+626	:invoke	:read	nil
+619	:invoke	:read	nil
+626	:fail	:read	nil	Remoting error:null
+619	:fail	:read	nil	Remoting error:null
+615	:invoke	:read	nil
+615	:fail	:read	nil	Remoting error:null
+603	:invoke	:write	3
+603	:info	:write	3	Remoting error:null
+632	:invoke	:cas	[1 3]
+632	:info	:cas	[1 3]	Remoting error:null
+619	:invoke	:cas	[4 4]
+619	:info	:cas	[4 4]	Remoting error:null
+608	:invoke	:write	0
+608	:info	:write	0	Remoting error:null
+626	:invoke	:read	nil
+626	:fail	:read	nil	Remoting error:null
+615	:invoke	:cas	[3 3]
+615	:info	:cas	[3 3]	Remoting error:null
+637	:invoke	:read	nil
+624	:invoke	:read	nil
+637	:fail	:read	nil	Remoting error:null
+624	:fail	:read	nil	Remoting error:null
+613	:invoke	:cas	[3 3]
+613	:info	:cas	[3 3]	Remoting error:null
+626	:invoke	:cas	[4 3]
+626	:info	:cas	[4 3]	Remoting error:null
+620	:invoke	:write	1
+620	:info	:write	1	Remoting error:null
+631	:invoke	:read	nil
+618	:invoke	:cas	[1 2]
+618	:info	:cas	[1 2]	Remoting error:null
+631	:fail	:read	nil	Remoting error:null
+637	:invoke	:write	0
+637	:info	:write	0	Remoting error:null
+625	:invoke	:read	nil
+624	:invoke	:cas	[3 2]
+624	:info	:cas	[3 2]	Remoting error:null
+625	:fail	:read	nil	Remoting error:null
+623	:invoke	:write	2
+623	:info	:write	2	Remoting error:null
+642	:invoke	:write	0
+631	:invoke	:cas	[2 0]
+642	:info	:write	0	Remoting error:null
+631	:info	:cas	[2 0]	Remoting error:null
+625	:invoke	:write	4
+625	:info	:write	4	Remoting error:null
+628	:invoke	:cas	[3 2]
+628	:info	:cas	[3 2]	Remoting error:null
+629	:invoke	:read	nil
+629	:fail	:read	nil	Remoting error:null
+633	:invoke	:read	nil
+633	:fail	:read	nil	Remoting error:null
+630	:invoke	:read	nil
+630	:fail	:read	nil	Remoting error:null
+636	:invoke	:write	3
+636	:info	:write	3	Remoting error:null
+629	:invoke	:write	4
+647	:invoke	:cas	[0 3]
+629	:info	:write	4	Remoting error:null
+647	:info	:cas	[0 3]	Remoting error:null
+633	:invoke	:read	nil
+633	:fail	:read	nil	Remoting error:null
+634	:invoke	:write	4
+634	:info	:write	4	Remoting error:null
+630	:invoke	:write	1
+630	:info	:write	1	Remoting error:null
+641	:invoke	:read	nil
+641	:fail	:read	nil	Remoting error:null
+639	:invoke	:write	0
+639	:info	:write	0	Remoting error:null
+652	:invoke	:cas	[1 1]
+652	:info	:cas	[1 1]	Remoting error:null
+:nemesis	:info	:stop	nil
+635	:invoke	:write	3
+635	:info	:write	3	Remoting error:null
+633	:invoke	:cas	[4 3]
+633	:info	:cas	[4 3]	Remoting error:null
+640	:invoke	:write	4
+640	:info	:write	4	Remoting error:null
+657	:invoke	:read	nil
+657	:fail	:read	nil	Remoting error:null
+641	:invoke	:read	nil
+641	:fail	:read	nil	Remoting error:null
+644	:invoke	:read	nil
+644	:fail	:read	nil	Remoting error:null
+638	:invoke	:cas	[0 0]
+638	:info	:cas	[0 0]	Remoting error:null
+:nemesis	:info	:stop	{"jraft.host5" [:restarted "jraft.host5"]}
+641	:invoke	:read	nil
+641	:fail	:read	nil	Remoting error:null
+657	:invoke	:read	nil
+657	:fail	:read	nil	Remoting error:null
+645	:invoke	:read	nil
+645	:fail	:read	nil	Remoting error:null
+643	:invoke	:cas	[0 3]
+644	:invoke	:read	nil
+643	:info	:cas	[0 3]	Remoting error:null
+644	:fail	:read	nil	Remoting error:null
+645	:invoke	:read	nil
+645	:fail	:read	nil	Remoting error:null
+657	:invoke	:write	3
+657	:info	:write	3	Remoting error:null
+641	:invoke	:write	1
+641	:info	:write	1	Remoting error:null
+648	:invoke	:cas	[2 1]
+648	:info	:cas	[2 1]	Remoting error:null
+644	:invoke	:cas	[3 0]
+644	:info	:cas	[3 0]	Remoting error:null
+662	:invoke	:write	1
+662	:info	:write	1	Remoting error:null
+646	:invoke	:read	nil
+646	:fail	:read	nil	Remoting error:null
+653	:invoke	:read	nil
+653	:fail	:read	nil	Remoting error:null
+645	:invoke	:write	0
+645	:info	:write	0	Remoting error:null
+649	:invoke	:write	3
+649	:info	:write	3	Remoting error:null
+646	:invoke	:write	2
+646	:info	:write	2	Remoting error:null
+667	:invoke	:read	nil
+667	:fail	:read	nil	Remoting error:null
+653	:invoke	:read	nil
+653	:fail	:read	nil	Remoting error:null
+650	:invoke	:write	0
+650	:info	:write	0	Remoting error:null
+651	:invoke	:read	nil
+651	:fail	:read	nil	Remoting error:null
+653	:invoke	:cas	[0 4]
+653	:info	:cas	[0 4]	Remoting error:null
+667	:invoke	:write	2
+667	:info	:write	2	Remoting error:null
+654	:invoke	:write	3
+654	:info	:write	3	Remoting error:null
+655	:invoke	:write	0
+655	:info	:write	0	Remoting error:null
+651	:invoke	:write	1
+651	:info	:write	1	Remoting error:null
+658	:invoke	:cas	[2 1]
+672	:invoke	:write	1
+658	:info	:cas	[2 1]	Remoting error:null
+660	:invoke	:cas	[2 1]
+672	:info	:write	1	Remoting error:null
+660	:info	:cas	[2 1]	Remoting error:null
+656	:invoke	:read	nil
+656	:fail	:read	nil	Remoting error:null
+659	:invoke	:write	3
+659	:info	:write	3	Remoting error:null
+664	:invoke	:write	0
+664	:info	:write	0	Remoting error:null
+677	:invoke	:write	2
+677	:info	:write	2	Remoting error:null
+656	:invoke	:read	nil
+663	:invoke	:write	4
+656	:fail	:read	nil	Remoting error:null
+663	:info	:write	4	Remoting error:null
+665	:invoke	:read	nil
+665	:fail	:read	nil	Remoting error:null
+669	:invoke	:cas	[3 4]
+669	:info	:cas	[3 4]	Remoting error:null
+682	:invoke	:read	nil
+682	:fail	:read	nil	Remoting error:null
+656	:invoke	:read	nil
+668	:invoke	:read	nil
+656	:fail	:read	nil	Remoting error:null
+668	:fail	:read	nil	Remoting error:null
+674	:invoke	:cas	[3 3]
+674	:info	:cas	[3 3]	Remoting error:null
+668	:invoke	:read	nil
+668	:fail	:read	nil	Remoting error:null
+665	:invoke	:write	2
+665	:info	:write	2	Remoting error:null
+679	:invoke	:write	3
+679	:info	:write	3	Remoting error:null
+682	:invoke	:read	nil
+682	:fail	:read	nil	Remoting error:null
+656	:invoke	:write	4
+670	:invoke	:cas	[3 2]
+656	:info	:write	4	Remoting error:null
+670	:info	:cas	[3 2]	Remoting error:null
+682	:invoke	:read	nil
+668	:invoke	:cas	[0 0]
+668	:info	:cas	[0 0]	Remoting error:null
+682	:fail	:read	nil	Remoting error:null
+684	:invoke	:cas	[0 1]
+684	:info	:cas	[0 1]	Remoting error:null
+675	:invoke	:read	nil
+675	:fail	:read	nil	Remoting error:null
+661	:invoke	:read	nil
+661	:fail	:read	nil	Remoting error:null
+673	:invoke	:cas	[2 2]
+673	:info	:cas	[2 2]	Remoting error:null
+682	:invoke	:read	nil
+682	:fail	:read	nil	Remoting error:null
+689	:invoke	:read	nil
+689	:fail	:read	nil	Remoting error:null
+675	:invoke	:write	1
+675	:info	:write	1	Remoting error:null
+661	:invoke	:read	nil
+661	:fail	:read	nil	Remoting error:null
+678	:invoke	:write	0
+678	:info	:write	0	Remoting error:null
+689	:invoke	:cas	[3 3]
+689	:info	:cas	[3 3]	Remoting error:null
+680	:invoke	:write	0
+682	:invoke	:cas	[3 3]
+680	:info	:write	0	Remoting error:null
+682	:info	:cas	[3 3]	Remoting error:null
+683	:invoke	:cas	[0 4]
+683	:info	:cas	[0 4]	Remoting error:null
+694	:invoke	:read	nil
+694	:fail	:read	nil	Remoting error:null
+661	:invoke	:read	nil
+661	:fail	:read	nil	Remoting error:null
+687	:invoke	:read	nil
+687	:fail	:read	nil	Remoting error:null
+685	:invoke	:cas	[0 0]
+685	:info	:cas	[0 0]	Remoting error:null
+688	:invoke	:write	3
+688	:info	:write	3	Remoting error:null
+687	:invoke	:cas	[2 1]
+687	:info	:cas	[2 1]	Remoting error:null
+690	:invoke	:write	0
+690	:info	:write	0	Remoting error:null
+661	:invoke	:read	nil
+661	:fail	:read	nil	Remoting error:null
+694	:invoke	:read	nil
+694	:fail	:read	nil	Remoting error:null
+693	:invoke	:read	nil
+693	:fail	:read	nil	Remoting error:null
+692	:invoke	:write	1
+692	:info	:write	1	Remoting error:null
+693	:invoke	:cas	[3 2]
+693	:info	:cas	[3 2]	Remoting error:null
+661	:invoke	:cas	[2 1]
+661	:info	:cas	[2 1]	Remoting error:null
+694	:invoke	:cas	[1 0]
+694	:info	:cas	[1 0]	Remoting error:null
+695	:invoke	:read	nil
+697	:invoke	:write	2
+697	:info	:write	2	Remoting error:null
+695	:fail	:read	nil	Remoting error:null
+666	:invoke	:write	2
+666	:info	:write	2	Remoting error:null
+699	:invoke	:write	2
+699	:info	:write	2	Remoting error:null
+702	:invoke	:cas	[3 0]
+702	:info	:cas	[3 0]	Remoting error:null
+698	:invoke	:read	nil
+698	:fail	:read	nil	Remoting error:null
+671	:invoke	:write	4
+671	:info	:write	4	Remoting error:null
+707	:invoke	:write	2
+707	:info	:write	2	Remoting error:null
+695	:invoke	:write	3
+695	:info	:write	3	Remoting error:null
+698	:invoke	:write	0
+704	:invoke	:read	nil
+698	:info	:write	0	Remoting error:null
+704	:fail	:read	nil	Remoting error:null
+676	:invoke	:read	nil
+712	:invoke	:read	nil
+712	:fail	:read	nil	Remoting error:null
+676	:fail	:read	nil	Remoting error:null
+703	:invoke	:write	3
+703	:info	:write	3	Remoting error:null
+712	:invoke	:cas	[0 3]
+676	:invoke	:cas	[3 2]
+712	:info	:cas	[0 3]	Remoting error:null
+676	:info	:cas	[3 2]	Remoting error:null
+700	:invoke	:cas	[4 4]
+700	:info	:cas	[4 4]	Remoting error:null
+704	:invoke	:cas	[3 1]
+704	:info	:cas	[3 1]	Remoting error:null
+681	:invoke	:cas	[3 3]
+681	:info	:cas	[3 3]	Remoting error:null
+705	:invoke	:cas	[3 2]
+705	:info	:cas	[3 2]	Remoting error:null
+708	:invoke	:cas	[3 3]
+708	:info	:cas	[3 3]	Remoting error:null
+717	:invoke	:cas	[4 1]
+717	:info	:cas	[4 1]	Remoting error:null
+709	:invoke	:cas	[4 4]
+709	:info	:cas	[4 4]	Remoting error:null
+686	:invoke	:write	0
+710	:invoke	:read	nil
+686	:info	:write	0	Remoting error:null
+710	:fail	:read	nil	Remoting error:null
+713	:invoke	:write	1
+713	:info	:write	1	Remoting error:null
+691	:invoke	:write	1
+691	:info	:write	1	Remoting error:null
+714	:invoke	:write	2
+714	:info	:write	2	Remoting error:null
+722	:invoke	:cas	[4 4]
+722	:info	:cas	[4 4]	Remoting error:null
+710	:invoke	:read	nil
+710	:fail	:read	nil	Remoting error:null
+718	:invoke	:cas	[1 2]
+718	:info	:cas	[1 2]	Remoting error:null
+696	:invoke	:cas	[2 4]
+696	:info	:cas	[2 4]	Remoting error:null
+719	:invoke	:cas	[2 3]
+719	:info	:cas	[2 3]	Remoting error:null
+727	:invoke	:read	nil
+727	:fail	:read	nil	Remoting error:null
+723	:invoke	:cas	[2 3]
+723	:info	:cas	[2 3]	Remoting error:null
+710	:invoke	:write	2
+710	:info	:write	2	Remoting error:null
+724	:invoke	:read	nil
+701	:invoke	:write	0
+724	:fail	:read	nil	Remoting error:null
+701	:info	:write	0	Remoting error:null
+727	:invoke	:read	nil
+727	:fail	:read	nil	Remoting error:null
+715	:invoke	:write	2
+715	:info	:write	2	Remoting error:null
+727	:invoke	:cas	[3 3]
+727	:info	:cas	[3 3]	Remoting error:null
+706	:invoke	:read	nil
+728	:invoke	:read	nil
+706	:fail	:read	nil	Remoting error:null
+728	:fail	:read	nil	Remoting error:null
+724	:invoke	:read	nil
+724	:fail	:read	nil	Remoting error:null
+720	:invoke	:cas	[2 3]
+720	:info	:cas	[2 3]	Remoting error:null
+706	:invoke	:read	nil
+706	:fail	:read	nil	Remoting error:null
+732	:invoke	:write	1
+724	:invoke	:write	0
+732	:info	:write	1	Remoting error:null
+728	:invoke	:write	3
+724	:info	:write	0	Remoting error:null
+728	:info	:write	3	Remoting error:null
+706	:invoke	:write	0
+706	:info	:write	0	Remoting error:null
+737	:invoke	:write	1
+737	:info	:write	1	Remoting error:null
+733	:invoke	:read	nil
+733	:fail	:read	nil	Remoting error:null
+725	:invoke	:write	2
+729	:invoke	:write	2
+725	:info	:write	2	Remoting error:null
+729	:info	:write	2	Remoting error:null
+711	:invoke	:read	nil
+711	:fail	:read	nil	Remoting error:null
+742	:invoke	:read	nil
+742	:fail	:read	nil	Remoting error:null
+733	:invoke	:read	nil
+733	:fail	:read	nil	Remoting error:null
+734	:invoke	:read	nil
+734	:fail	:read	nil	Remoting error:null
+711	:invoke	:write	3
+711	:info	:write	3	Remoting error:null
+730	:invoke	:cas	[0 0]
+730	:info	:cas	[0 0]	Remoting error:null
+742	:invoke	:cas	[0 4]
+742	:info	:cas	[0 4]	Remoting error:null
+735	:invoke	:cas	[0 0]
+735	:info	:cas	[0 0]	Remoting error:null
+734	:invoke	:cas	[3 0]
+734	:info	:cas	[3 0]	Remoting error:null
+716	:invoke	:read	nil
+716	:fail	:read	nil	Remoting error:null
+733	:invoke	:read	nil
+733	:fail	:read	nil	Remoting error:null
+747	:invoke	:cas	[3 2]
+747	:info	:cas	[3 2]	Remoting error:null
+740	:invoke	:cas	[3 1]
+740	:info	:cas	[3 1]	Remoting error:null
+752	:invoke	:read	nil
+752	:fail	:read	nil	Remoting error:null
+733	:invoke	:cas	[2 1]
+733	:info	:cas	[2 1]	Remoting error:null
+739	:invoke	:cas	[1 4]
+739	:info	:cas	[1 4]	Remoting error:null
+716	:invoke	:cas	[2 3]
+716	:info	:cas	[2 3]	Remoting error:null
+745	:invoke	:write	1
+745	:info	:write	1	Remoting error:null
+752	:invoke	:read	nil
+752	:fail	:read	nil	Remoting error:null
+721	:invoke	:cas	[3 3]
+721	:info	:cas	[3 3]	Remoting error:null
+744	:invoke	:read	nil
+744	:fail	:read	nil	Remoting error:null
+738	:invoke	:write	0
+738	:info	:write	0	Remoting error:null
+750	:invoke	:cas	[2 2]
+750	:info	:cas	[2 2]	Remoting error:null
+744	:invoke	:write	2
+744	:info	:write	2	Remoting error:null
+752	:invoke	:cas	[3 1]
+752	:info	:cas	[3 1]	Remoting error:null
+743	:invoke	:write	1
+743	:info	:write	1	Remoting error:null
+726	:invoke	:write	0
+726	:info	:write	0	Remoting error:null
+749	:invoke	:write	2
+748	:invoke	:write	1
+749	:info	:write	2	Remoting error:null
+748	:info	:write	1	Remoting error:null
+755	:invoke	:write	1
+755	:info	:write	1	Remoting error:null
+757	:invoke	:read	nil
+757	:fail	:read	nil	Remoting error:null
+731	:invoke	:read	nil
+731	:fail	:read	nil	Remoting error:null
+754	:invoke	:write	4
+754	:info	:write	4	Remoting error:null
+753	:invoke	:write	0
+753	:info	:write	0	Remoting error:null
+760	:invoke	:write	2
+760	:info	:write	2	Remoting error:null
+757	:invoke	:read	nil
+757	:fail	:read	nil	Remoting error:null
+758	:invoke	:write	0
+731	:invoke	:read	nil
+758	:info	:write	0	Remoting error:null
+731	:fail	:read	nil	Remoting error:null
+759	:invoke	:cas	[2 2]
+759	:info	:cas	[2 2]	Remoting error:null
+763	:invoke	:write	4
+763	:info	:write	4	Remoting error:null
+765	:invoke	:read	nil
+765	:fail	:read	nil	Remoting error:null
+757	:invoke	:cas	[0 4]
+757	:info	:cas	[0 4]	Remoting error:null
+731	:invoke	:read	nil
+731	:fail	:read	nil	Remoting error:null
+768	:invoke	:write	3
+768	:info	:write	3	Remoting error:null
+764	:invoke	:write	0
+764	:info	:write	0	Remoting error:null
+765	:invoke	:read	nil
+765	:fail	:read	nil	Remoting error:null
+731	:invoke	:write	1
+731	:info	:write	1	Remoting error:null
+762	:invoke	:read	nil
+762	:fail	:read	nil	Remoting error:null
+736	:invoke	:cas	[3 2]
+736	:info	:cas	[3 2]	Remoting error:null
+769	:invoke	:read	nil
+769	:fail	:read	nil	Remoting error:null
+773	:invoke	:cas	[2 4]
+773	:info	:cas	[2 4]	Remoting error:null
+765	:invoke	:read	nil
+765	:fail	:read	nil	Remoting error:null
+762	:invoke	:read	nil
+762	:fail	:read	nil	Remoting error:null
+765	:invoke	:cas	[4 3]
+769	:invoke	:read	nil
+765	:info	:cas	[4 3]	Remoting error:null
+741	:invoke	:read	nil
+769	:fail	:read	nil	Remoting error:null
+741	:fail	:read	nil	Remoting error:null
+778	:invoke	:cas	[0 2]
+778	:info	:cas	[0 2]	Remoting error:null
+769	:invoke	:write	0
+769	:info	:write	0	Remoting error:null
+762	:invoke	:cas	[1 4]
+762	:info	:cas	[1 4]	Remoting error:null
+783	:invoke	:cas	[3 2]
+783	:info	:cas	[3 2]	Remoting error:null
+770	:invoke	:write	1
+774	:invoke	:cas	[4 1]
+770	:info	:write	1	Remoting error:null
+774	:info	:cas	[4 1]	Remoting error:null
+741	:invoke	:cas	[3 2]
+741	:info	:cas	[3 2]	Remoting error:null
+767	:invoke	:cas	[0 2]
+767	:info	:cas	[0 2]	Remoting error:null
+746	:invoke	:write	1
+746	:info	:write	1	Remoting error:null
+788	:invoke	:read	nil
+788	:fail	:read	nil	Remoting error:null
+775	:invoke	:write	4
+775	:info	:write	4	Remoting error:null
+779	:invoke	:cas	[3 1]
+779	:info	:cas	[3 1]	Remoting error:null
+788	:invoke	:cas	[4 1]
+788	:info	:cas	[4 1]	Remoting error:null
+784	:invoke	:cas	[1 2]
+784	:info	:cas	[1 2]	Remoting error:null
+751	:invoke	:read	nil
+751	:fail	:read	nil	Remoting error:null
+780	:invoke	:write	1
+780	:info	:write	1	Remoting error:null
+772	:invoke	:write	3
+772	:info	:write	3	Remoting error:null
+793	:invoke	:read	nil
+793	:fail	:read	nil	Remoting error:null
+751	:invoke	:cas	[3 4]
+751	:info	:cas	[3 4]	Remoting error:null
+777	:invoke	:read	nil
+777	:fail	:read	nil	Remoting error:null
+785	:invoke	:write	3
+789	:invoke	:write	2
+785	:info	:write	3	Remoting error:null
+789	:info	:write	2	Remoting error:null
+756	:invoke	:read	nil
+756	:fail	:read	nil	Remoting error:null
+793	:invoke	:write	0
+793	:info	:write	0	Remoting error:null
+777	:invoke	:write	0
+777	:info	:write	0	Remoting error:null
+794	:invoke	:cas	[4 0]
+794	:info	:cas	[4 0]	Remoting error:null
+790	:invoke	:cas	[2 1]
+790	:info	:cas	[2 1]	Remoting error:null
+782	:invoke	:write	0
+782	:info	:write	0	Remoting error:null
+799	:invoke	:write	1
+799	:info	:write	1	Remoting error:null
+756	:invoke	:write	1
+756	:info	:write	1	Remoting error:null
+798	:invoke	:read	nil
+798	:fail	:read	nil	Remoting error:null
+795	:invoke	:write	3
+795	:info	:write	3	Remoting error:null
+787	:invoke	:cas	[0 0]
+787	:info	:cas	[0 0]	Remoting error:null
+798	:invoke	:write	1
+800	:invoke	:write	4
+761	:invoke	:read	nil
+798	:info	:write	1	Remoting error:null
+800	:info	:write	4	Remoting error:null
+761	:fail	:read	nil	Remoting error:null
+804	:invoke	:read	nil
+804	:fail	:read	nil	Remoting error:null
+792	:invoke	:write	1
+803	:invoke	:write	4
+792	:info	:write	1	Remoting error:null
+803	:info	:write	4	Remoting error:null
+805	:invoke	:cas	[0 1]
+805	:info	:cas	[0 1]	Remoting error:null
+761	:invoke	:read	nil
+761	:fail	:read	nil	Remoting error:null
+804	:invoke	:read	nil
+804	:fail	:read	nil	Remoting error:null
+808	:invoke	:read	nil
+797	:invoke	:cas	[2 3]
+797	:info	:cas	[2 3]	Remoting error:null
+808	:fail	:read	nil	Remoting error:null
+810	:invoke	:cas	[4 1]
+810	:info	:cas	[4 1]	Remoting error:null
+804	:invoke	:write	2
+804	:info	:write	2	Remoting error:null
+761	:invoke	:read	nil
+761	:fail	:read	nil	Remoting error:null
+802	:invoke	:read	nil
+802	:fail	:read	nil	Remoting error:null
+808	:invoke	:write	3
+808	:info	:write	3	Remoting error:null
+815	:invoke	:write	1
+815	:info	:write	1	Remoting error:null
+761	:invoke	:read	nil
+809	:invoke	:write	3
+809	:info	:write	3	Remoting error:null
+761	:fail	:read	nil	Remoting error:null
+813	:invoke	:cas	[3 1]
+813	:info	:cas	[3 1]	Remoting error:null
+802	:invoke	:cas	[0 0]
+802	:info	:cas	[0 0]	Remoting error:null
+814	:invoke	:cas	[1 4]
+814	:info	:cas	[1 4]	Remoting error:null
+820	:invoke	:cas	[3 2]
+820	:info	:cas	[3 2]	Remoting error:null
+807	:invoke	:write	3
+761	:invoke	:write	2
+761	:info	:write	2	Remoting error:null
+807	:info	:write	3	Remoting error:null
+:nemesis	:info	:start	nil
+825	:invoke	:cas	[2 3]
+825	:info	:cas	[2 3]	Remoting error:null
+818	:invoke	:cas	[1 2]
+818	:info	:cas	[1 2]	Remoting error:null
+819	:invoke	:read	nil
+819	:fail	:read	nil	Remoting error:null
+766	:invoke	:read	nil
+766	:fail	:read	nil	Remoting error:null
+812	:invoke	:read	nil
+812	:fail	:read	nil	Remoting error:null
+819	:invoke	:read	nil
+819	:fail	:read	nil	Remoting error:null
+812	:invoke	:write	1
+830	:invoke	:read	nil
+823	:invoke	:cas	[1 0]
+819	:invoke	:cas	[3 1]
+766	:invoke	:write	4
+:nemesis	:info	:start	{"jraft.host2" [:killed "jraft.host2"], "jraft.host4" [:killed "jraft.host4"], "jraft.host5" [:killed "jraft.host5"], "jraft.host3" [:killed "jraft.host3"]}
+812	:info	:write	1	Remoting error:null
+819	:info	:cas	[3 1]	Remoting error:null
+766	:info	:write	4	Remoting error:null
+823	:info	:cas	[1 0]	Remoting error:null
+830	:fail	:read	nil	Remoting error:null
+828	:invoke	:read	nil
+828	:fail	:read	nil	Remoting error:null
+830	:invoke	:write	0
+830	:info	:write	0	Remoting error:null
+817	:invoke	:cas	[2 4]
+817	:info	:cas	[2 4]	Remoting error:null
+771	:invoke	:write	3
+771	:info	:write	3	Remoting error:null
+824	:invoke	:cas	[1 2]
+824	:info	:cas	[1 2]	Remoting error:null
+828	:invoke	:cas	[3 3]
+828	:info	:cas	[3 3]	Remoting error:null
+835	:invoke	:read	nil
+776	:invoke	:read	nil
+835	:fail	:read	nil	Remoting error:null
+776	:fail	:read	nil	Remoting error:null
+822	:invoke	:cas	[3 4]
+822	:info	:cas	[3 4]	Remoting error:null
+829	:invoke	:cas	[1 2]
+829	:info	:cas	[1 2]	Remoting error:null
+833	:invoke	:write	1
+833	:info	:write	1	Remoting error:null
+835	:invoke	:cas	[4 4]
+835	:info	:cas	[4 4]	Remoting error:null
+834	:invoke	:read	nil
+834	:fail	:read	nil	Remoting error:null
+776	:invoke	:read	nil
+776	:fail	:read	nil	Remoting error:null
+838	:invoke	:cas	[1 3]
+838	:info	:cas	[1 3]	Remoting error:null
+827	:invoke	:write	3
+827	:info	:write	3	Remoting error:null
+776	:invoke	:read	nil
+840	:invoke	:cas	[0 2]
+776	:fail	:read	nil	Remoting error:null
+840	:info	:cas	[0 2]	Remoting error:null
+834	:invoke	:write	2
+834	:info	:write	2	Remoting error:null
+843	:invoke	:cas	[0 4]
+843	:info	:cas	[0 4]	Remoting error:null
+832	:invoke	:cas	[2 1]
+832	:info	:cas	[2 1]	Remoting error:null
+845	:invoke	:cas	[2 3]
+845	:info	:cas	[2 3]	Remoting error:null
+839	:invoke	:read	nil
+839	:fail	:read	nil	Remoting error:null
+776	:invoke	:write	2
+776	:info	:write	2	Remoting error:null
+837	:invoke	:read	nil
+837	:fail	:read	nil	Remoting error:null
+850	:invoke	:cas	[3 4]
+850	:info	:cas	[3 4]	Remoting error:null
+839	:invoke	:write	0
+839	:info	:write	0	Remoting error:null
+781	:invoke	:cas	[1 0]
+781	:info	:cas	[1 0]	Remoting error:null
+848	:invoke	:cas	[1 1]
+848	:info	:cas	[1 1]	Remoting error:null
+855	:invoke	:cas	[4 4]
+855	:info	:cas	[4 4]	Remoting error:null
+837	:invoke	:write	1
+837	:info	:write	1	Remoting error:null
+786	:invoke	:read	nil
+786	:fail	:read	nil	Remoting error:null
+853	:invoke	:read	nil
+853	:fail	:read	nil	Remoting error:null
+844	:invoke	:write	4
+844	:info	:write	4	Remoting error:null
+860	:invoke	:write	1
+860	:info	:write	1	Remoting error:null
+842	:invoke	:cas	[3 0]
+853	:invoke	:write	4
+842	:info	:cas	[3 0]	Remoting error:null
+853	:info	:write	4	Remoting error:null
+849	:invoke	:cas	[3 1]
+849	:info	:cas	[3 1]	Remoting error:null
+786	:invoke	:write	0
+786	:info	:write	0	Remoting error:null
+865	:invoke	:cas	[1 1]
+865	:info	:cas	[1 1]	Remoting error:null
+858	:invoke	:write	1
+858	:info	:write	1	Remoting error:null
+847	:invoke	:cas	[4 3]
+847	:info	:cas	[4 3]	Remoting error:null
+854	:invoke	:cas	[4 3]
+854	:info	:cas	[4 3]	Remoting error:null
+863	:invoke	:write	3
+863	:info	:write	3	Remoting error:null
+791	:invoke	:cas	[4 3]
+791	:info	:cas	[4 3]	Remoting error:null
+870	:invoke	:cas	[1 4]
+852	:invoke	:write	4
+870	:info	:cas	[1 4]	Remoting error:null
+852	:info	:write	4	Remoting error:null
+859	:invoke	:cas	[1 4]
+859	:info	:cas	[1 4]	Remoting error:null
+864	:invoke	:read	nil
+864	:fail	:read	nil	Remoting error:null
+875	:invoke	:read	nil
+875	:fail	:read	nil	Remoting error:null
+857	:invoke	:write	4
+796	:invoke	:write	0
+868	:invoke	:cas	[3 2]
+857	:info	:write	4	Remoting error:null
+796	:info	:write	0	Remoting error:null
+868	:info	:cas	[3 2]	Remoting error:null
+875	:invoke	:read	nil
+875	:fail	:read	nil	Remoting error:null
+864	:invoke	:write	2
+864	:info	:write	2	Remoting error:null
+873	:invoke	:read	nil
+873	:fail	:read	nil	Remoting error:null
+875	:invoke	:cas	[0 0]
+875	:info	:cas	[0 0]	Remoting error:null
+862	:invoke	:read	nil
+862	:fail	:read	nil	Remoting error:null
+801	:invoke	:write	4
+801	:info	:write	4	Remoting error:null
+873	:invoke	:write	3
+873	:info	:write	3	Remoting error:null
+869	:invoke	:cas	[1 4]
+869	:info	:cas	[1 4]	Remoting error:null
+806	:invoke	:cas	[2 3]
+806	:info	:cas	[2 3]	Remoting error:null
+880	:invoke	:read	nil
+880	:fail	:read	nil	Remoting error:null
+878	:invoke	:read	nil
+878	:fail	:read	nil	Remoting error:null
+862	:invoke	:cas	[1 1]
+862	:info	:cas	[1 1]	Remoting error:null
+874	:invoke	:cas	[4 4]
+874	:info	:cas	[4 4]	Remoting error:null
+878	:invoke	:write	1
+878	:info	:write	1	Remoting error:null
+811	:invoke	:write	4
+811	:info	:write	4	Remoting error:null
+880	:invoke	:read	nil
+880	:fail	:read	nil	Remoting error:null
+879	:invoke	:cas	[0 4]
+879	:info	:cas	[0 4]	Remoting error:null
+867	:invoke	:cas	[2 0]
+867	:info	:cas	[2 0]	Remoting error:null
+883	:invoke	:cas	[4 1]
+883	:info	:cas	[4 1]	Remoting error:null
+816	:invoke	:write	3
+816	:info	:write	3	Remoting error:null
+880	:invoke	:read	nil
+880	:fail	:read	nil	Remoting error:null
+884	:invoke	:cas	[2 0]
+884	:info	:cas	[2 0]	Remoting error:null
+872	:invoke	:write	0
+872	:info	:write	0	Remoting error:null
+880	:invoke	:cas	[3 4]
+880	:info	:cas	[3 4]	Remoting error:null
+888	:invoke	:read	nil
+888	:fail	:read	nil	Remoting error:null
+889	:invoke	:read	nil
+821	:invoke	:write	3
+889	:fail	:read	nil	Remoting error:null
+821	:info	:write	3	Remoting error:null
+885	:invoke	:write	2
+885	:info	:write	2	Remoting error:null
+877	:invoke	:read	nil
+877	:fail	:read	nil	Remoting error:null
+888	:invoke	:write	0
+888	:info	:write	0	Remoting error:null
+890	:invoke	:read	nil
+890	:fail	:read	nil	Remoting error:null
+826	:invoke	:read	nil
+826	:fail	:read	nil	Remoting error:null
+893	:invoke	:read	nil
+893	:fail	:read	nil	Remoting error:null
+889	:invoke	:write	3
+889	:info	:write	3	Remoting error:null
+826	:invoke	:read	nil
+826	:fail	:read	nil	Remoting error:null
+894	:invoke	:cas	[4 4]
+877	:invoke	:read	nil
+890	:invoke	:write	0
+894	:info	:cas	[4 4]	Remoting error:null
+877	:fail	:read	nil	Remoting error:null
+890	:info	:write	0	Remoting error:null
+893	:invoke	:read	nil
+893	:fail	:read	nil	Remoting error:null
+895	:invoke	:write	3
+895	:info	:write	3	Remoting error:null
+826	:invoke	:cas	[1 1]
+826	:info	:cas	[1 1]	Remoting error:null
+899	:invoke	:write	1
+899	:info	:write	1	Remoting error:null
+877	:invoke	:write	0
+877	:info	:write	0	Remoting error:null
+900	:invoke	:cas	[0 2]
+900	:info	:cas	[0 2]	Remoting error:null
+831	:invoke	:write	4
+831	:info	:write	4	Remoting error:null
+893	:invoke	:read	nil
+904	:invoke	:write	4
+893	:fail	:read	nil	Remoting error:null
+904	:info	:write	4	Remoting error:null
+882	:invoke	:cas	[3 1]
+893	:invoke	:cas	[0 1]
+882	:info	:cas	[3 1]	Remoting error:null
+893	:info	:cas	[0 1]	Remoting error:null
+836	:invoke	:cas	[2 4]
+836	:info	:cas	[2 4]	Remoting error:null
+909	:invoke	:write	2
+909	:info	:write	2	Remoting error:null
+905	:invoke	:read	nil
+905	:fail	:read	nil	Remoting error:null
+898	:invoke	:write	4
+898	:info	:write	4	Remoting error:null
+841	:invoke	:read	nil
+841	:fail	:read	nil	Remoting error:null
+905	:invoke	:write	3
+905	:info	:write	3	Remoting error:null
+887	:invoke	:read	nil
+887	:fail	:read	nil	Remoting error:null
+914	:invoke	:write	4
+914	:info	:write	4	Remoting error:null
+903	:invoke	:read	nil
+903	:fail	:read	nil	Remoting error:null
+910	:invoke	:read	nil
+910	:fail	:read	nil	Remoting error:null
+841	:invoke	:read	nil
+919	:invoke	:cas	[0 0]
+841	:fail	:read	nil	Remoting error:null
+919	:info	:cas	[0 0]	Remoting error:null
+903	:invoke	:cas	[4 4]
+903	:info	:cas	[4 4]	Remoting error:null
+887	:invoke	:cas	[2 3]
+887	:info	:cas	[2 3]	Remoting error:null
+910	:invoke	:cas	[3 2]
+910	:info	:cas	[3 2]	Remoting error:null
+924	:invoke	:read	nil
+924	:fail	:read	nil	Remoting error:null
+892	:invoke	:read	nil
+892	:fail	:read	nil	Remoting error:null
+841	:invoke	:write	4
+841	:info	:write	4	Remoting error:null
+908	:invoke	:write	2
+908	:info	:write	2	Remoting error:null
+924	:invoke	:read	nil
+924	:fail	:read	nil	Remoting error:null
+892	:invoke	:cas	[3 1]
+892	:info	:cas	[3 1]	Remoting error:null
+915	:invoke	:cas	[2 2]
+915	:info	:cas	[2 2]	Remoting error:null
+913	:invoke	:write	2
+924	:invoke	:write	3
+913	:info	:write	2	Remoting error:null
+924	:info	:write	3	Remoting error:null
+846	:invoke	:read	nil
+846	:fail	:read	nil	Remoting error:null
+920	:invoke	:write	3
+920	:info	:write	3	Remoting error:null
+897	:invoke	:cas	[1 1]
+897	:info	:cas	[1 1]	Remoting error:null
+929	:invoke	:read	nil
+929	:fail	:read	nil	Remoting error:null
+846	:invoke	:read	nil
+846	:fail	:read	nil	Remoting error:null
+918	:invoke	:write	1
+918	:info	:write	1	Remoting error:null
+925	:invoke	:read	nil
+846	:invoke	:write	0
+925	:fail	:read	nil	Remoting error:null
+846	:info	:write	0	Remoting error:null
+929	:invoke	:cas	[0 4]
+902	:invoke	:write	4
+929	:info	:cas	[0 4]	Remoting error:null
+902	:info	:write	4	Remoting error:null
+923	:invoke	:write	2
+923	:info	:write	2	Remoting error:null
+925	:invoke	:write	1
+925	:info	:write	1	Remoting error:null
+907	:invoke	:write	1
+907	:info	:write	1	Remoting error:null
+851	:invoke	:cas	[4 2]
+851	:info	:cas	[4 2]	Remoting error:null
+934	:invoke	:cas	[2 2]
+934	:info	:cas	[2 2]	Remoting error:null
+928	:invoke	:read	nil
+928	:fail	:read	nil	Remoting error:null
+912	:invoke	:read	nil
+912	:fail	:read	nil	Remoting error:null
+856	:invoke	:write	0
+856	:info	:write	0	Remoting error:null
+930	:invoke	:write	4
+930	:info	:write	4	Remoting error:null
+928	:invoke	:write	4
+928	:info	:write	4	Remoting error:null
+939	:invoke	:cas	[4 2]
+935	:invoke	:cas	[1 1]
+861	:invoke	:write	0
+935	:info	:cas	[1 1]	Remoting error:null
+939	:info	:cas	[4 2]	Remoting error:null
+861	:info	:write	0	Remoting error:null
+912	:invoke	:read	nil
+912	:fail	:read	nil	Remoting error:null
+944	:invoke	:cas	[3 3]
+933	:invoke	:write	1
+866	:invoke	:cas	[1 0]
+944	:info	:cas	[3 3]	Remoting error:null
+933	:info	:write	1	Remoting error:null
+866	:info	:cas	[1 0]	Remoting error:null
+912	:invoke	:read	nil
+912	:fail	:read	nil	Remoting error:null
+871	:invoke	:read	nil
+871	:fail	:read	nil	Remoting error:null
+940	:invoke	:read	nil
+940	:fail	:read	nil	Remoting error:null
+938	:invoke	:write	3
+938	:info	:write	3	Remoting error:null
+949	:invoke	:cas	[4 3]
+949	:info	:cas	[4 3]	Remoting error:null
+912	:invoke	:cas	[2 0]
+912	:info	:cas	[2 0]	Remoting error:null
+871	:invoke	:write	1
+871	:info	:write	1	Remoting error:null
+940	:invoke	:cas	[4 2]
+940	:info	:cas	[4 2]	Remoting error:null
+943	:invoke	:write	1
+943	:info	:write	1	Remoting error:null
+954	:invoke	:read	nil
+917	:invoke	:write	4
+954	:fail	:read	nil	Remoting error:null
+917	:info	:write	4	Remoting error:null
+876	:invoke	:cas	[1 3]
+876	:info	:cas	[1 3]	Remoting error:null
+922	:invoke	:read	nil
+922	:fail	:read	nil	Remoting error:null
+945	:invoke	:cas	[0 1]
+945	:info	:cas	[0 1]	Remoting error:null
+881	:invoke	:cas	[0 1]
+881	:info	:cas	[0 1]	Remoting error:null
+954	:invoke	:write	4
+954	:info	:write	4	Remoting error:null
+948	:invoke	:write	3
+948	:info	:write	3	Remoting error:null
+950	:invoke	:cas	[0 0]
+950	:info	:cas	[0 0]	Remoting error:null
+922	:invoke	:cas	[1 3]
+922	:info	:cas	[1 3]	Remoting error:null
+886	:invoke	:read	nil
+886	:fail	:read	nil	Remoting error:null
+953	:invoke	:write	2
+953	:info	:write	2	Remoting error:null
+959	:invoke	:write	4
+959	:info	:write	4	Remoting error:null
+886	:invoke	:cas	[2 2]
+886	:info	:cas	[2 2]	Remoting error:null
+955	:invoke	:read	nil
+955	:fail	:read	nil	Remoting error:null
+964	:invoke	:cas	[3 0]
+964	:info	:cas	[3 0]	Remoting error:null
+927	:invoke	:read	nil
+927	:fail	:read	nil	Remoting error:null
+958	:invoke	:cas	[0 3]
+891	:invoke	:read	nil
+958	:info	:cas	[0 3]	Remoting error:null
+891	:fail	:read	nil	Remoting error:null
+955	:invoke	:cas	[3 0]
+955	:info	:cas	[3 0]	Remoting error:null
+969	:invoke	:cas	[0 2]
+969	:info	:cas	[0 2]	Remoting error:null
+891	:invoke	:cas	[2 0]
+891	:info	:cas	[2 0]	Remoting error:null
+963	:invoke	:read	nil
+963	:fail	:read	nil	Remoting error:null
+927	:invoke	:cas	[3 4]
+927	:info	:cas	[3 4]	Remoting error:null
+960	:invoke	:read	nil
+960	:fail	:read	nil	Remoting error:null
+974	:invoke	:read	nil
+974	:fail	:read	nil	Remoting error:null
+896	:invoke	:write	0
+896	:info	:write	0	Remoting error:null
+932	:invoke	:cas	[3 2]
+932	:info	:cas	[3 2]	Remoting error:null
+963	:invoke	:read	nil
+963	:fail	:read	nil	Remoting error:null
+960	:invoke	:write	4
+960	:info	:write	4	Remoting error:null
+974	:invoke	:read	nil
+974	:fail	:read	nil	Remoting error:null
+901	:invoke	:cas	[0 1]
+901	:info	:cas	[0 1]	Remoting error:null
+937	:invoke	:cas	[1 2]
+937	:info	:cas	[1 2]	Remoting error:null
+963	:invoke	:write	2
+963	:info	:write	2	Remoting error:null
+906	:invoke	:write	3
+906	:info	:write	3	Remoting error:null
+965	:invoke	:cas	[0 0]
+965	:info	:cas	[0 0]	Remoting error:null
+974	:invoke	:read	nil
+974	:fail	:read	nil	Remoting error:null
+968	:invoke	:cas	[0 3]
+968	:info	:cas	[0 3]	Remoting error:null
+942	:invoke	:cas	[4 1]
+942	:info	:cas	[4 1]	Remoting error:null
+911	:invoke	:cas	[0 1]
+911	:info	:cas	[0 1]	Remoting error:null
+970	:invoke	:cas	[3 0]
+970	:info	:cas	[3 0]	Remoting error:null
+973	:invoke	:write	0
+973	:info	:write	0	Remoting error:null
+974	:invoke	:cas	[0 1]
+974	:info	:cas	[0 1]	Remoting error:null
+947	:invoke	:read	nil
+947	:fail	:read	nil	Remoting error:null
+979	:invoke	:write	3
+979	:info	:write	3	Remoting error:null
+916	:invoke	:read	nil
+916	:fail	:read	nil	Remoting error:null
+978	:invoke	:read	nil
+978	:fail	:read	nil	Remoting error:null
+975	:invoke	:write	4
+947	:invoke	:cas	[4 1]
+975	:info	:write	4	Remoting error:null
+947	:info	:cas	[4 1]	Remoting error:null
+916	:invoke	:cas	[2 1]
+916	:info	:cas	[2 1]	Remoting error:null
+984	:invoke	:cas	[2 0]
+984	:info	:cas	[2 0]	Remoting error:null
+978	:invoke	:cas	[0 3]
+978	:info	:cas	[0 3]	Remoting error:null
+952	:invoke	:read	nil
+952	:fail	:read	nil	Remoting error:null
+921	:invoke	:cas	[0 1]
+980	:invoke	:cas	[3 2]
+921	:info	:cas	[0 1]	Remoting error:null
+980	:info	:cas	[3 2]	Remoting error:null
+989	:invoke	:read	nil
+989	:fail	:read	nil	Remoting error:null
+952	:invoke	:cas	[0 2]
+983	:invoke	:read	nil
+952	:info	:cas	[0 2]	Remoting error:null
+983	:fail	:read	nil	Remoting error:null
+985	:invoke	:write	0
+985	:info	:write	0	Remoting error:null
+957	:invoke	:cas	[1 1]
+926	:invoke	:read	nil
+983	:invoke	:cas	[3 4]
+957	:info	:cas	[1 1]	Remoting error:null
+983	:info	:cas	[3 4]	Remoting error:null
+926	:fail	:read	nil	Remoting error:null
+989	:invoke	:write	3
+989	:info	:write	3	Remoting error:null
+988	:invoke	:write	3
+988	:info	:write	3	Remoting error:null
+990	:invoke	:write	0
+962	:invoke	:read	nil
+990	:info	:write	0	Remoting error:null
+962	:fail	:read	nil	Remoting error:null
+926	:invoke	:read	nil
+926	:fail	:read	nil	Remoting error:null
+994	:invoke	:read	nil
+994	:fail	:read	nil	Remoting error:null
+962	:invoke	:read	nil
+962	:fail	:read	nil	Remoting error:null
+995	:invoke	:write	3
+995	:info	:write	3	Remoting error:null
+993	:invoke	:write	0
+993	:info	:write	0	Remoting error:null
+926	:invoke	:cas	[1 0]
+926	:info	:cas	[1 0]	Remoting error:null
+994	:invoke	:read	nil
+:nemesis	:info	:stop	nil
+994	:fail	:read	nil	Remoting error:null
+962	:invoke	:write	0
+962	:info	:write	0	Remoting error:null
+1000	:invoke	:read	nil
+1000	:fail	:read	nil	Remoting error:null
+998	:invoke	:cas	[4 3]
+931	:invoke	:cas	[1 2]
+998	:info	:cas	[4 3]	Remoting error:null
+931	:info	:cas	[1 2]	Remoting error:null
+967	:invoke	:write	1
+967	:info	:write	1	Remoting error:null
+994	:invoke	:cas	[4 2]
+994	:info	:cas	[4 2]	Remoting error:null
+1000	:invoke	:read	nil
+1000	:fail	:read	nil	Remoting error:null
+936	:invoke	:read	nil
+936	:fail	:read	nil	Remoting error:null
+999	:invoke	:cas	[2 1]
+1003	:invoke	:read	nil
+999	:info	:cas	[2 1]	Remoting error:null
+1003	:fail	:read	nil	Remoting error:null
+972	:invoke	:read	nil
+972	:fail	:read	nil	Remoting error:null
+1000	:invoke	:read	nil
+1000	:fail	:read	nil	Remoting error:null
+936	:invoke	:write	1
+936	:info	:write	1	Remoting error:null
+1003	:invoke	:write	0
+1004	:invoke	:write	0
+1003	:info	:write	0	Remoting error:null
+1004	:info	:write	0	Remoting error:null
+972	:invoke	:cas	[0 3]
+972	:info	:cas	[0 3]	Remoting error:null
+1000	:invoke	:write	4
+1000	:info	:write	4	Remoting error:null
+941	:invoke	:write	3
+941	:info	:write	3	Remoting error:null
+1008	:invoke	:cas	[3 1]
+1009	:invoke	:read	nil
+1008	:info	:cas	[3 1]	Remoting error:null
+1009	:fail	:read	nil	Remoting error:null
+:nemesis	:info	:stop	{"jraft.host2" [:restarted "jraft.host2"], "jraft.host4" [:restarted "jraft.host4"], "jraft.host5" [:restarted "jraft.host5"], "jraft.host3" [:restarted "jraft.host3"]}
+1005	:invoke	:write	1
+1005	:info	:write	1	Remoting error:null
+946	:invoke	:write	1
+946	:info	:write	1	Remoting error:null
+1009	:invoke	:write	1
+1013	:invoke	:cas	[0 0]
+977	:invoke	:write	3
+1009	:info	:write	1	Remoting error:null
+977	:info	:write	3	Remoting error:null
+1013	:info	:cas	[0 0]	Remoting error:null
+951	:invoke	:read	nil
+951	:fail	:read	nil	Remoting error:null
+1014	:invoke	:cas	[3 1]
+1014	:info	:cas	[3 1]	Remoting error:null
+982	:invoke	:read	nil
+1010	:invoke	:cas	[2 4]
+982	:fail	:read	nil	Remoting error:null
+1010	:info	:cas	[2 4]	Remoting error:null
+1018	:invoke	:read	nil
+1019	:invoke	:write	0
+1018	:fail	:read	nil	Remoting error:null
+1019	:info	:write	0	Remoting error:null
+951	:invoke	:write	0
+982	:invoke	:write	0
+1015	:invoke	:read	nil
+951	:info	:write	0	Remoting error:null
+1015	:fail	:read	nil	Remoting error:null
+982	:info	:write	0	Remoting error:null
+1018	:invoke	:read	nil
+1018	:fail	:read	nil	Remoting error:null
+1024	:invoke	:cas	[2 3]
+1024	:info	:cas	[2 3]	Remoting error:null
+956	:invoke	:read	nil
+1015	:invoke	:write	1
+1015	:info	:write	1	Remoting error:null
+956	:fail	:read	nil	Remoting error:null
+987	:invoke	:read	nil
+1018	:invoke	:read	nil
+987	:fail	:read	nil	Remoting error:null
+1018	:fail	:read	nil	Remoting error:null
+987	:invoke	:read	nil
+987	:fail	:read	nil	Remoting error:null
+1018	:invoke	:cas	[3 0]
+1020	:invoke	:cas	[2 1]
+1029	:invoke	:read	nil
+1020	:info	:cas	[2 1]	Remoting error:null
+1018	:info	:cas	[3 0]	Remoting error:null
+1029	:fail	:read	nil	Remoting error:null
+956	:invoke	:write	1
+956	:info	:write	1	Remoting error:null
+987	:invoke	:read	nil
+987	:fail	:read	nil	Remoting error:null
+1025	:invoke	:cas	[4 1]
+1025	:info	:cas	[4 1]	Remoting error:null
+1023	:invoke	:read	nil
+1023	:fail	:read	nil	Remoting error:null
+1029	:invoke	:write	1
+1029	:info	:write	1	Remoting error:null
+1030	:invoke	:write	1
+1030	:info	:write	1	Remoting error:null
+987	:invoke	:write	1
+987	:info	:write	1	Remoting error:null
+961	:invoke	:cas	[4 3]
+961	:info	:cas	[4 3]	Remoting error:null
+1023	:invoke	:write	4
+1034	:invoke	:write	0
+1035	:invoke	:cas	[3 4]
+1023	:info	:write	4	Remoting error:null
+1035	:info	:cas	[3 4]	Remoting error:null
+1034	:info	:write	0	Remoting error:null
+992	:invoke	:cas	[1 1]
+992	:info	:cas	[1 1]	Remoting error:null
+966	:invoke	:read	nil
+966	:fail	:read	nil	Remoting error:null
+1039	:invoke	:write	4
+1039	:info	:write	4	Remoting error:null
+1028	:invoke	:read	nil
+1028	:fail	:read	nil	Remoting error:null
+1040	:invoke	:read	nil
+1040	:fail	:read	nil	Remoting error:null
+997	:invoke	:cas	[1 0]
+997	:info	:cas	[1 0]	Remoting error:null
+966	:invoke	:read	nil
+1028	:invoke	:read	nil
+966	:fail	:read	nil	Remoting error:null
+1028	:fail	:read	nil	Remoting error:null
+1040	:invoke	:cas	[2 0]
+1044	:invoke	:write	0
+1040	:info	:cas	[2 0]	Remoting error:null
+1044	:info	:write	0	Remoting error:null
+1002	:invoke	:cas	[0 3]
+1002	:info	:cas	[0 3]	Remoting error:null
+966	:invoke	:cas	[3 3]
+966	:info	:cas	[3 3]	Remoting error:null
+1049	:invoke	:cas	[3 4]
+1049	:info	:cas	[3 4]	Remoting error:null
+1045	:invoke	:read	nil
+1045	:fail	:read	nil	Remoting error:null
+1028	:invoke	:write	1
+1028	:info	:write	1	Remoting error:null
+1007	:invoke	:write	4
+1007	:info	:write	4	Remoting error:null
+1054	:invoke	:read	nil
+1054	:fail	:read	nil	Remoting error:null
+1045	:invoke	:read	nil
+1045	:fail	:read	nil	Remoting error:null
+971	:invoke	:read	nil
+971	:fail	:read	nil	Remoting error:null
+1033	:invoke	:write	4
+1033	:info	:write	4	Remoting error:null
+1054	:invoke	:cas	[4 4]
+1054	:info	:cas	[4 4]	Remoting error:null
+1045	:invoke	:read	nil
+1012	:invoke	:read	nil
+971	:invoke	:read	nil
+1045	:fail	:read	nil	Remoting error:null
+1012	:fail	:read	nil	Remoting error:null
+971	:fail	:read	nil	Remoting error:null
+1059	:invoke	:cas	[3 4]
+1059	:info	:cas	[3 4]	Remoting error:null
+1038	:invoke	:write	0
+1038	:info	:write	0	Remoting error:null
+1045	:invoke	:cas	[0 1]
+1045	:info	:cas	[0 1]	Remoting error:null
+1043	:invoke	:cas	[0 4]
+1012	:invoke	:write	2
+1043	:info	:cas	[0 4]	Remoting error:null
+1012	:info	:write	2	Remoting error:null
+971	:invoke	:write	2
+971	:info	:write	2	Remoting error:null
+1064	:invoke	:cas	[2 0]
+1064	:info	:cas	[2 0]	Remoting error:null
+1050	:invoke	:write	2
+976	:invoke	:read	nil
+1050	:info	:write	2	Remoting error:null
+976	:fail	:read	nil	Remoting error:null
+1048	:invoke	:read	nil
+1048	:fail	:read	nil	Remoting error:null
+1017	:invoke	:write	0
+1017	:info	:write	0	Remoting error:null
+1069	:invoke	:cas	[0 3]
+1069	:info	:cas	[0 3]	Remoting error:null
+1055	:invoke	:cas	[3 2]
+1055	:info	:cas	[3 2]	Remoting error:null
+1048	:invoke	:read	nil
+976	:invoke	:write	1
+1022	:invoke	:read	nil
+976	:info	:write	1	Remoting error:null
+1048	:fail	:read	nil	Remoting error:null
+1022	:fail	:read	nil	Remoting error:null
+1074	:invoke	:write	2
+1074	:info	:write	2	Remoting error:null
+1060	:invoke	:read	nil
+981	:invoke	:read	nil
+1079	:invoke	:write	2
+981	:fail	:read	nil	Remoting error:null
+1079	:info	:write	2	Remoting error:null
+1060	:fail	:read	nil	Remoting error:null
+1048	:invoke	:read	nil
+1048	:fail	:read	nil	Remoting error:null
+1022	:invoke	:cas	[4 4]
+1022	:info	:cas	[4 4]	Remoting error:null
+1084	:invoke	:read	nil
+1084	:fail	:read	nil	Remoting error:null
+981	:invoke	:write	4
+1048	:invoke	:cas	[1 0]
+981	:info	:write	4	Remoting error:null
+1048	:info	:cas	[1 0]	Remoting error:null
+1084	:invoke	:read	nil
+1060	:invoke	:write	2
+1084	:fail	:read	nil	Remoting error:null
+1060	:info	:write	2	Remoting error:null
+1027	:invoke	:read	nil
+1027	:fail	:read	nil	Remoting error:null
+986	:invoke	:read	nil
+986	:fail	:read	nil	Remoting error:null
+1084	:invoke	:read	nil
+1084	:fail	:read	nil	Remoting error:null
+1053	:invoke	:read	nil
+1053	:fail	:read	nil	Remoting error:null
+1065	:invoke	:cas	[4 1]
+1065	:info	:cas	[4 1]	Remoting error:null
+1027	:invoke	:write	4
+1027	:info	:write	4	Remoting error:null
+1084	:invoke	:write	4
+1084	:info	:write	4	Remoting error:null
+986	:invoke	:read	nil
+986	:fail	:read	nil	Remoting error:null
+1053	:invoke	:cas	[2 4]
+1053	:info	:cas	[2 4]	Remoting error:null
+1070	:invoke	:read	nil
+1070	:fail	:read	nil	Remoting error:null
+1058	:invoke	:cas	[2 4]
+1032	:invoke	:cas	[3 2]
+1058	:info	:cas	[2 4]	Remoting error:null
+1032	:info	:cas	[3 2]	Remoting error:null
+986	:invoke	:read	nil
+1089	:invoke	:write	3
+1089	:info	:write	3	Remoting error:null
+986	:fail	:read	nil	Remoting error:null
+1070	:invoke	:cas	[3 4]
+1070	:info	:cas	[3 4]	Remoting error:null
+1063	:invoke	:write	2
+1063	:info	:write	2	Remoting error:null
+1075	:invoke	:write	4
+1075	:info	:write	4	Remoting error:null
+986	:invoke	:write	4
+986	:info	:write	4	Remoting error:null
+1037	:invoke	:write	4
+1094	:invoke	:cas	[2 0]
+1037	:info	:write	4	Remoting error:null
+1094	:info	:cas	[2 0]	Remoting error:null
+1080	:invoke	:read	nil
+1080	:fail	:read	nil	Remoting error:null
+991	:invoke	:write	0
+1099	:invoke	:write	3
+991	:info	:write	0	Remoting error:null
+1068	:invoke	:read	nil
+1099	:info	:write	3	Remoting error:null
+1068	:fail	:read	nil	Remoting error:null
+1042	:invoke	:read	nil
+1042	:fail	:read	nil	Remoting error:null
+1080	:invoke	:write	1
+1080	:info	:write	1	Remoting error:null
+1068	:invoke	:read	nil
+1068	:fail	:read	nil	Remoting error:null
+996	:invoke	:write	3
+996	:info	:write	3	Remoting error:null
+1104	:invoke	:read	nil
+1104	:fail	:read	nil	Remoting error:null
+1104	:invoke	:cas	[0 2]
+1104	:info	:cas	[0 2]	Remoting error:null
+1042	:invoke	:cas	[1 2]
+1042	:info	:cas	[1 2]	Remoting error:null
+1085	:invoke	:read	nil
+1085	:fail	:read	nil	Remoting error:null
+1068	:invoke	:cas	[1 2]
+1068	:info	:cas	[1 2]	Remoting error:null
+1001	:invoke	:write	1
+1001	:info	:write	1	Remoting error:null
+1109	:invoke	:read	nil
+1109	:fail	:read	nil	Remoting error:null
+1085	:invoke	:write	2
+1085	:info	:write	2	Remoting error:null
+1073	:invoke	:cas	[4 3]
+1073	:info	:cas	[4 3]	Remoting error:null
+1109	:invoke	:read	nil
+1047	:invoke	:cas	[3 1]
+1109	:fail	:read	nil	Remoting error:null
+1047	:info	:cas	[3 1]	Remoting error:null
+1006	:invoke	:read	nil
+1006	:fail	:read	nil	Remoting error:null
+1078	:invoke	:write	1
+1078	:info	:write	1	Remoting error:null
+1090	:invoke	:write	3
+1090	:info	:write	3	Remoting error:null
+1109	:invoke	:write	3
+1109	:info	:write	3	Remoting error:null
+1052	:invoke	:write	3
+1052	:info	:write	3	Remoting error:null
+1006	:invoke	:cas	[1 1]
+1006	:info	:cas	[1 1]	Remoting error:null
+1095	:invoke	:cas	[0 4]
+1095	:info	:cas	[0 4]	Remoting error:null
+1083	:invoke	:cas	[4 3]
+1083	:info	:cas	[4 3]	Remoting error:null
+1057	:invoke	:write	4
+1057	:info	:write	4	Remoting error:null
+1114	:invoke	:cas	[1 3]
+1114	:info	:cas	[1 3]	Remoting error:null
+1011	:invoke	:read	nil
+1088	:invoke	:read	nil
+1011	:fail	:read	nil	Remoting error:null
+1088	:fail	:read	nil	Remoting error:null
+1119	:invoke	:write	3
+1119	:info	:write	3	Remoting error:null
+1100	:invoke	:write	0
+1100	:info	:write	0	Remoting error:null
+1062	:invoke	:cas	[4 0]
+1062	:info	:cas	[4 0]	Remoting error:null
+1088	:invoke	:read	nil
+1105	:invoke	:read	nil
+1088	:fail	:read	nil	Remoting error:null
+1105	:fail	:read	nil	Remoting error:null
+1011	:invoke	:cas	[0 3]
+1011	:info	:cas	[0 3]	Remoting error:null
+1124	:invoke	:read	nil
+1124	:fail	:read	nil	Remoting error:null
+1088	:invoke	:cas	[4 0]
+1088	:info	:cas	[4 0]	Remoting error:null
+1067	:invoke	:cas	[4 2]
+1067	:info	:cas	[4 2]	Remoting error:null
+1016	:invoke	:cas	[4 1]
+1016	:info	:cas	[4 1]	Remoting error:null
+1105	:invoke	:cas	[0 4]
+1105	:info	:cas	[0 4]	Remoting error:null
+1124	:invoke	:cas	[4 4]
+1124	:info	:cas	[4 4]	Remoting error:null
+1072	:invoke	:write	4
+1072	:info	:write	4	Remoting error:null
+1093	:invoke	:cas	[3 2]
+1110	:invoke	:read	nil
+1093	:info	:cas	[3 2]	Remoting error:null
+1110	:fail	:read	nil	Remoting error:null
+1129	:invoke	:cas	[2 0]
+1129	:info	:cas	[2 0]	Remoting error:null
+1021	:invoke	:read	nil
+1021	:fail	:read	nil	Remoting error:null
+1077	:invoke	:read	nil
+1077	:fail	:read	nil	Remoting error:null
+1134	:invoke	:cas	[4 0]
+1134	:info	:cas	[4 0]	Remoting error:null
+1110	:invoke	:write	1
+1110	:info	:write	1	Remoting error:null
+1098	:invoke	:cas	[3 2]
+1098	:info	:cas	[3 2]	Remoting error:null
+1021	:invoke	:cas	[0 0]
+1021	:info	:cas	[0 0]	Remoting error:null
+1115	:invoke	:cas	[0 3]
+1115	:info	:cas	[0 3]	Remoting error:null
+1139	:invoke	:write	4
+1139	:info	:write	4	Remoting error:null
+1077	:invoke	:write	2
+1077	:info	:write	2	Remoting error:null
+1103	:invoke	:write	0
+1103	:info	:write	0	Remoting error:null
+1120	:invoke	:cas	[2 4]
+1120	:info	:cas	[2 4]	Remoting error:null
+1082	:invoke	:cas	[4 1]
+1108	:invoke	:write	3
+1082	:info	:cas	[4 1]	Remoting error:null
+1108	:info	:write	3	Remoting error:null
+1026	:invoke	:write	3
+1026	:info	:write	3	Remoting error:null
+1144	:invoke	:read	nil
+1144	:fail	:read	nil	Remoting error:null
+1087	:invoke	:cas	[4 2]
+1087	:info	:cas	[4 2]	Remoting error:null
+1144	:invoke	:write	0
+1144	:info	:write	0	Remoting error:null
+1125	:invoke	:write	4
+1125	:info	:write	4	Remoting error:null
+1031	:invoke	:write	0
+1031	:info	:write	0	Remoting error:null
+1113	:invoke	:read	nil
+1113	:fail	:read	nil	Remoting error:null
+1149	:invoke	:write	4
+1036	:invoke	:read	nil
+1149	:info	:write	4	Remoting error:null
+1036	:fail	:read	nil	Remoting error:null
+1092	:invoke	:cas	[0 0]
+1092	:info	:cas	[0 0]	Remoting error:null
+1130	:invoke	:read	nil
+1130	:fail	:read	nil	Remoting error:null
+1113	:invoke	:write	1
+1113	:info	:write	1	Remoting error:null
+1097	:invoke	:read	nil
+1097	:fail	:read	nil	Remoting error:null
+1130	:invoke	:cas	[2 1]
+1130	:info	:cas	[2 1]	Remoting error:null
+1036	:invoke	:cas	[0 4]
+1036	:info	:cas	[0 4]	Remoting error:null
+1154	:invoke	:read	nil
+1154	:fail	:read	nil	Remoting error:null
+1118	:invoke	:read	nil
+1118	:fail	:read	nil	Remoting error:null
+1041	:invoke	:cas	[3 4]
+1041	:info	:cas	[3 4]	Remoting error:null
+1097	:invoke	:read	nil
+1097	:fail	:read	nil	Remoting error:null
+1118	:invoke	:cas	[4 1]
+1118	:info	:cas	[4 1]	Remoting error:null
+1135	:invoke	:write	3
+1135	:info	:write	3	Remoting error:null
+1154	:invoke	:cas	[4 4]
+1154	:info	:cas	[4 4]	Remoting error:null
+1140	:invoke	:write	1
+1140	:info	:write	1	Remoting error:null
+1097	:invoke	:read	nil
+1097	:fail	:read	nil	Remoting error:null
+1123	:invoke	:cas	[3 4]
+1123	:info	:cas	[3 4]	Remoting error:null
+1046	:invoke	:cas	[0 2]
+1046	:info	:cas	[0 2]	Remoting error:null
+1159	:invoke	:cas	[3 0]
+1159	:info	:cas	[3 0]	Remoting error:null
+1145	:invoke	:cas	[3 1]
+1145	:info	:cas	[3 1]	Remoting error:null
+1051	:invoke	:read	nil
+1051	:fail	:read	nil	Remoting error:null
+1097	:invoke	:write	0
+1097	:info	:write	0	Remoting error:null
+1128	:invoke	:write	4
+1128	:info	:write	4	Remoting error:null
+1150	:invoke	:read	nil
+1150	:fail	:read	nil	Remoting error:null
+1164	:invoke	:write	0
+1164	:info	:write	0	Remoting error:null
+1150	:invoke	:cas	[2 2]
+1150	:info	:cas	[2 2]	Remoting error:null
+1051	:invoke	:cas	[3 2]
+1051	:info	:cas	[3 2]	Remoting error:null
+1133	:invoke	:write	1
+1102	:invoke	:read	nil
+1133	:info	:write	1	Remoting error:null
+1102	:fail	:read	nil	Remoting error:null
+1169	:invoke	:read	nil
+1169	:fail	:read	nil	Remoting error:null
+1138	:invoke	:write	3
+1138	:info	:write	3	Remoting error:null
+1102	:invoke	:read	nil
+1102	:fail	:read	nil	Remoting error:null
+1155	:invoke	:cas	[3 0]
+1155	:info	:cas	[3 0]	Remoting error:null
+1169	:invoke	:cas	[0 1]
+1169	:info	:cas	[0 1]	Remoting error:null
+1056	:invoke	:cas	[4 1]
+1056	:info	:cas	[4 1]	Remoting error:null
+1143	:invoke	:read	nil
+1143	:fail	:read	nil	Remoting error:null
+1174	:invoke	:read	nil
+1174	:fail	:read	nil	Remoting error:null
+1102	:invoke	:write	0
+1102	:info	:write	0	Remoting error:null
+1143	:invoke	:read	nil
+1160	:invoke	:read	nil
+1143	:fail	:read	nil	Remoting error:null
+1160	:fail	:read	nil	Remoting error:null
+1061	:invoke	:read	nil
+1061	:fail	:read	nil	Remoting error:null
+1160	:invoke	:cas	[4 0]
+1160	:info	:cas	[4 0]	Remoting error:null
+1143	:invoke	:write	1
+1143	:info	:write	1	Remoting error:null
+1174	:invoke	:write	4
+1174	:info	:write	4	Remoting error:null
+1107	:invoke	:write	4
+1107	:info	:write	4	Remoting error:null
+1061	:invoke	:read	nil
+1061	:fail	:read	nil	Remoting error:null
+1165	:invoke	:read	nil
+1165	:fail	:read	nil	Remoting error:null
+1148	:invoke	:read	nil
+1148	:fail	:read	nil	Remoting error:null
+1061	:invoke	:read	nil
+1061	:fail	:read	nil	Remoting error:null
+1179	:invoke	:read	nil
+1179	:fail	:read	nil	Remoting error:null
+1112	:invoke	:write	0
+1112	:info	:write	0	Remoting error:null
+1148	:invoke	:read	nil
+1148	:fail	:read	nil	Remoting error:null
+1117	:invoke	:cas	[4 1]
+1117	:info	:cas	[4 1]	Remoting error:null
+1179	:invoke	:cas	[0 0]
+1165	:invoke	:write	3
+1179	:info	:cas	[0 0]	Remoting error:null
+1165	:info	:write	3	Remoting error:null
+1061	:invoke	:write	0
+1061	:info	:write	0	Remoting error:null
+1148	:invoke	:write	3
+1148	:info	:write	3	Remoting error:null
+1122	:invoke	:write	2
+1122	:info	:write	2	Remoting error:null
+1153	:invoke	:cas	[0 1]
+1153	:info	:cas	[0 1]	Remoting error:null
+1184	:invoke	:read	nil
+1066	:invoke	:write	0
+1184	:fail	:read	nil	Remoting error:null
+1066	:info	:write	0	Remoting error:null
+1170	:invoke	:read	nil
+1170	:fail	:read	nil	Remoting error:null
+1071	:invoke	:read	nil
+1071	:fail	:read	nil	Remoting error:null
+1158	:invoke	:write	4
+1158	:info	:write	4	Remoting error:null
+1184	:invoke	:read	nil
+1127	:invoke	:write	0
+1127	:info	:write	0	Remoting error:null
+1184	:fail	:read	nil	Remoting error:null
+1170	:invoke	:cas	[4 4]
+1170	:info	:cas	[4 4]	Remoting error:null
+:nemesis	:info	:start	nil
+1163	:invoke	:read	nil
+1163	:fail	:read	nil	Remoting error:null
+1184	:invoke	:read	nil
+1184	:fail	:read	nil	Remoting error:null
+1132	:invoke	:write	3
+1132	:info	:write	3	Remoting error:null
+1071	:invoke	:cas	[2 4]
+1071	:info	:cas	[2 4]	Remoting error:null
+1175	:invoke	:write	2
+1175	:info	:write	2	Remoting error:null
+1137	:invoke	:read	nil
+1163	:invoke	:read	nil
+1184	:invoke	:cas	[0 0]
+:nemesis	:info	:start	{"jraft.host5" [:killed "jraft.host5"]}
+1076	:invoke	:write	0
+1180	:invoke	:read	nil
+1076	:info	:write	0	Remoting error:null
+1184	:info	:cas	[0 0]	Remoting error:null
+1137	:fail	:read	nil	Remoting error:null
+1180	:fail	:read	nil	Remoting error:null
+1163	:fail	:read	nil	Remoting error:null
+1189	:invoke	:write	4
+1189	:info	:write	4	Remoting error:null
+1081	:invoke	:write	4
+1081	:info	:write	4	Remoting error:null
+1137	:invoke	:cas	[0 0]
+1137	:info	:cas	[0 0]	Remoting error:null
+1163	:invoke	:read	nil
+1163	:fail	:read	nil	Remoting error:null
+1194	:invoke	:cas	[1 2]
+1194	:info	:cas	[1 2]	Remoting error:null
+1180	:invoke	:write	1
+1180	:info	:write	1	Remoting error:null
+1086	:invoke	:read	nil
+1086	:fail	:read	nil	Remoting error:null
+1199	:invoke	:cas	[2 3]
+1142	:invoke	:cas	[0 2]
+1199	:info	:cas	[2 3]	Remoting error:null
+1142	:info	:cas	[0 2]	Remoting error:null
+1185	:invoke	:cas	[1 3]
+1185	:info	:cas	[1 3]	Remoting error:null
+1163	:invoke	:write	2
+1163	:info	:write	2	Remoting error:null
+1147	:invoke	:write	0
+1086	:invoke	:cas	[4 1]
+1147	:info	:write	0	Remoting error:null
+1086	:info	:cas	[4 1]	Remoting error:null
+1204	:invoke	:read	nil
+1204	:fail	:read	nil	Remoting error:null
+1168	:invoke	:read	nil
+1190	:invoke	:write	0
+1168	:fail	:read	nil	Remoting error:null
+1190	:info	:write	0	Remoting error:null
+1168	:invoke	:cas	[1 0]
+1152	:invoke	:write	2
+1168	:info	:cas	[1 0]	Remoting error:null
+1152	:info	:write	2	Remoting error:null
+1091	:invoke	:write	3
+1091	:info	:write	3	Remoting error:null
+1204	:invoke	:write	2
+1204	:info	:write	2	Remoting error:null
+1195	:invoke	:read	nil
+1195	:fail	:read	nil	Remoting error:null
+1096	:invoke	:write	3
+1157	:invoke	:cas	[3 0]
+1096	:info	:write	3	Remoting error:null
+1157	:info	:cas	[3 0]	Remoting error:null
+1173	:invoke	:write	3
+1173	:info	:write	3	Remoting error:null
+1209	:invoke	:write	1
+1209	:info	:write	1	Remoting error:null
+1101	:invoke	:write	0
+1101	:info	:write	0	Remoting error:null
+1195	:invoke	:cas	[2 4]
+1195	:info	:cas	[2 4]	Remoting error:null
+1214	:invoke	:read	nil
+1214	:fail	:read	nil	Remoting error:null
+1162	:invoke	:write	4
+1162	:info	:write	4	Remoting error:null
+1106	:invoke	:read	nil
+1106	:fail	:read	nil	Remoting error:null
+1178	:invoke	:cas	[3 0]
+1178	:info	:cas	[3 0]	Remoting error:null
+1214	:invoke	:cas	[2 3]
+1214	:info	:cas	[2 3]	Remoting error:null
+1167	:invoke	:read	nil
+1167	:fail	:read	nil	Remoting error:null
+1106	:invoke	:write	4
+1106	:info	:write	4	Remoting error:null
+1200	:invoke	:cas	[0 0]
+1200	:info	:cas	[0 0]	Remoting error:null
+1205	:invoke	:cas	[0 2]
+1219	:invoke	:read	nil
+1205	:info	:cas	[0 2]	Remoting error:null
+1219	:fail	:read	nil	Remoting error:null
+1183	:invoke	:write	2
+1183	:info	:write	2	Remoting error:null
+1111	:invoke	:write	0
+1111	:info	:write	0	Remoting error:null
+1167	:invoke	:read	nil
+1167	:fail	:read	nil	Remoting error:null
+1188	:invoke	:read	nil
+1188	:fail	:read	nil	Remoting error:null
+1210	:invoke	:cas	[4 4]
+1210	:info	:cas	[4 4]	Remoting error:null
+1116	:invoke	:read	nil
+1116	:fail	:read	nil	Remoting error:null
+1219	:invoke	:write	2
+1219	:info	:write	2	Remoting error:null
+1167	:invoke	:write	2
+1188	:invoke	:write	0
+1188	:info	:write	0	Remoting error:null
+1167	:info	:write	2	Remoting error:null
+1116	:invoke	:cas	[4 2]
+1116	:info	:cas	[4 2]	Remoting error:null
+1215	:invoke	:cas	[4 4]
+1215	:info	:cas	[4 4]	Remoting error:null
+1224	:invoke	:read	nil
+1224	:fail	:read	nil	Remoting error:null
+1172	:invoke	:read	nil
+1172	:fail	:read	nil	Remoting error:null
+1193	:invoke	:write	3
+1193	:info	:write	3	Remoting error:null
+1121	:invoke	:write	3
+1121	:info	:write	3	Remoting error:null
+1220	:invoke	:write	0
+1220	:info	:write	0	Remoting error:null
+1224	:invoke	:write	4
+1224	:info	:write	4	Remoting error:null
+1126	:invoke	:write	4
+1172	:invoke	:read	nil
+1126	:info	:write	4	Remoting error:null
+1172	:fail	:read	nil	Remoting error:null
+1198	:invoke	:read	nil
+1198	:fail	:read	nil	Remoting error:null
+1225	:invoke	:cas	[3 3]
+1225	:info	:cas	[3 3]	Remoting error:null
+1229	:invoke	:read	nil
+1131	:invoke	:cas	[4 4]
+1229	:fail	:read	nil	Remoting error:null
+1131	:info	:cas	[4 4]	Remoting error:null
+1172	:invoke	:cas	[4 0]
+1172	:info	:cas	[4 0]	Remoting error:null
+1230	:invoke	:write	4
+1230	:info	:write	4	Remoting error:null
+1198	:invoke	:cas	[2 1]
+1198	:info	:cas	[2 1]	Remoting error:null
+1136	:invoke	:write	1
+1136	:info	:write	1	Remoting error:null
+1229	:invoke	:write	2
+1229	:info	:write	2	Remoting error:null
+1177	:invoke	:cas	[4 0]
+1177	:info	:cas	[4 0]	Remoting error:null
+1203	:invoke	:read	nil
+1203	:fail	:read	nil	Remoting error:null
+1141	:invoke	:read	nil
+1141	:fail	:read	nil	Remoting error:null
+1235	:invoke	:read	nil
+1235	:fail	:read	nil	Remoting error:null
+1234	:invoke	:cas	[2 3]
+1234	:info	:cas	[2 3]	Remoting error:null
+1182	:invoke	:write	0
+1182	:info	:write	0	Remoting error:null
+1203	:invoke	:read	nil
+1203	:fail	:read	nil	Remoting error:null
+1235	:invoke	:read	nil
+1141	:invoke	:cas	[2 2]
+1235	:fail	:read	nil	Remoting error:null
+1141	:info	:cas	[2 2]	Remoting error:null
+1239	:invoke	:write	4
+1239	:info	:write	4	Remoting error:null
+1187	:invoke	:cas	[1 2]
+1187	:info	:cas	[1 2]	Remoting error:null
+1203	:invoke	:write	3
+1203	:info	:write	3	Remoting error:null
+1244	:invoke	:write	1
+1235	:invoke	:cas	[2 0]
+1244	:info	:write	1	Remoting error:null
+1235	:info	:cas	[2 0]	Remoting error:null
+1146	:invoke	:cas	[3 3]
+1146	:info	:cas	[3 3]	Remoting error:null
+1192	:invoke	:cas	[4 3]
+1192	:info	:cas	[4 3]	Remoting error:null
+1208	:invoke	:write	1
+1208	:info	:write	1	Remoting error:null
+1240	:invoke	:read	nil
+1240	:fail	:read	nil	Remoting error:null
+1249	:invoke	:read	nil
+1249	:fail	:read	nil	Remoting error:null
+1151	:invoke	:write	1
+1151	:info	:write	1	Remoting error:null
+1240	:invoke	:cas	[0 3]
+1240	:info	:cas	[0 3]	Remoting error:null
+1197	:invoke	:read	nil
+1197	:fail	:read	nil	Remoting error:null
+1249	:invoke	:read	nil
+1249	:fail	:read	nil	Remoting error:null
+1213	:invoke	:read	nil
+1213	:fail	:read	nil	Remoting error:null
+1249	:invoke	:write	0
+1245	:invoke	:cas	[4 2]
+1249	:info	:write	0	Remoting error:null
+1245	:info	:cas	[4 2]	Remoting error:null
+1197	:invoke	:write	0
+1156	:invoke	:write	0
+1197	:info	:write	0	Remoting error:null
+1156	:info	:write	0	Remoting error:null
+1213	:invoke	:cas	[3 0]
+1213	:info	:cas	[3 0]	Remoting error:null
+1250	:invoke	:write	1
+1250	:info	:write	1	Remoting error:null
+1161	:invoke	:write	4
+1161	:info	:write	4	Remoting error:null
+1202	:invoke	:write	0
+1254	:invoke	:cas	[1 2]
+1202	:info	:write	0	Remoting error:null
+1254	:info	:cas	[1 2]	Remoting error:null
+1218	:invoke	:read	nil
+1218	:fail	:read	nil	Remoting error:null
+1255	:invoke	:write	1
+1255	:info	:write	1	Remoting error:null
+1166	:invoke	:write	1
+1259	:invoke	:cas	[3 2]
+1166	:info	:write	1	Remoting error:null
+1259	:info	:cas	[3 2]	Remoting error:null
+1207	:invoke	:write	0
+1207	:info	:write	0	Remoting error:null
+1218	:invoke	:write	2
+1264	:invoke	:cas	[2 2]
+1218	:info	:write	2	Remoting error:null
+1264	:info	:cas	[2 2]	Remoting error:null
+1171	:invoke	:write	3
+1171	:info	:write	3	Remoting error:null
+1269	:invoke	:cas	[2 0]
+1269	:info	:cas	[2 0]	Remoting error:null
+1260	:invoke	:cas	[2 4]
+1260	:info	:cas	[2 4]	Remoting error:null
+1223	:invoke	:cas	[2 0]
+1223	:info	:cas	[2 0]	Remoting error:null
+1212	:invoke	:write	2
+1212	:info	:write	2	Remoting error:null
+1176	:invoke	:cas	[1 1]
+1176	:info	:cas	[1 1]	Remoting error:null
+1265	:invoke	:write	4
+1265	:info	:write	4	Remoting error:null
+1228	:invoke	:write	2
+1228	:info	:write	2	Remoting error:null
+1274	:invoke	:read	nil
+1274	:fail	:read	nil	Remoting error:null
+1217	:invoke	:write	3
+1217	:info	:write	3	Remoting error:null
+1181	:invoke	:write	1
+1181	:info	:write	1	Remoting error:null
+1233	:invoke	:cas	[1 0]
+1233	:info	:cas	[1 0]	Remoting error:null
+1270	:invoke	:write	0
+1270	:info	:write	0	Remoting error:null
+1222	:invoke	:cas	[0 3]
+1222	:info	:cas	[0 3]	Remoting error:null
+1274	:invoke	:cas	[1 2]
+1274	:info	:cas	[1 2]	Remoting error:null
+1186	:invoke	:read	nil
+1186	:fail	:read	nil	Remoting error:null
+1227	:invoke	:read	nil
+1227	:fail	:read	nil	Remoting error:null
+1275	:invoke	:cas	[2 4]
+1275	:info	:cas	[2 4]	Remoting error:null
+1238	:invoke	:read	nil
+1238	:fail	:read	nil	Remoting error:null
+1186	:invoke	:write	1
+1186	:info	:write	1	Remoting error:null
+1279	:invoke	:write	0
+1279	:info	:write	0	Remoting error:null
+1238	:invoke	:read	nil
+1227	:invoke	:write	2
+1238	:fail	:read	nil	Remoting error:null
+1227	:info	:write	2	Remoting error:null
+1191	:invoke	:write	3
+1191	:info	:write	3	Remoting error:null
+1280	:invoke	:read	nil
+1280	:fail	:read	nil	Remoting error:null
+1284	:invoke	:cas	[3 2]
+1284	:info	:cas	[3 2]	Remoting error:null
+1232	:invoke	:read	nil
+1232	:fail	:read	nil	Remoting error:null
+1238	:invoke	:read	nil
+1238	:fail	:read	nil	Remoting error:null
+1232	:invoke	:write	3
+1232	:info	:write	3	Remoting error:null
+1196	:invoke	:cas	[1 3]
+1196	:info	:cas	[1 3]	Remoting error:null
+1280	:invoke	:cas	[1 2]
+1289	:invoke	:cas	[4 3]
+1280	:info	:cas	[1 2]	Remoting error:null
+1289	:info	:cas	[4 3]	Remoting error:null
+1237	:invoke	:write	3
+1237	:info	:write	3	Remoting error:null
+1238	:invoke	:read	nil
+1238	:fail	:read	nil	Remoting error:null
+1285	:invoke	:cas	[4 0]
+1285	:info	:cas	[4 0]	Remoting error:null
+1242	:invoke	:write	4
+1242	:info	:write	4	Remoting error:null
+1294	:invoke	:read	nil
+1294	:fail	:read	nil	Remoting error:null
+1201	:invoke	:cas	[4 2]
+1201	:info	:cas	[4 2]	Remoting error:null
+1238	:invoke	:cas	[3 1]
+1238	:info	:cas	[3 1]	Remoting error:null
+1294	:invoke	:cas	[0 0]
+1294	:info	:cas	[0 0]	Remoting error:null
+1290	:invoke	:read	nil
+1290	:fail	:read	nil	Remoting error:null
+1206	:invoke	:read	nil
+1206	:fail	:read	nil	Remoting error:null
+1247	:invoke	:read	nil
+1247	:fail	:read	nil	Remoting error:null
+1243	:invoke	:write	1
+1243	:info	:write	1	Remoting error:null
+1206	:invoke	:write	0
+1206	:info	:write	0	Remoting error:null
+1290	:invoke	:write	2
+1299	:invoke	:read	nil
+1290	:info	:write	2	Remoting error:null
+1299	:fail	:read	nil	Remoting error:null
+1247	:invoke	:read	nil
+1247	:fail	:read	nil	Remoting error:null
+1248	:invoke	:read	nil
+1248	:fail	:read	nil	Remoting error:null
+1211	:invoke	:cas	[3 4]
+1299	:invoke	:read	nil
+1211	:info	:cas	[3 4]	Remoting error:null
+1299	:fail	:read	nil	Remoting error:null
+1295	:invoke	:read	nil
+1295	:fail	:read	nil	Remoting error:null
+1248	:invoke	:cas	[0 4]
+1248	:info	:cas	[0 4]	Remoting error:null
+1247	:invoke	:cas	[4 3]
+1247	:info	:cas	[4 3]	Remoting error:null
+1299	:invoke	:read	nil
+1299	:fail	:read	nil	Remoting error:null
+1216	:invoke	:cas	[0 2]
+1216	:info	:cas	[0 2]	Remoting error:null
+1295	:invoke	:cas	[4 1]
+1295	:info	:cas	[4 1]	Remoting error:null
+1252	:invoke	:cas	[2 4]
+1252	:info	:cas	[2 4]	Remoting error:null
+1299	:invoke	:write	2
+1299	:info	:write	2	Remoting error:null
+1253	:invoke	:cas	[2 2]
+1253	:info	:cas	[2 2]	Remoting error:null
+1221	:invoke	:cas	[2 1]
+1257	:invoke	:cas	[1 4]
+1221	:info	:cas	[2 1]	Remoting error:null
+1257	:info	:cas	[1 4]	Remoting error:null
+1304	:invoke	:read	nil
+1304	:fail	:read	nil	Remoting error:null
+1258	:invoke	:read	nil
+1300	:invoke	:write	3
+1258	:fail	:read	nil	Remoting error:null
+1300	:info	:write	3	Remoting error:null
+1258	:invoke	:cas	[2 1]
+1226	:invoke	:cas	[1 1]
+1258	:info	:cas	[2 1]	Remoting error:null
+1226	:info	:cas	[1 1]	Remoting error:null
+1262	:invoke	:read	nil
+1262	:fail	:read	nil	Remoting error:null
+1304	:invoke	:read	nil
+1304	:fail	:read	nil	Remoting error:null
+1305	:invoke	:cas	[3 3]
+1262	:invoke	:read	nil
+1305	:info	:cas	[3 3]	Remoting error:null
+1262	:fail	:read	nil	Remoting error:null
+1304	:invoke	:cas	[4 4]
+1304	:info	:cas	[4 4]	Remoting error:null
+1263	:invoke	:read	nil
+1263	:fail	:read	nil	Remoting error:null
+1231	:invoke	:cas	[3 0]
+1231	:info	:cas	[3 0]	Remoting error:null
+1310	:invoke	:cas	[4 4]
+1310	:info	:cas	[4 4]	Remoting error:null
+1262	:invoke	:write	4
+1262	:info	:write	4	Remoting error:null
+1309	:invoke	:cas	[0 3]
+1309	:info	:cas	[0 3]	Remoting error:null
+1315	:invoke	:write	4
+1315	:info	:write	4	Remoting error:null
+1236	:invoke	:write	2
+1236	:info	:write	2	Remoting error:null
+1263	:invoke	:read	nil
+1263	:fail	:read	nil	Remoting error:null
+1267	:invoke	:write	3
+1267	:info	:write	3	Remoting error:null
+1241	:invoke	:cas	[4 2]
+1241	:info	:cas	[4 2]	Remoting error:null
+1272	:invoke	:read	nil
+1272	:fail	:read	nil	Remoting error:null
+1314	:invoke	:write	3
+1314	:info	:write	3	Remoting error:null
+1320	:invoke	:read	nil
+1320	:fail	:read	nil	Remoting error:null
+1272	:invoke	:read	nil
+1246	:invoke	:cas	[1 2]
+1272	:fail	:read	nil	Remoting error:null
+1246	:info	:cas	[1 2]	Remoting error:null
+1263	:invoke	:read	nil
+1263	:fail	:read	nil	Remoting error:null
+1319	:invoke	:write	3
+1319	:info	:write	3	Remoting error:null
+1320	:invoke	:cas	[1 0]
+1251	:invoke	:cas	[3 2]
+1320	:info	:cas	[1 0]	Remoting error:null
+1251	:info	:cas	[3 2]	Remoting error:null
+1263	:invoke	:write	1
+1263	:info	:write	1	Remoting error:null
+1272	:invoke	:write	4
+1272	:info	:write	4	Remoting error:null
+1324	:invoke	:cas	[2 1]
+1324	:info	:cas	[2 1]	Remoting error:null
+1325	:invoke	:cas	[4 1]
+1325	:info	:cas	[4 1]	Remoting error:null
+1256	:invoke	:cas	[4 4]
+1256	:info	:cas	[4 4]	Remoting error:null
+1268	:invoke	:cas	[3 3]
+1268	:info	:cas	[3 3]	Remoting error:null
+1261	:invoke	:read	nil
+1261	:fail	:read	nil	Remoting error:null
+1277	:invoke	:read	nil
+1277	:fail	:read	nil	Remoting error:null
+1329	:invoke	:cas	[2 3]
+1329	:info	:cas	[2 3]	Remoting error:null
+1273	:invoke	:read	nil
+1273	:fail	:read	nil	Remoting error:null
+1330	:invoke	:write	1
+1330	:info	:write	1	Remoting error:null
+1277	:invoke	:write	1
+1277	:info	:write	1	Remoting error:null
+1261	:invoke	:write	1
+1261	:info	:write	1	Remoting error:null
+1334	:invoke	:write	0
+1334	:info	:write	0	Remoting error:null
+1335	:invoke	:cas	[0 1]
+1273	:invoke	:read	nil
+1335	:info	:cas	[0 1]	Remoting error:null
+1273	:fail	:read	nil	Remoting error:null
+1282	:invoke	:read	nil
+1282	:fail	:read	nil	Remoting error:null
+1340	:invoke	:read	nil
+1340	:fail	:read	nil	Remoting error:null
+1339	:invoke	:read	nil
+1339	:fail	:read	nil	Remoting error:null
+1273	:invoke	:cas	[0 2]
+1273	:info	:cas	[0 2]	Remoting error:null
+1266	:invoke	:write	1
+1266	:info	:write	1	Remoting error:null
+1282	:invoke	:write	3
+1282	:info	:write	3	Remoting error:null
+1340	:invoke	:cas	[4 2]
+1339	:invoke	:read	nil
+1340	:info	:cas	[4 2]	Remoting error:null
+1339	:fail	:read	nil	Remoting error:null
+1278	:invoke	:write	1
+1278	:info	:write	1	Remoting error:null
+1271	:invoke	:read	nil
+1271	:fail	:read	nil	Remoting error:null
+1339	:invoke	:read	nil
+1339	:fail	:read	nil	Remoting error:null
+1287	:invoke	:cas	[2 3]
+1287	:info	:cas	[2 3]	Remoting error:null
+1283	:invoke	:write	2
+1283	:info	:write	2	Remoting error:null
+1345	:invoke	:cas	[2 3]
+1271	:invoke	:cas	[0 2]
+1345	:info	:cas	[2 3]	Remoting error:null
+1271	:info	:cas	[0 2]	Remoting error:null
+1288	:invoke	:read	nil
+1288	:fail	:read	nil	Remoting error:null
+1292	:invoke	:write	0
+1339	:invoke	:read	nil
+1292	:info	:write	0	Remoting error:null
+1339	:fail	:read	nil	Remoting error:null
+:nemesis	:info	:stop	nil
+1350	:invoke	:write	1
+1350	:info	:write	1	Remoting error:null
+1276	:invoke	:read	nil
+1288	:invoke	:write	4
+1276	:fail	:read	nil	Remoting error:null
+1288	:info	:write	4	Remoting error:null
+1297	:invoke	:write	1
+1297	:info	:write	1	Remoting error:null
+1293	:invoke	:cas	[2 3]
+1293	:info	:cas	[2 3]	Remoting error:null
+1339	:invoke	:write	4
+1339	:info	:write	4	Remoting error:null
+1355	:invoke	:cas	[4 4]
+1276	:invoke	:cas	[2 3]
+1355	:info	:cas	[4 4]	Remoting error:null
+1276	:info	:cas	[2 3]	Remoting error:null
+1302	:invoke	:write	4
+1302	:info	:write	4	Remoting error:null
+:nemesis	:info	:stop	{"jraft.host5" [:restarted "jraft.host5"]}
+1360	:invoke	:read	nil
+1360	:fail	:read	nil	Remoting error:null
+1298	:invoke	:read	nil
+1298	:fail	:read	nil	Remoting error:null
+1281	:invoke	:write	0
+1344	:invoke	:read	nil
+1281	:info	:write	0	Remoting error:null
+1344	:fail	:read	nil	Remoting error:null
+1307	:invoke	:write	1
+1298	:invoke	:read	nil
+1307	:info	:write	1	Remoting error:null
+1298	:fail	:read	nil	Remoting error:null
+1360	:invoke	:read	nil
+1360	:fail	:read	nil	Remoting error:null
+1344	:invoke	:read	nil
+1344	:fail	:read	nil	Remoting error:null
+1312	:invoke	:read	nil
+1312	:fail	:read	nil	Remoting error:null
+1286	:invoke	:read	nil
+1298	:invoke	:write	1
+1286	:fail	:read	nil	Remoting error:null
+1298	:info	:write	1	Remoting error:null
+1360	:invoke	:cas	[0 3]
+1360	:info	:cas	[0 3]	Remoting error:null
+1344	:invoke	:cas	[1 2]
+1344	:info	:cas	[1 2]	Remoting error:null
+1286	:invoke	:read	nil
+1286	:fail	:read	nil	Remoting error:null
+1303	:invoke	:read	nil
+1303	:fail	:read	nil	Remoting error:null
+1312	:invoke	:write	1
+1312	:info	:write	1	Remoting error:null
+1349	:invoke	:read	nil
+1349	:fail	:read	nil	Remoting error:null
+1286	:invoke	:write	4
+1286	:info	:write	4	Remoting error:null
+1365	:invoke	:write	0
+1365	:info	:write	0	Remoting error:null
+1291	:invoke	:write	2
+1291	:info	:write	2	Remoting error:null
+1303	:invoke	:write	0
+1303	:info	:write	0	Remoting error:null
+1317	:invoke	:write	3
+1317	:info	:write	3	Remoting error:null
+1349	:invoke	:write	3
+1370	:invoke	:read	nil
+1349	:info	:write	3	Remoting error:null
+1370	:fail	:read	nil	Remoting error:null
+1296	:invoke	:write	1
+1296	:info	:write	1	Remoting error:null
+1322	:invoke	:cas	[0 1]
+1322	:info	:cas	[0 1]	Remoting error:null
+1308	:invoke	:write	3
+1308	:info	:write	3	Remoting error:null
+1327	:invoke	:write	2
+1327	:info	:write	2	Remoting error:null
+1370	:invoke	:cas	[1 4]
+1370	:info	:cas	[1 4]	Remoting error:null
+1354	:invoke	:cas	[2 2]
+1301	:invoke	:write	4
+1354	:info	:cas	[2 2]	Remoting error:null
+1301	:info	:write	4	Remoting error:null
+1313	:invoke	:read	nil
+1313	:fail	:read	nil	Remoting error:null
+1359	:invoke	:read	nil
+1359	:fail	:read	nil	Remoting error:null
+1332	:invoke	:cas	[0 0]
+1332	:info	:cas	[0 0]	Remoting error:null
+1375	:invoke	:write	4
+1306	:invoke	:read	nil
+1375	:info	:write	4	Remoting error:null
+1306	:fail	:read	nil	Remoting error:null
+1313	:invoke	:read	nil
+1313	:fail	:read	nil	Remoting error:null
+1359	:invoke	:cas	[4 4]
+1359	:info	:cas	[4 4]	Remoting error:null
+1306	:invoke	:cas	[4 2]
+1337	:invoke	:write	4
+1306	:info	:cas	[4 2]	Remoting error:null
+1337	:info	:write	4	Remoting error:null
+1380	:invoke	:cas	[3 0]
+1380	:info	:cas	[3 0]	Remoting error:null
+1364	:invoke	:write	2
+1364	:info	:write	2	Remoting error:null
+1342	:invoke	:write	1
+1342	:info	:write	1	Remoting error:null
+1385	:invoke	:cas	[2 4]
+1313	:invoke	:write	2
+1313	:info	:write	2	Remoting error:null
+1385	:info	:cas	[2 4]	Remoting error:null
+1311	:invoke	:read	nil
+1311	:fail	:read	nil	Remoting error:null
+1390	:invoke	:cas	[2 4]
+1390	:info	:cas	[2 4]	Remoting error:null
+1347	:invoke	:read	nil
+1347	:fail	:read	nil	Remoting error:null
+1369	:invoke	:cas	[1 2]
+1369	:info	:cas	[1 2]	Remoting error:null
+1395	:invoke	:read	nil
+1318	:invoke	:write	4
+1395	:fail	:read	nil	Remoting error:null
+1318	:info	:write	4	Remoting error:null
+1311	:invoke	:cas	[1 3]
+1311	:info	:cas	[1 3]	Remoting error:null
+1374	:invoke	:read	nil
+1374	:fail	:read	nil	Remoting error:null
+1347	:invoke	:cas	[0 3]
+1347	:info	:cas	[0 3]	Remoting error:null
+1316	:invoke	:write	3
+1316	:info	:write	3	Remoting error:null
+1395	:invoke	:read	nil
+1395	:fail	:read	nil	Remoting error:null
+1323	:invoke	:cas	[4 4]
+1323	:info	:cas	[4 4]	Remoting error:null
+1352	:invoke	:read	nil
+1352	:fail	:read	nil	Remoting error:null
+1395	:invoke	:read	nil
+1395	:fail	:read	nil	Remoting error:null
+1321	:invoke	:cas	[4 0]
+1321	:info	:cas	[4 0]	Remoting error:null
+1374	:invoke	:read	nil
+1374	:fail	:read	nil	Remoting error:null
+1352	:invoke	:read	nil
+1352	:fail	:read	nil	Remoting error:null
+1395	:invoke	:cas	[4 0]
+1395	:info	:cas	[4 0]	Remoting error:null
+1328	:invoke	:read	nil
+1328	:fail	:read	nil	Remoting error:null
+1326	:invoke	:cas	[0 2]
+1326	:info	:cas	[0 2]	Remoting error:null
+1374	:invoke	:cas	[0 0]
+1374	:info	:cas	[0 0]	Remoting error:null
+1352	:invoke	:write	0
+1352	:info	:write	0	Remoting error:null
+1328	:invoke	:write	2
+1328	:info	:write	2	Remoting error:null
+1379	:invoke	:cas	[0 1]
+1379	:info	:cas	[0 1]	Remoting error:null
+1331	:invoke	:read	nil
+1331	:fail	:read	nil	Remoting error:null
+1400	:invoke	:read	nil
+1400	:fail	:read	nil	Remoting error:null
+1333	:invoke	:write	1
+1333	:info	:write	1	Remoting error:null
+1357	:invoke	:cas	[3 0]
+1357	:info	:cas	[3 0]	Remoting error:null
+1384	:invoke	:write	3
+1384	:info	:write	3	Remoting error:null
+1400	:invoke	:write	2
+1400	:info	:write	2	Remoting error:null
+1331	:invoke	:cas	[2 4]
+1331	:info	:cas	[2 4]	Remoting error:null
+1338	:invoke	:read	nil
+1338	:fail	:read	nil	Remoting error:null
+1405	:invoke	:write	2
+1405	:info	:write	2	Remoting error:null
+1389	:invoke	:read	nil
+1389	:fail	:read	nil	Remoting error:null
+1338	:invoke	:read	nil
+1362	:invoke	:write	2
+1338	:fail	:read	nil	Remoting error:null
+1362	:info	:write	2	Remoting error:null
+1389	:invoke	:write	2
+1389	:info	:write	2	Remoting error:null
+1336	:invoke	:write	1
+1336	:info	:write	1	Remoting error:null
+1338	:invoke	:read	nil
+1338	:fail	:read	nil	Remoting error:null
+1367	:invoke	:cas	[0 1]
+1367	:info	:cas	[0 1]	Remoting error:null
+1410	:invoke	:read	nil
+1410	:fail	:read	nil	Remoting error:null
+1338	:invoke	:write	0
+1338	:info	:write	0	Remoting error:null
+1372	:invoke	:cas	[2 3]
+1372	:info	:cas	[2 3]	Remoting error:null
+1410	:invoke	:read	nil
+1394	:invoke	:read	nil
+1410	:fail	:read	nil	Remoting error:null
+1394	:fail	:read	nil	Remoting error:null
+1341	:invoke	:read	nil
+1341	:fail	:read	nil	Remoting error:null
+1343	:invoke	:read	nil
+1343	:fail	:read	nil	Remoting error:null
+1410	:invoke	:read	nil
+1410	:fail	:read	nil	Remoting error:null
+1394	:invoke	:write	1
+1394	:info	:write	1	Remoting error:null
+1341	:invoke	:read	nil
+1341	:fail	:read	nil	Remoting error:null
+1377	:invoke	:cas	[2 0]
+1377	:info	:cas	[2 0]	Remoting error:null
+1343	:invoke	:write	2
+1343	:info	:write	2	Remoting error:null
+1382	:invoke	:write	2
+1382	:info	:write	2	Remoting error:null
+1399	:invoke	:write	2
+1399	:info	:write	2	Remoting error:null
+1410	:invoke	:cas	[3 0]
+1410	:info	:cas	[3 0]	Remoting error:null
+1341	:invoke	:read	nil
+1341	:fail	:read	nil	Remoting error:null
+1348	:invoke	:cas	[4 1]
+1348	:info	:cas	[4 1]	Remoting error:null
+1404	:invoke	:write	0
+1404	:info	:write	0	Remoting error:null
+1387	:invoke	:write	4
+1387	:info	:write	4	Remoting error:null
+1415	:invoke	:cas	[2 4]
+1415	:info	:cas	[2 4]	Remoting error:null
+1341	:invoke	:read	nil
+1341	:fail	:read	nil	Remoting error:null
+1392	:invoke	:write	1
+1392	:info	:write	1	Remoting error:null
+1409	:invoke	:cas	[0 4]
+1409	:info	:cas	[0 4]	Remoting error:null
+1353	:invoke	:read	nil
+1353	:fail	:read	nil	Remoting error:null
+1353	:invoke	:write	2
+1353	:info	:write	2	Remoting error:null
+1397	:invoke	:cas	[1 3]
+1397	:info	:cas	[1 3]	Remoting error:null
+1420	:invoke	:write	0
+1420	:info	:write	0	Remoting error:null
+1341	:invoke	:read	nil
+1341	:fail	:read	nil	Remoting error:null
+1414	:invoke	:cas	[4 2]
+1414	:info	:cas	[4 2]	Remoting error:null
+1358	:invoke	:cas	[3 3]
+1358	:info	:cas	[3 3]	Remoting error:null
+1402	:invoke	:write	1
+1402	:info	:write	1	Remoting error:null
+1425	:invoke	:read	nil
+1425	:fail	:read	nil	Remoting error:null
+1419	:invoke	:read	nil
+1419	:fail	:read	nil	Remoting error:null
+1341	:invoke	:read	nil
+1341	:fail	:read	nil	Remoting error:null
+1419	:invoke	:cas	[0 0]
+1419	:info	:cas	[0 0]	Remoting error:null
+1425	:invoke	:cas	[1 4]
+1425	:info	:cas	[1 4]	Remoting error:null
+1363	:invoke	:read	nil
+1363	:fail	:read	nil	Remoting error:null
+1407	:invoke	:read	nil
+1407	:fail	:read	nil	Remoting error:null
+1341	:invoke	:read	nil
+1341	:fail	:read	nil	Remoting error:null
+1430	:invoke	:read	nil
+1430	:fail	:read	nil	Remoting error:null
+1424	:invoke	:read	nil
+1424	:fail	:read	nil	Remoting error:null
+1363	:invoke	:write	2
+1363	:info	:write	2	Remoting error:null
+1407	:invoke	:read	nil
+1407	:fail	:read	nil	Remoting error:null
+1430	:invoke	:write	4
+1430	:info	:write	4	Remoting error:null
+1341	:invoke	:read	nil
+1341	:fail	:read	nil	Remoting error:null
+1424	:invoke	:write	3
+1424	:info	:write	3	Remoting error:null
+1368	:invoke	:write	4
+1368	:info	:write	4	Remoting error:null
+1435	:invoke	:write	3
+1435	:info	:write	3	Remoting error:null
+1407	:invoke	:read	nil
+1407	:fail	:read	nil	Remoting error:null
+1429	:invoke	:cas	[2 3]
+1429	:info	:cas	[2 3]	Remoting error:null
+1341	:invoke	:cas	[2 3]
+1341	:info	:cas	[2 3]	Remoting error:null
+1373	:invoke	:read	nil
+1373	:fail	:read	nil	Remoting error:null
+1440	:invoke	:write	4
+1440	:info	:write	4	Remoting error:null
+1407	:invoke	:read	nil
+1407	:fail	:read	nil	Remoting error:null
+1434	:invoke	:cas	[4 4]
+1434	:info	:cas	[4 4]	Remoting error:null
+1346	:invoke	:write	0
+1373	:invoke	:read	nil
+1346	:info	:write	0	Remoting error:null
+1373	:fail	:read	nil	Remoting error:null
+1445	:invoke	:cas	[2 4]
+1445	:info	:cas	[2 4]	Remoting error:null
+1407	:invoke	:cas	[2 1]
+1407	:info	:cas	[2 1]	Remoting error:null
+1439	:invoke	:read	nil
+1439	:fail	:read	nil	Remoting error:null
+1351	:invoke	:cas	[4 2]
+1351	:info	:cas	[4 2]	Remoting error:null
+1373	:invoke	:write	1
+1373	:info	:write	1	Remoting error:null
+1412	:invoke	:write	1
+1412	:info	:write	1	Remoting error:null
+1439	:invoke	:write	1
+1439	:info	:write	1	Remoting error:null
+1450	:invoke	:write	2
+1450	:info	:write	2	Remoting error:null
+1356	:invoke	:read	nil
+1444	:invoke	:cas	[1 0]
+1444	:info	:cas	[1 0]	Remoting error:null
+1356	:fail	:read	nil	Remoting error:null
+1455	:invoke	:write	3
+1455	:info	:write	3	Remoting error:null
+1378	:invoke	:write	2
+1378	:info	:write	2	Remoting error:null
+1356	:invoke	:read	nil
+1356	:fail	:read	nil	Remoting error:null
+1383	:invoke	:read	nil
+1383	:fail	:read	nil	Remoting error:null
+1417	:invoke	:read	nil
+1417	:fail	:read	nil	Remoting error:null
+1449	:invoke	:cas	[4 1]
+1449	:info	:cas	[4 1]	Remoting error:null
+1460	:invoke	:read	nil
+1460	:fail	:read	nil	Remoting error:null
+1383	:invoke	:write	0
+1383	:info	:write	0	Remoting error:null
+1356	:invoke	:write	1
+1356	:info	:write	1	Remoting error:null
+1454	:invoke	:write	1
+1454	:info	:write	1	Remoting error:null
+1417	:invoke	:cas	[2 2]
+1417	:info	:cas	[2 2]	Remoting error:null
+1388	:invoke	:cas	[4 4]
+1388	:info	:cas	[4 4]	Remoting error:null
+1460	:invoke	:read	nil
+1460	:fail	:read	nil	Remoting error:null
+1459	:invoke	:write	2
+1459	:info	:write	2	Remoting error:null
+1422	:invoke	:cas	[2 1]
+1361	:invoke	:write	3
+1422	:info	:cas	[2 1]	Remoting error:null
+1361	:info	:write	3	Remoting error:null
+1460	:invoke	:read	nil
+1460	:fail	:read	nil	Remoting error:null
+1393	:invoke	:read	nil
+1393	:fail	:read	nil	Remoting error:null
+1427	:invoke	:cas	[4 4]
+1427	:info	:cas	[4 4]	Remoting error:null
+1464	:invoke	:cas	[4 4]
+1464	:info	:cas	[4 4]	Remoting error:null
+1366	:invoke	:cas	[4 3]
+1366	:info	:cas	[4 3]	Remoting error:null
+1460	:invoke	:read	nil
+1460	:fail	:read	nil	Remoting error:null
+1371	:invoke	:cas	[4 0]
+1371	:info	:cas	[4 0]	Remoting error:null
+1393	:invoke	:read	nil
+1393	:fail	:read	nil	Remoting error:null
+1460	:invoke	:cas	[3 0]
+1460	:info	:cas	[3 0]	Remoting error:null
+1432	:invoke	:cas	[0 4]
+1432	:info	:cas	[0 4]	Remoting error:null
+1469	:invoke	:write	0
+1469	:info	:write	0	Remoting error:null
+1437	:invoke	:read	nil
+1437	:fail	:read	nil	Remoting error:null
+1465	:invoke	:write	0
+1465	:info	:write	0	Remoting error:null
+1474	:invoke	:read	nil
+1376	:invoke	:write	2
+1474	:fail	:read	nil	Remoting error:null
+1376	:info	:write	2	Remoting error:null
+1393	:invoke	:cas	[2 3]
+1393	:info	:cas	[2 3]	Remoting error:null
+1437	:invoke	:read	nil
+1437	:fail	:read	nil	Remoting error:null
+1470	:invoke	:read	nil
+1470	:fail	:read	nil	Remoting error:null
+1398	:invoke	:read	nil
+1398	:fail	:read	nil	Remoting error:null
+1474	:invoke	:write	3
+1474	:info	:write	3	Remoting error:null
+1381	:invoke	:read	nil
+1381	:fail	:read	nil	Remoting error:null
+1437	:invoke	:write	1
+1437	:info	:write	1	Remoting error:null
+1479	:invoke	:read	nil
+1479	:fail	:read	nil	Remoting error:null
+1398	:invoke	:write	2
+1470	:invoke	:cas	[3 4]
+1398	:info	:write	2	Remoting error:null
+1470	:info	:cas	[3 4]	Remoting error:null
+1479	:invoke	:read	nil
+1479	:fail	:read	nil	Remoting error:null
+1442	:invoke	:write	2
+1381	:invoke	:cas	[3 0]
+1442	:info	:write	2	Remoting error:null
+1381	:info	:cas	[3 0]	Remoting error:null
+1479	:invoke	:cas	[0 2]
+1479	:info	:cas	[0 2]	Remoting error:null
+1475	:invoke	:cas	[3 0]
+1475	:info	:cas	[3 0]	Remoting error:null
+1403	:invoke	:write	0
+1403	:info	:write	0	Remoting error:null
+1386	:invoke	:write	1
+1386	:info	:write	1	Remoting error:null
+1447	:invoke	:cas	[4 3]
+1447	:info	:cas	[4 3]	Remoting error:null
+1408	:invoke	:write	3
+1484	:invoke	:write	0
+1408	:info	:write	3	Remoting error:null
+1484	:info	:write	0	Remoting error:null
+1480	:invoke	:read	nil
+1480	:fail	:read	nil	Remoting error:null
+1391	:invoke	:cas	[3 3]
+1391	:info	:cas	[3 3]	Remoting error:null
+1452	:invoke	:cas	[3 2]
+1452	:info	:cas	[3 2]	Remoting error:null
+1480	:invoke	:write	0
+1480	:info	:write	0	Remoting error:null
+1489	:invoke	:read	nil
+1413	:invoke	:write	0
+1489	:fail	:read	nil	Remoting error:null
+1413	:info	:write	0	Remoting error:null
+1457	:invoke	:read	nil
+1457	:fail	:read	nil	Remoting error:null
+1396	:invoke	:read	nil
+1396	:fail	:read	nil	Remoting error:null
+1485	:invoke	:cas	[0 4]
+1485	:info	:cas	[0 4]	Remoting error:null
+1418	:invoke	:cas	[1 0]
+1418	:info	:cas	[1 0]	Remoting error:null
+1489	:invoke	:cas	[0 4]
+1489	:info	:cas	[0 4]	Remoting error:null
+1457	:invoke	:read	nil
+1457	:fail	:read	nil	Remoting error:null
+1396	:invoke	:read	nil
+1396	:fail	:read	nil	Remoting error:null
+1494	:invoke	:read	nil
+1494	:fail	:read	nil	Remoting error:null
+1423	:invoke	:read	nil
+1423	:fail	:read	nil	Remoting error:null
+1490	:invoke	:write	1
+1490	:info	:write	1	Remoting error:null
+1457	:invoke	:read	nil
+1457	:fail	:read	nil	Remoting error:null
+1396	:invoke	:cas	[1 3]
+1396	:info	:cas	[1 3]	Remoting error:null
+1494	:invoke	:read	nil
+1494	:fail	:read	nil	Remoting error:null
+1457	:invoke	:write	3
+1423	:invoke	:cas	[3 3]
+1423	:info	:cas	[3 3]	Remoting error:null
+1457	:info	:write	3	Remoting error:null
+1495	:invoke	:write	1
+1495	:info	:write	1	Remoting error:null
+1401	:invoke	:cas	[0 1]
+1401	:info	:cas	[0 1]	Remoting error:null
+1428	:invoke	:write	1
+1428	:info	:write	1	Remoting error:null
+1462	:invoke	:write	2
+1462	:info	:write	2	Remoting error:null
+1494	:invoke	:read	nil
+1494	:fail	:read	nil	Remoting error:null
+1467	:invoke	:read	nil
+1467	:fail	:read	nil	Remoting error:null
+1500	:invoke	:cas	[2 4]
+1500	:info	:cas	[2 4]	Remoting error:null
+1494	:invoke	:read	nil
+1494	:fail	:read	nil	Remoting error:null
+1406	:invoke	:cas	[0 4]
+1433	:invoke	:write	1
+1406	:info	:cas	[0 4]	Remoting error:null
+1433	:info	:write	1	Remoting error:null
+1467	:invoke	:read	nil
+1467	:fail	:read	nil	Remoting error:null
+1505	:invoke	:cas	[3 2]
+1505	:info	:cas	[3 2]	Remoting error:null
+1467	:invoke	:cas	[4 4]
+1467	:info	:cas	[4 4]	Remoting error:null
+1411	:invoke	:cas	[0 0]
+1411	:info	:cas	[0 0]	Remoting error:null
+1438	:invoke	:write	0
+1438	:info	:write	0	Remoting error:null
+1494	:invoke	:cas	[4 0]
+1494	:info	:cas	[4 0]	Remoting error:null
+1510	:invoke	:read	nil
+1510	:fail	:read	nil	Remoting error:null
+1472	:invoke	:cas	[3 2]
+1472	:info	:cas	[3 2]	Remoting error:null
+1443	:invoke	:read	nil
+1443	:fail	:read	nil	Remoting error:null
+:nemesis	:info	:start	nil
+1499	:invoke	:read	nil
+1499	:fail	:read	nil	Remoting error:null
+1416	:invoke	:read	nil
+1416	:fail	:read	nil	Remoting error:null
+1510	:invoke	:write	4
+1510	:info	:write	4	Remoting error:null
+1477	:invoke	:write	2
+1477	:info	:write	2	Remoting error:null
+1499	:invoke	:read	nil
+1416	:invoke	:write	1
+1443	:invoke	:read	nil
+:nemesis	:info	:start	{"jraft.host3" [:killed "jraft.host3"]}
+1515	:invoke	:write	4
+1482	:invoke	:write	0
+1515	:info	:write	4	Remoting error:null
+1416	:info	:write	1	Remoting error:null
+1482	:info	:write	0	Remoting error:null
+1443	:fail	:read	nil	Remoting error:null
+1499	:fail	:read	nil	Remoting error:null
+1443	:invoke	:write	0
+1443	:info	:write	0	Remoting error:null
+1499	:invoke	:cas	[4 2]
+1499	:info	:cas	[4 2]	Remoting error:null
+1421	:invoke	:cas	[1 0]
+1421	:info	:cas	[1 0]	Remoting error:null
+1520	:invoke	:write	1
+1520	:info	:write	1	Remoting error:null
+1487	:invoke	:cas	[0 0]
+1487	:info	:cas	[0 0]	Remoting error:null
+1525	:invoke	:write	3
+1525	:info	:write	3	Remoting error:null
+1426	:invoke	:cas	[3 2]
+1426	:info	:cas	[3 2]	Remoting error:null
+1448	:invoke	:read	nil
+1448	:fail	:read	nil	Remoting error:null
+1504	:invoke	:cas	[2 4]
+1504	:info	:cas	[2 4]	Remoting error:null
+1530	:invoke	:write	0
+1530	:info	:write	0	Remoting error:null
+1492	:invoke	:read	nil
+1492	:fail	:read	nil	Remoting error:null
+1509	:invoke	:write	0
+1448	:invoke	:write	2
+1509	:info	:write	0	Remoting error:null
+1448	:info	:write	2	Remoting error:null
+1431	:invoke	:read	nil
+1431	:fail	:read	nil	Remoting error:null
+1535	:invoke	:read	nil
+1535	:fail	:read	nil	Remoting error:null
+1492	:invoke	:read	nil
+1492	:fail	:read	nil	Remoting error:null
+1514	:invoke	:cas	[2 4]
+1514	:info	:cas	[2 4]	Remoting error:null
+1453	:invoke	:cas	[3 1]
+1453	:info	:cas	[3 1]	Remoting error:null
+1431	:invoke	:write	2
+1431	:info	:write	2	Remoting error:null
+1492	:invoke	:cas	[0 1]
+1519	:invoke	:read	nil
+1492	:info	:cas	[0 1]	Remoting error:null
+1519	:fail	:read	nil	Remoting error:null
+1535	:invoke	:cas	[4 0]
+1535	:info	:cas	[4 0]	Remoting error:null
+1458	:invoke	:read	nil
+1458	:fail	:read	nil	Remoting error:null
+1436	:invoke	:cas	[4 1]
+1436	:info	:cas	[4 1]	Remoting error:null
+1497	:invoke	:cas	[4 0]
+1497	:info	:cas	[4 0]	Remoting error:null
+1519	:invoke	:write	1
+1519	:info	:write	1	Remoting error:null
+1540	:invoke	:write	2
+1540	:info	:write	2	Remoting error:null
+1441	:invoke	:cas	[4 0]
+1441	:info	:cas	[4 0]	Remoting error:null
+1524	:invoke	:read	nil
+1524	:fail	:read	nil	Remoting error:null
+1458	:invoke	:read	nil
+1458	:fail	:read	nil	Remoting error:null
+1502	:invoke	:read	nil
+1502	:fail	:read	nil	Remoting error:null
+1545	:invoke	:write	0
+1545	:info	:write	0	Remoting error:null
+1524	:invoke	:read	nil
+1524	:fail	:read	nil	Remoting error:null
+1446	:invoke	:cas	[4 2]
+1446	:info	:cas	[4 2]	Remoting error:null
+1458	:invoke	:cas	[2 1]
+1502	:invoke	:read	nil
+1458	:info	:cas	[2 1]	Remoting error:null
+1502	:fail	:read	nil	Remoting error:null
+1463	:invoke	:write	3
+1502	:invoke	:read	nil
+1463	:info	:write	3	Remoting error:null
+1502	:fail	:read	nil	Remoting error:null
+1524	:invoke	:cas	[2 2]
+1524	:info	:cas	[2 2]	Remoting error:null
+1550	:invoke	:write	3
+1550	:info	:write	3	Remoting error:null
+1451	:invoke	:write	2
+1451	:info	:write	2	Remoting error:null
+1502	:invoke	:cas	[4 1]
+1502	:info	:cas	[4 1]	Remoting error:null
+1456	:invoke	:write	1
+1456	:info	:write	1	Remoting error:null
+1555	:invoke	:cas	[4 4]
+1555	:info	:cas	[4 4]	Remoting error:null
+1468	:invoke	:read	nil
+1468	:fail	:read	nil	Remoting error:null
+1529	:invoke	:cas	[1 4]
+1529	:info	:cas	[1 4]	Remoting error:null
+1468	:invoke	:read	nil
+1468	:fail	:read	nil	Remoting error:null
+1461	:invoke	:write	2
+1461	:info	:write	2	Remoting error:null
+1534	:invoke	:cas	[2 1]
+1534	:info	:cas	[2 1]	Remoting error:null
+1507	:invoke	:cas	[0 3]
+1507	:info	:cas	[0 3]	Remoting error:null
+1560	:invoke	:cas	[3 2]
+1560	:info	:cas	[3 2]	Remoting error:null
+1466	:invoke	:cas	[0 2]
+1539	:invoke	:write	2
+1466	:info	:cas	[0 2]	Remoting error:null
+1539	:info	:write	2	Remoting error:null
+1468	:invoke	:read	nil
+1468	:fail	:read	nil	Remoting error:null
+1512	:invoke	:cas	[2 2]
+1512	:info	:cas	[2 2]	Remoting error:null
+1468	:invoke	:read	nil
+1468	:fail	:read	nil	Remoting error:null
+1565	:invoke	:write	3
+1565	:info	:write	3	Remoting error:null
+1517	:invoke	:cas	[0 4]
+1517	:info	:cas	[0 4]	Remoting error:null
+1544	:invoke	:write	3
+1544	:info	:write	3	Remoting error:null
+1471	:invoke	:cas	[3 1]
+1471	:info	:cas	[3 1]	Remoting error:null
+1570	:invoke	:write	1
+1570	:info	:write	1	Remoting error:null
+1468	:invoke	:write	0
+1468	:info	:write	0	Remoting error:null
+1549	:invoke	:write	1
+1549	:info	:write	1	Remoting error:null
+1522	:invoke	:write	1
+1522	:info	:write	1	Remoting error:null
+1476	:invoke	:read	nil
+1476	:fail	:read	nil	Remoting error:null
+1473	:invoke	:write	3
+1473	:info	:write	3	Remoting error:null
+1554	:invoke	:cas	[3 2]
+1575	:invoke	:read	nil
+1554	:info	:cas	[3 2]	Remoting error:null
+1575	:fail	:read	nil	Remoting error:null
+1527	:invoke	:read	nil
+1527	:fail	:read	nil	Remoting error:null
+1476	:invoke	:write	0
+1476	:info	:write	0	Remoting error:null
+1478	:invoke	:read	nil
+1478	:fail	:read	nil	Remoting error:null
+1527	:invoke	:cas	[0 3]
+1527	:info	:cas	[0 3]	Remoting error:null
+1559	:invoke	:read	nil
+1559	:fail	:read	nil	Remoting error:null
+1478	:invoke	:cas	[3 2]
+1478	:info	:cas	[3 2]	Remoting error:null
+1575	:invoke	:read	nil
+1575	:fail	:read	nil	Remoting error:null
+1481	:invoke	:write	3
+1481	:info	:write	3	Remoting error:null
+1532	:invoke	:cas	[1 2]
+1532	:info	:cas	[1 2]	Remoting error:null
+1483	:invoke	:read	nil
+1483	:fail	:read	nil	Remoting error:null
+1575	:invoke	:write	0
+1575	:info	:write	0	Remoting error:null
+1559	:invoke	:cas	[1 0]
+1559	:info	:cas	[1 0]	Remoting error:null
+1486	:invoke	:write	3
+1486	:info	:write	3	Remoting error:null
+1483	:invoke	:cas	[1 0]
+1483	:info	:cas	[1 0]	Remoting error:null
+1537	:invoke	:write	3
+1537	:info	:write	3	Remoting error:null
+1564	:invoke	:cas	[2 4]
+1564	:info	:cas	[2 4]	Remoting error:null
+1488	:invoke	:cas	[2 2]
+1488	:info	:cas	[2 2]	Remoting error:null
+1580	:invoke	:cas	[4 1]
+1491	:invoke	:read	nil
+1580	:info	:cas	[4 1]	Remoting error:null
+1491	:fail	:read	nil	Remoting error:null
+1542	:invoke	:read	nil
+1542	:fail	:read	nil	Remoting error:null
+1569	:invoke	:write	2
+1569	:info	:write	2	Remoting error:null
+1493	:invoke	:read	nil
+1493	:fail	:read	nil	Remoting error:null
+1585	:invoke	:write	3
+1585	:info	:write	3	Remoting error:null
+1542	:invoke	:cas	[3 2]
+1542	:info	:cas	[3 2]	Remoting error:null
+1574	:invoke	:write	4
+1574	:info	:write	4	Remoting error:null
+1493	:invoke	:cas	[0 2]
+1493	:info	:cas	[0 2]	Remoting error:null
+1491	:invoke	:read	nil
+1491	:fail	:read	nil	Remoting error:null
+1547	:invoke	:read	nil
+1547	:fail	:read	nil	Remoting error:null
+1498	:invoke	:read	nil
+1590	:invoke	:write	4
+1498	:fail	:read	nil	Remoting error:null
+1491	:invoke	:cas	[1 4]
+1590	:info	:write	4	Remoting error:null
+1491	:info	:cas	[1 4]	Remoting error:null
+1547	:invoke	:cas	[1 3]
+1547	:info	:cas	[1 3]	Remoting error:null
+1579	:invoke	:cas	[2 1]
+1579	:info	:cas	[2 1]	Remoting error:null
+1498	:invoke	:read	nil
+1595	:invoke	:cas	[4 1]
+1498	:fail	:read	nil	Remoting error:null
+1595	:info	:cas	[4 1]	Remoting error:null
+1496	:invoke	:read	nil
+1496	:fail	:read	nil	Remoting error:null
+1584	:invoke	:read	nil
+1584	:fail	:read	nil	Remoting error:null
+1552	:invoke	:read	nil
+1552	:fail	:read	nil	Remoting error:null
+1496	:invoke	:cas	[4 3]
+1496	:info	:cas	[4 3]	Remoting error:null
+1600	:invoke	:read	nil
+1600	:fail	:read	nil	Remoting error:null
+1498	:invoke	:cas	[3 2]
+1498	:info	:cas	[3 2]	Remoting error:null
+1584	:invoke	:write	0
+1584	:info	:write	0	Remoting error:null
+1552	:invoke	:write	1
+1552	:info	:write	1	Remoting error:null
+1501	:invoke	:cas	[3 3]
+1501	:info	:cas	[3 3]	Remoting error:null
+1503	:invoke	:read	nil
+1503	:fail	:read	nil	Remoting error:null
+1503	:invoke	:write	1
+1600	:invoke	:read	nil
+1503	:info	:write	1	Remoting error:null
+1600	:fail	:read	nil	Remoting error:null
+1506	:invoke	:cas	[2 3]
+1506	:info	:cas	[2 3]	Remoting error:null
+1589	:invoke	:read	nil
+1589	:fail	:read	nil	Remoting error:null
+1557	:invoke	:cas	[0 1]
+1557	:info	:cas	[0 1]	Remoting error:null
+1511	:invoke	:cas	[4 4]
+1511	:info	:cas	[4 4]	Remoting error:null
+1589	:invoke	:cas	[3 0]
+1589	:info	:cas	[3 0]	Remoting error:null
+1508	:invoke	:cas	[1 3]
+1508	:info	:cas	[1 3]	Remoting error:null
+1600	:invoke	:write	2
+1600	:info	:write	2	Remoting error:null
+1562	:invoke	:cas	[4 1]
+1562	:info	:cas	[4 1]	Remoting error:null
+1594	:invoke	:write	4
+1594	:info	:write	4	Remoting error:null
+1516	:invoke	:cas	[4 4]
+1516	:info	:cas	[4 4]	Remoting error:null
+1605	:invoke	:read	nil
+1605	:fail	:read	nil	Remoting error:null
+1567	:invoke	:cas	[1 0]
+1567	:info	:cas	[1 0]	Remoting error:null
+1513	:invoke	:write	3
+1513	:info	:write	3	Remoting error:null
+1599	:invoke	:read	nil
+1599	:fail	:read	nil	Remoting error:null
+1521	:invoke	:read	nil
+1521	:fail	:read	nil	Remoting error:null
+1605	:invoke	:write	4
+1605	:info	:write	4	Remoting error:null
+1518	:invoke	:cas	[3 4]
+1518	:info	:cas	[3 4]	Remoting error:null
+1599	:invoke	:write	2
+1599	:info	:write	2	Remoting error:null
+1572	:invoke	:write	3
+1572	:info	:write	3	Remoting error:null
+1610	:invoke	:write	2
+1610	:info	:write	2	Remoting error:null
+1521	:invoke	:cas	[0 0]
+1521	:info	:cas	[0 0]	Remoting error:null
+1577	:invoke	:cas	[3 4]
+1577	:info	:cas	[3 4]	Remoting error:null
+1604	:invoke	:write	3
+1604	:info	:write	3	Remoting error:null
+1523	:invoke	:read	nil
+1523	:fail	:read	nil	Remoting error:null
+1526	:invoke	:cas	[1 2]
+1526	:info	:cas	[1 2]	Remoting error:null
+1615	:invoke	:cas	[3 4]
+1615	:info	:cas	[3 4]	Remoting error:null
+1609	:invoke	:cas	[1 4]
+1609	:info	:cas	[1 4]	Remoting error:null
+1523	:invoke	:write	1
+1523	:info	:write	1	Remoting error:null
+1582	:invoke	:cas	[2 3]
+1582	:info	:cas	[2 3]	Remoting error:null
+1620	:invoke	:read	nil
+1620	:fail	:read	nil	Remoting error:null
+1528	:invoke	:write	4
+1528	:info	:write	4	Remoting error:null
+1614	:invoke	:cas	[4 1]
+1614	:info	:cas	[4 1]	Remoting error:null
+1531	:invoke	:read	nil
+1531	:fail	:read	nil	Remoting error:null
+1587	:invoke	:cas	[3 3]
+1587	:info	:cas	[3 3]	Remoting error:null
+1620	:invoke	:read	nil
+1620	:fail	:read	nil	Remoting error:null
+1531	:invoke	:read	nil
+1531	:fail	:read	nil	Remoting error:null
+1533	:invoke	:read	nil
+1533	:fail	:read	nil	Remoting error:null
+1531	:invoke	:write	4
+1531	:info	:write	4	Remoting error:null
+1592	:invoke	:cas	[4 4]
+1592	:info	:cas	[4 4]	Remoting error:null
+1619	:invoke	:cas	[1 3]
+1619	:info	:cas	[1 3]	Remoting error:null
+1620	:invoke	:write	3
+1620	:info	:write	3	Remoting error:null
+1597	:invoke	:cas	[3 3]
+1597	:info	:cas	[3 3]	Remoting error:null
+1624	:invoke	:write	1
+1624	:info	:write	1	Remoting error:null
+1533	:invoke	:write	0
+1533	:info	:write	0	Remoting error:null
+1536	:invoke	:write	1
+1536	:info	:write	1	Remoting error:null
+1602	:invoke	:write	4
+1602	:info	:write	4	Remoting error:null
+1538	:invoke	:read	nil
+1538	:fail	:read	nil	Remoting error:null
+1629	:invoke	:read	nil
+1629	:fail	:read	nil	Remoting error:null
+1625	:invoke	:cas	[1 2]
+1625	:info	:cas	[1 2]	Remoting error:null
+1541	:invoke	:read	nil
+1541	:fail	:read	nil	Remoting error:null
+1538	:invoke	:write	0
+1538	:info	:write	0	Remoting error:null
+1607	:invoke	:cas	[1 0]
+1607	:info	:cas	[1 0]	Remoting error:null
+1630	:invoke	:write	1
+1630	:info	:write	1	Remoting error:null
+1629	:invoke	:write	3
+1629	:info	:write	3	Remoting error:null
+1543	:invoke	:cas	[3 2]
+1543	:info	:cas	[3 2]	Remoting error:null
+1541	:invoke	:write	2
+1541	:info	:write	2	Remoting error:null
+1635	:invoke	:read	nil
+1635	:fail	:read	nil	Remoting error:null
+1612	:invoke	:read	nil
+1612	:fail	:read	nil	Remoting error:null
+1634	:invoke	:write	3
+1634	:info	:write	3	Remoting error:null
+1548	:invoke	:read	nil
+1548	:fail	:read	nil	Remoting error:null
+1635	:invoke	:write	0
+1635	:info	:write	0	Remoting error:null
+1546	:invoke	:cas	[4 0]
+1546	:info	:cas	[4 0]	Remoting error:null
+1612	:invoke	:read	nil
+1640	:invoke	:cas	[1 0]
+1612	:fail	:read	nil	Remoting error:null
+1640	:info	:cas	[1 0]	Remoting error:null
+1639	:invoke	:cas	[1 3]
+1639	:info	:cas	[1 3]	Remoting error:null
+1551	:invoke	:write	2
+1551	:info	:write	2	Remoting error:null
+1548	:invoke	:cas	[4 3]
+1548	:info	:cas	[4 3]	Remoting error:null
+1612	:invoke	:read	nil
+1612	:fail	:read	nil	Remoting error:null
+1645	:invoke	:read	nil
+1645	:fail	:read	nil	Remoting error:null
+1644	:invoke	:cas	[4 1]
+1644	:info	:cas	[4 1]	Remoting error:null
+1553	:invoke	:cas	[3 1]
+1553	:info	:cas	[3 1]	Remoting error:null
+1556	:invoke	:write	4
+1556	:info	:write	4	Remoting error:null
+1612	:invoke	:write	3
+1612	:info	:write	3	Remoting error:null
+1649	:invoke	:read	nil
+1649	:fail	:read	nil	Remoting error:null
+1558	:invoke	:write	3
+1558	:info	:write	3	Remoting error:null
+1645	:invoke	:cas	[3 2]
+1645	:info	:cas	[3 2]	Remoting error:null
+1561	:invoke	:read	nil
+1561	:fail	:read	nil	Remoting error:null
+1649	:invoke	:read	nil
+1649	:fail	:read	nil	Remoting error:null
+1563	:invoke	:write	1
+1563	:info	:write	1	Remoting error:null
+1561	:invoke	:cas	[1 4]
+1561	:info	:cas	[1 4]	Remoting error:null
+1617	:invoke	:read	nil
+1617	:fail	:read	nil	Remoting error:null
+1650	:invoke	:cas	[0 3]
+1650	:info	:cas	[0 3]	Remoting error:null
+1568	:invoke	:read	nil
+1568	:fail	:read	nil	Remoting error:null
+1649	:invoke	:write	4
+1649	:info	:write	4	Remoting error:null
+1617	:invoke	:write	2
+1617	:info	:write	2	Remoting error:null
+1566	:invoke	:cas	[4 4]
+1655	:invoke	:cas	[1 1]
+1566	:info	:cas	[4 4]	Remoting error:null
+1655	:info	:cas	[1 1]	Remoting error:null
+1568	:invoke	:read	nil
+1568	:fail	:read	nil	Remoting error:null
+1568	:invoke	:write	1
+1568	:info	:write	1	Remoting error:null
+1654	:invoke	:write	1
+1654	:info	:write	1	Remoting error:null
+1571	:invoke	:read	nil
+1571	:fail	:read	nil	Remoting error:null
+1660	:invoke	:read	nil
+1660	:fail	:read	nil	Remoting error:null
+1622	:invoke	:read	nil
+1622	:fail	:read	nil	Remoting error:null
+1573	:invoke	:write	2
+1573	:info	:write	2	Remoting error:null
+1659	:invoke	:read	nil
+1659	:fail	:read	nil	Remoting error:null
+1660	:invoke	:write	1
+1660	:info	:write	1	Remoting error:null
+1571	:invoke	:write	4
+1571	:info	:write	4	Remoting error:null
+1622	:invoke	:write	4
+1622	:info	:write	4	Remoting error:null
+1578	:invoke	:read	nil
+1578	:fail	:read	nil	Remoting error:null
+1627	:invoke	:read	nil
+1627	:fail	:read	nil	Remoting error:null
+1665	:invoke	:write	4
+1665	:info	:write	4	Remoting error:null
+1659	:invoke	:read	nil
+1576	:invoke	:read	nil
+1659	:fail	:read	nil	Remoting error:null
+1576	:fail	:read	nil	Remoting error:null
+1627	:invoke	:write	2
+1627	:info	:write	2	Remoting error:null
+1578	:invoke	:read	nil
+1578	:fail	:read	nil	Remoting error:null
+1670	:invoke	:read	nil
+1670	:fail	:read	nil	Remoting error:null
+1578	:invoke	:read	nil
+1578	:fail	:read	nil	Remoting error:null
+1632	:invoke	:read	nil
+1632	:fail	:read	nil	Remoting error:null
+1659	:invoke	:write	1
+1659	:info	:write	1	Remoting error:null
+1576	:invoke	:cas	[1 4]
+1576	:info	:cas	[1 4]	Remoting error:null
+1578	:invoke	:cas	[4 1]
+1578	:info	:cas	[4 1]	Remoting error:null
+1670	:invoke	:read	nil
+1670	:fail	:read	nil	Remoting error:null
+1632	:invoke	:cas	[3 4]
+1664	:invoke	:write	3
+1632	:info	:cas	[3 4]	Remoting error:null
+1664	:info	:write	3	Remoting error:null
+1637	:invoke	:read	nil
+1637	:fail	:read	nil	Remoting error:null
+1581	:invoke	:write	2
+1581	:info	:write	2	Remoting error:null
+1670	:invoke	:write	3
+1670	:info	:write	3	Remoting error:null
+1669	:invoke	:read	nil
+1669	:fail	:read	nil	Remoting error:null
+1583	:invoke	:read	nil
+1583	:fail	:read	nil	Remoting error:null
+1637	:invoke	:cas	[2 2]
+1637	:info	:cas	[2 2]	Remoting error:null
+1586	:invoke	:write	4
+1586	:info	:write	4	Remoting error:null
+1583	:invoke	:read	nil
+1583	:fail	:read	nil	Remoting error:null
+1675	:invoke	:cas	[1 1]
+1675	:info	:cas	[1 1]	Remoting error:null
+1642	:invoke	:write	4
+1669	:invoke	:write	0
+1642	:info	:write	4	Remoting error:null
+1669	:info	:write	0	Remoting error:null
+1583	:invoke	:read	nil
+1583	:fail	:read	nil	Remoting error:null
+1591	:invoke	:cas	[3 4]
+1591	:info	:cas	[3 4]	Remoting error:null
+:nemesis	:info	:stop	nil
+1680	:invoke	:read	nil
+1680	:fail	:read	nil	Remoting error:null
+1596	:invoke	:write	2
+1596	:info	:write	2	Remoting error:null
+1674	:invoke	:cas	[0 0]
+1647	:invoke	:cas	[0 2]
+1674	:info	:cas	[0 0]	Remoting error:null
+1647	:info	:cas	[0 2]	Remoting error:null
+1583	:invoke	:write	3
+1583	:info	:write	3	Remoting error:null
+1601	:invoke	:read	nil
+1601	:fail	:read	nil	Remoting error:null
+:nemesis	:info	:stop	{"jraft.host3" [:restarted "jraft.host3"]}
+1680	:invoke	:read	nil
+1679	:invoke	:write	4
+1680	:fail	:read	nil	Remoting error:null
+1679	:info	:write	4	Remoting error:null
+1652	:invoke	:cas	[0 4]
+1652	:info	:cas	[0 4]	Remoting error:null
+1588	:invoke	:cas	[0 2]
+1588	:info	:cas	[0 2]	Remoting error:null
+1657	:invoke	:read	nil
+1657	:fail	:read	nil	Remoting error:null
+1601	:invoke	:write	0
+1601	:info	:write	0	Remoting error:null
+1680	:invoke	:read	nil
+1680	:fail	:read	nil	Remoting error:null
+1593	:invoke	:read	nil
+1593	:fail	:read	nil	Remoting error:null
+1684	:invoke	:cas	[2 4]
+1684	:info	:cas	[2 4]	Remoting error:null
+1657	:invoke	:read	nil
+1606	:invoke	:cas	[0 0]
+1657	:fail	:read	nil	Remoting error:null
+1606	:info	:cas	[0 0]	Remoting error:null
+1593	:invoke	:write	0
+1593	:info	:write	0	Remoting error:null
+1680	:invoke	:write	3
+1680	:info	:write	3	Remoting error:null
+1611	:invoke	:write	0
+1611	:info	:write	0	Remoting error:null
+1689	:invoke	:read	nil
+1689	:fail	:read	nil	Remoting error:null
+1657	:invoke	:write	4
+1657	:info	:write	4	Remoting error:null
+1598	:invoke	:read	nil
+1598	:fail	:read	nil	Remoting error:null
+1685	:invoke	:read	nil
+1685	:fail	:read	nil	Remoting error:null
+1662	:invoke	:cas	[3 1]
+1662	:info	:cas	[3 1]	Remoting error:null
+1689	:invoke	:cas	[2 4]
+1689	:info	:cas	[2 4]	Remoting error:null
+1598	:invoke	:read	nil
+1598	:fail	:read	nil	Remoting error:null
+1616	:invoke	:read	nil
+1616	:fail	:read	nil	Remoting error:null
+1685	:invoke	:write	4
+1685	:info	:write	4	Remoting error:null
+1667	:invoke	:read	nil
+1667	:fail	:read	nil	Remoting error:null
+1694	:invoke	:cas	[4 2]
+1694	:info	:cas	[4 2]	Remoting error:null
+1598	:invoke	:write	1
+1598	:info	:write	1	Remoting error:null
+1616	:invoke	:write	1
+1616	:info	:write	1	Remoting error:null
+1690	:invoke	:cas	[3 1]
+1699	:invoke	:write	3
+1690	:info	:cas	[3 1]	Remoting error:null
+1699	:info	:write	3	Remoting error:null
+1667	:invoke	:cas	[0 0]
+1603	:invoke	:write	1
+1603	:info	:write	1	Remoting error:null
+1667	:info	:cas	[0 0]	Remoting error:null
+1621	:invoke	:write	1
+1621	:info	:write	1	Remoting error:null
+1695	:invoke	:cas	[3 0]
+1695	:info	:cas	[3 0]	Remoting error:null
+1704	:invoke	:read	nil
+1704	:fail	:read	nil	Remoting error:null
+1672	:invoke	:write	3
+1672	:info	:write	3	Remoting error:null
+1626	:invoke	:write	0
+1626	:info	:write	0	Remoting error:null
+1608	:invoke	:write	2
+1608	:info	:write	2	Remoting error:null
+1677	:invoke	:cas	[1 3]
+1677	:info	:cas	[1 3]	Remoting error:null
+1700	:invoke	:read	nil
+1700	:fail	:read	nil	Remoting error:null
+1704	:invoke	:write	0
+1704	:info	:write	0	Remoting error:null
+1631	:invoke	:read	nil
+1631	:fail	:read	nil	Remoting error:null
+1709	:invoke	:cas	[3 3]
+1709	:info	:cas	[3 3]	Remoting error:null
+1700	:invoke	:cas	[4 4]
+1700	:info	:cas	[4 4]	Remoting error:null
+1613	:invoke	:read	nil
+1682	:invoke	:write	0
+1613	:fail	:read	nil	Remoting error:null
+1682	:info	:write	0	Remoting error:null
+1631	:invoke	:write	2
+1631	:info	:write	2	Remoting error:null
+1705	:invoke	:write	2
+1705	:info	:write	2	Remoting error:null
+1613	:invoke	:write	2
+1714	:invoke	:write	3
+1714	:info	:write	3	Remoting error:null
+1613	:info	:write	2	Remoting error:null
+1636	:invoke	:write	2
+1636	:info	:write	2	Remoting error:null
+1687	:invoke	:read	nil
+1687	:fail	:read	nil	Remoting error:null
+1710	:invoke	:read	nil
+1710	:fail	:read	nil	Remoting error:null
+1687	:invoke	:read	nil
+1687	:fail	:read	nil	Remoting error:null
+1641	:invoke	:write	2
+1719	:invoke	:read	nil
+1641	:info	:write	2	Remoting error:null
+1719	:fail	:read	nil	Remoting error:null
+1618	:invoke	:read	nil
+1618	:fail	:read	nil	Remoting error:null
+1710	:invoke	:write	3
+1710	:info	:write	3	Remoting error:null
+1687	:invoke	:write	0
+1687	:info	:write	0	Remoting error:null
+1646	:invoke	:cas	[4 0]
+1646	:info	:cas	[4 0]	Remoting error:null
+1715	:invoke	:write	1
+1715	:info	:write	1	Remoting error:null
+1719	:invoke	:cas	[0 4]
+1719	:info	:cas	[0 4]	Remoting error:null
+1618	:invoke	:read	nil
+1618	:fail	:read	nil	Remoting error:null
+1692	:invoke	:read	nil
+1692	:fail	:read	nil	Remoting error:null
+1651	:invoke	:cas	[4 1]
+1651	:info	:cas	[4 1]	Remoting error:null
+1724	:invoke	:cas	[3 3]
+1724	:info	:cas	[3 3]	Remoting error:null
+1720	:invoke	:cas	[3 2]
+1720	:info	:cas	[3 2]	Remoting error:null
+1618	:invoke	:cas	[2 2]
+1618	:info	:cas	[2 2]	Remoting error:null
+1656	:invoke	:write	0
+1656	:info	:write	0	Remoting error:null
+1692	:invoke	:read	nil
+1692	:fail	:read	nil	Remoting error:null
+1729	:invoke	:write	1
+1729	:info	:write	1	Remoting error:null
+1692	:invoke	:read	nil
+1692	:fail	:read	nil	Remoting error:null
+1725	:invoke	:cas	[2 0]
+1725	:info	:cas	[2 0]	Remoting error:null
+1623	:invoke	:read	nil
+1623	:fail	:read	nil	Remoting error:null
+1661	:invoke	:write	1
+1661	:info	:write	1	Remoting error:null
+1734	:invoke	:write	4
+1734	:info	:write	4	Remoting error:null
+1692	:invoke	:write	4
+1692	:info	:write	4	Remoting error:null
+1730	:invoke	:write	1
+1730	:info	:write	1	Remoting error:null
+1623	:invoke	:write	3
+1623	:info	:write	3	Remoting error:null
+1666	:invoke	:cas	[2 2]
+1666	:info	:cas	[2 2]	Remoting error:null
+1739	:invoke	:read	nil
+1739	:fail	:read	nil	Remoting error:null
+1671	:invoke	:read	nil
+1671	:fail	:read	nil	Remoting error:null
+1735	:invoke	:cas	[1 2]
+1735	:info	:cas	[1 2]	Remoting error:null
+1697	:invoke	:cas	[1 2]
+1697	:info	:cas	[1 2]	Remoting error:null
+1739	:invoke	:cas	[1 2]
+1739	:info	:cas	[1 2]	Remoting error:null
+1628	:invoke	:write	0
+1628	:info	:write	0	Remoting error:null
+1633	:invoke	:write	2
+1633	:info	:write	2	Remoting error:null
+1740	:invoke	:cas	[4 3]
+1671	:invoke	:cas	[3 0]
+1740	:info	:cas	[4 3]	Remoting error:null
+1671	:info	:cas	[3 0]	Remoting error:null
+1702	:invoke	:cas	[1 3]
+1702	:info	:cas	[1 3]	Remoting error:null
+1744	:invoke	:read	nil
+1744	:fail	:read	nil	Remoting error:null
+1638	:invoke	:read	nil
+1638	:fail	:read	nil	Remoting error:null
+1744	:invoke	:cas	[1 4]
+1745	:invoke	:read	nil
+1744	:info	:cas	[1 4]	Remoting error:null
+1745	:fail	:read	nil	Remoting error:null
+1638	:invoke	:write	2
+1638	:info	:write	2	Remoting error:null
+1676	:invoke	:read	nil
+1676	:fail	:read	nil	Remoting error:null
+1745	:invoke	:write	4
+1745	:info	:write	4	Remoting error:null
+1707	:invoke	:read	nil
+1707	:fail	:read	nil	Remoting error:null
+1749	:invoke	:write	0
+1643	:invoke	:read	nil
+1749	:info	:write	0	Remoting error:null
+1643	:fail	:read	nil	Remoting error:null
+1643	:invoke	:cas	[1 1]
+1707	:invoke	:write	4
+1643	:info	:cas	[1 1]	Remoting error:null
+1707	:info	:write	4	Remoting error:null
+1676	:invoke	:read	nil
+1676	:fail	:read	nil	Remoting error:null
+1750	:invoke	:write	1
+1750	:info	:write	1	Remoting error:null
+1676	:invoke	:cas	[2 1]
+1676	:info	:cas	[2 1]	Remoting error:null
+1754	:invoke	:read	nil
+1754	:fail	:read	nil	Remoting error:null
+1712	:invoke	:write	1
+1712	:info	:write	1	Remoting error:null
+1755	:invoke	:write	2
+1648	:invoke	:read	nil
+1755	:info	:write	2	Remoting error:null
+1648	:fail	:read	nil	Remoting error:null
+1754	:invoke	:write	1
+1754	:info	:write	1	Remoting error:null
+1648	:invoke	:write	0
+1648	:info	:write	0	Remoting error:null
+1760	:invoke	:read	nil
+1760	:fail	:read	nil	Remoting error:null
+1681	:invoke	:write	2
+1681	:info	:write	2	Remoting error:null
+1717	:invoke	:cas	[1 1]
+1717	:info	:cas	[1 1]	Remoting error:null
+1653	:invoke	:read	nil
+1653	:fail	:read	nil	Remoting error:null
+1760	:invoke	:read	nil
+1760	:fail	:read	nil	Remoting error:null
+1759	:invoke	:cas	[1 3]
+1759	:info	:cas	[1 3]	Remoting error:null
+1686	:invoke	:read	nil
+1686	:fail	:read	nil	Remoting error:null
+1764	:invoke	:read	nil
+1764	:fail	:read	nil	Remoting error:null
+1653	:invoke	:read	nil
+1653	:fail	:read	nil	Remoting error:null
+1686	:invoke	:write	1
+1722	:invoke	:cas	[2 0]
+1686	:info	:write	1	Remoting error:null
+1722	:info	:cas	[2 0]	Remoting error:null
+1760	:invoke	:write	4
+1760	:info	:write	4	Remoting error:null
+1727	:invoke	:cas	[2 1]
+1727	:info	:cas	[2 1]	Remoting error:null
+1764	:invoke	:read	nil
+1764	:fail	:read	nil	Remoting error:null
+1653	:invoke	:write	1
+1653	:info	:write	1	Remoting error:null
+1691	:invoke	:write	2
+1691	:info	:write	2	Remoting error:null
+1732	:invoke	:cas	[1 3]
+1732	:info	:cas	[1 3]	Remoting error:null
+1765	:invoke	:cas	[0 1]
+1765	:info	:cas	[0 1]	Remoting error:null
+1658	:invoke	:read	nil
+1658	:fail	:read	nil	Remoting error:null
+1764	:invoke	:read	nil
+1770	:invoke	:read	nil
+1764	:fail	:read	nil	Remoting error:null
+1770	:fail	:read	nil	Remoting error:null
+1696	:invoke	:read	nil
+1696	:fail	:read	nil	Remoting error:null
+1737	:invoke	:write	3
+1737	:info	:write	3	Remoting error:null
+1770	:invoke	:write	2
+1770	:info	:write	2	Remoting error:null
+1764	:invoke	:cas	[4 4]
+1764	:info	:cas	[4 4]	Remoting error:null
+1658	:invoke	:write	0
+1658	:info	:write	0	Remoting error:null
+1696	:invoke	:read	nil
+1742	:invoke	:read	nil
+1696	:fail	:read	nil	Remoting error:null
+1742	:fail	:read	nil	Remoting error:null
+1775	:invoke	:write	0
+1775	:info	:write	0	Remoting error:null
+1742	:invoke	:read	nil
+1742	:fail	:read	nil	Remoting error:null
+1696	:invoke	:write	0
+1696	:info	:write	0	Remoting error:null
+1663	:invoke	:write	1
+1663	:info	:write	1	Remoting error:null
+1769	:invoke	:write	1
+1769	:info	:write	1	Remoting error:null
+1742	:invoke	:cas	[3 0]
+1742	:info	:cas	[3 0]	Remoting error:null
+1780	:invoke	:read	nil
+1780	:fail	:read	nil	Remoting error:null
+1701	:invoke	:cas	[1 3]
+1701	:info	:cas	[1 3]	Remoting error:null
+1774	:invoke	:write	1
+1774	:info	:write	1	Remoting error:null
+1668	:invoke	:write	1
+1668	:info	:write	1	Remoting error:null
+1747	:invoke	:read	nil
+1747	:fail	:read	nil	Remoting error:null
+1780	:invoke	:write	2
+1780	:info	:write	2	Remoting error:null
+1706	:invoke	:cas	[0 1]
+1706	:info	:cas	[0 1]	Remoting error:null
+1673	:invoke	:read	nil
+1673	:fail	:read	nil	Remoting error:null
+1747	:invoke	:write	1
+1747	:info	:write	1	Remoting error:null
+1785	:invoke	:write	1
+1785	:info	:write	1	Remoting error:null
+1779	:invoke	:read	nil
+1779	:fail	:read	nil	Remoting error:null
+1711	:invoke	:read	nil
+1711	:fail	:read	nil	Remoting error:null
+1673	:invoke	:cas	[1 0]
+1673	:info	:cas	[1 0]	Remoting error:null
+1790	:invoke	:write	4
+1790	:info	:write	4	Remoting error:null
+1752	:invoke	:read	nil
+1779	:invoke	:cas	[3 0]
+1752	:fail	:read	nil	Remoting error:null
+1779	:info	:cas	[3 0]	Remoting error:null
+1711	:invoke	:read	nil
+1711	:fail	:read	nil	Remoting error:null
+1795	:invoke	:cas	[3 1]
+1795	:info	:cas	[3 1]	Remoting error:null
+1752	:invoke	:write	1
+1752	:info	:write	1	Remoting error:null
+1678	:invoke	:cas	[1 0]
+1678	:info	:cas	[1 0]	Remoting error:null
+1784	:invoke	:cas	[3 1]
+1784	:info	:cas	[3 1]	Remoting error:null
+1711	:invoke	:cas	[3 0]
+1711	:info	:cas	[3 0]	Remoting error:null
+1683	:invoke	:write	4
+1683	:info	:write	4	Remoting error:null
+1757	:invoke	:read	nil
+1757	:fail	:read	nil	Remoting error:null
+1800	:invoke	:write	3
+1800	:info	:write	3	Remoting error:null
+1789	:invoke	:cas	[3 0]
+1789	:info	:cas	[3 0]	Remoting error:null
+1716	:invoke	:cas	[2 1]
+1716	:info	:cas	[2 1]	Remoting error:null
+1688	:invoke	:cas	[0 4]
+1688	:info	:cas	[0 4]	Remoting error:null
+1721	:invoke	:read	nil
+1721	:fail	:read	nil	Remoting error:null
+1757	:invoke	:write	2
+1757	:info	:write	2	Remoting error:null
+1794	:invoke	:write	0
+1794	:info	:write	0	Remoting error:null
+1805	:invoke	:cas	[0 0]
+1805	:info	:cas	[0 0]	Remoting error:null
+1693	:invoke	:cas	[1 0]
+1693	:info	:cas	[1 0]	Remoting error:null
+1799	:invoke	:write	3
+1799	:info	:write	3	Remoting error:null
+1810	:invoke	:cas	[0 0]
+1810	:info	:cas	[0 0]	Remoting error:null
+1721	:invoke	:cas	[1 1]
+1721	:info	:cas	[1 1]	Remoting error:null
+1762	:invoke	:write	2
+1762	:info	:write	2	Remoting error:null
+1804	:invoke	:write	1
+1804	:info	:write	1	Remoting error:null
+1698	:invoke	:cas	[2 4]
+1698	:info	:cas	[2 4]	Remoting error:null
+1726	:invoke	:read	nil
+1726	:fail	:read	nil	Remoting error:null
+1815	:invoke	:read	nil
+1815	:fail	:read	nil	Remoting error:null
+1767	:invoke	:write	0
+1767	:info	:write	0	Remoting error:null
+1703	:invoke	:write	4
+1703	:info	:write	4	Remoting error:null
+1772	:invoke	:cas	[4 2]
+1772	:info	:cas	[4 2]	Remoting error:null
+1809	:invoke	:write	3
+1809	:info	:write	3	Remoting error:null
+1815	:invoke	:read	nil
+1815	:fail	:read	nil	Remoting error:null
+1726	:invoke	:write	1
+1726	:info	:write	1	Remoting error:null
+1814	:invoke	:write	2
+1814	:info	:write	2	Remoting error:null
+1708	:invoke	:write	2
+1777	:invoke	:write	1
+1708	:info	:write	2	Remoting error:null
+1777	:info	:write	1	Remoting error:null
+1815	:invoke	:cas	[0 0]
+1815	:info	:cas	[0 0]	Remoting error:null
+1731	:invoke	:read	nil
+1731	:fail	:read	nil	Remoting error:null
+1713	:invoke	:cas	[1 4]
+1713	:info	:cas	[1 4]	Remoting error:null
+1819	:invoke	:write	4
+1819	:info	:write	4	Remoting error:null
+1782	:invoke	:write	0
+1782	:info	:write	0	Remoting error:null
+1820	:invoke	:write	3
+1820	:info	:write	3	Remoting error:null
+1787	:invoke	:cas	[3 3]
+1787	:info	:cas	[3 3]	Remoting error:null
+1731	:invoke	:cas	[0 0]
+1731	:info	:cas	[0 0]	Remoting error:null
+1824	:invoke	:write	0
+1824	:info	:write	0	Remoting error:null
+1718	:invoke	:cas	[4 1]
+1718	:info	:cas	[4 1]	Remoting error:null
+1825	:invoke	:write	3
+1825	:info	:write	3	Remoting error:null
+1736	:invoke	:read	nil
+1736	:fail	:read	nil	Remoting error:null
+1792	:invoke	:write	3
+1792	:info	:write	3	Remoting error:null
+1829	:invoke	:read	nil
+1829	:fail	:read	nil	Remoting error:null
+1797	:invoke	:cas	[0 4]
+1797	:info	:cas	[0 4]	Remoting error:null
+1723	:invoke	:write	4
+1723	:info	:write	4	Remoting error:null
+1830	:invoke	:read	nil
+1830	:fail	:read	nil	Remoting error:null
+1736	:invoke	:cas	[0 2]
+1736	:info	:cas	[0 2]	Remoting error:null
+1829	:invoke	:read	nil
+1829	:fail	:read	nil	Remoting error:null
+1802	:invoke	:read	nil
+1802	:fail	:read	nil	Remoting error:null
+1728	:invoke	:cas	[0 3]
+1728	:info	:cas	[0 3]	Remoting error:null
+1829	:invoke	:cas	[2 0]
+1829	:info	:cas	[2 0]	Remoting error:null
+1830	:invoke	:read	nil
+1830	:fail	:read	nil	Remoting error:null
+1741	:invoke	:write	2
+1741	:info	:write	2	Remoting error:null
+1802	:invoke	:write	3
+1802	:info	:write	3	Remoting error:null
+1733	:invoke	:read	nil
+1733	:fail	:read	nil	Remoting error:null
+1830	:invoke	:read	nil
+1830	:fail	:read	nil	Remoting error:null
+1746	:invoke	:read	nil
+1746	:fail	:read	nil	Remoting error:null
+1834	:invoke	:read	nil
+1834	:fail	:read	nil	Remoting error:null
+1807	:invoke	:read	nil
+1807	:fail	:read	nil	Remoting error:null
+1830	:invoke	:write	3
+1830	:info	:write	3	Remoting error:null
+1746	:invoke	:cas	[1 0]
+1746	:info	:cas	[1 0]	Remoting error:null
+1733	:invoke	:cas	[1 0]
+1733	:info	:cas	[1 0]	Remoting error:null
+1834	:invoke	:read	nil
+1834	:fail	:read	nil	Remoting error:null
+1751	:invoke	:write	2
+1751	:info	:write	2	Remoting error:null
+1807	:invoke	:read	nil
+1807	:fail	:read	nil	Remoting error:null
+1835	:invoke	:read	nil
+1835	:fail	:read	nil	Remoting error:null
+1738	:invoke	:read	nil
+1738	:fail	:read	nil	Remoting error:null
+1834	:invoke	:cas	[0 1]
+1834	:info	:cas	[0 1]	Remoting error:null
+1807	:invoke	:write	4
+1807	:info	:write	4	Remoting error:null
+1756	:invoke	:cas	[1 3]
+1756	:info	:cas	[1 3]	Remoting error:null
+1835	:invoke	:read	nil
+1835	:fail	:read	nil	Remoting error:null
+1812	:invoke	:write	4
+1812	:info	:write	4	Remoting error:null
+1738	:invoke	:cas	[2 3]
+1738	:info	:cas	[2 3]	Remoting error:null
+1839	:invoke	:read	nil
+1839	:fail	:read	nil	Remoting error:null
+1761	:invoke	:read	nil
+1761	:fail	:read	nil	Remoting error:null
+1835	:invoke	:read	nil
+1835	:fail	:read	nil	Remoting error:null
+1817	:invoke	:cas	[0 3]
+1817	:info	:cas	[0 3]	Remoting error:null
+1839	:invoke	:read	nil
+1839	:fail	:read	nil	Remoting error:null
+1743	:invoke	:write	4
+1743	:info	:write	4	Remoting error:null
+1761	:invoke	:cas	[2 2]
+1761	:info	:cas	[2 2]	Remoting error:null
+1835	:invoke	:write	1
+1835	:info	:write	1	Remoting error:null
+1822	:invoke	:read	nil
+1822	:fail	:read	nil	Remoting error:null
+1766	:invoke	:read	nil
+1766	:fail	:read	nil	Remoting error:null
+1839	:invoke	:cas	[0 1]
+:nemesis	:info	:start	nil
+1839	:info	:cas	[0 1]	Remoting error:null
+1822	:invoke	:write	2
+1822	:info	:write	2	Remoting error:null
+1748	:invoke	:cas	[2 3]
+1748	:info	:cas	[2 3]	Remoting error:null
+1766	:invoke	:read	nil
+1766	:fail	:read	nil	Remoting error:null
+1840	:invoke	:read	nil
+1840	:fail	:read	nil	Remoting error:null
+1827	:invoke	:cas	[4 0]
+1844	:invoke	:cas	[2 1]
+1840	:invoke	:cas	[3 4]
+1753	:invoke	:write	3
+1766	:invoke	:write	3
+:nemesis	:info	:start	{"jraft.host2" [:killed "jraft.host2"], "jraft.host4" [:killed "jraft.host4"], "jraft.host3" [:killed "jraft.host3"]}
+1827	:info	:cas	[4 0]	Remoting error:null
+1840	:info	:cas	[3 4]	Remoting error:null
+1844	:info	:cas	[2 1]	Remoting error:null
+1753	:info	:write	3	Remoting error:null
+1766	:info	:write	3	Remoting error:null
+1845	:invoke	:write	4
+1849	:invoke	:cas	[0 0]
+1758	:invoke	:write	3
+1849	:info	:cas	[0 0]	Remoting error:null
+1758	:info	:write	3	Remoting error:null
+1845	:info	:write	4	Remoting error:null
+1832	:invoke	:cas	[2 2]
+1832	:info	:cas	[2 2]	Remoting error:null
+1771	:invoke	:read	nil
+1771	:fail	:read	nil	Remoting error:null
+1837	:invoke	:read	nil
+1837	:fail	:read	nil	Remoting error:null
+1850	:invoke	:read	nil
+1854	:invoke	:cas	[3 3]
+1850	:fail	:read	nil	Remoting error:null
+1854	:info	:cas	[3 3]	Remoting error:null
+1763	:invoke	:write	3
+1771	:invoke	:read	nil
+1763	:info	:write	3	Remoting error:null
+1771	:fail	:read	nil	Remoting error:null
+1837	:invoke	:write	2
+1859	:invoke	:read	nil
+1837	:info	:write	2	Remoting error:null
+1859	:fail	:read	nil	Remoting error:null
+1771	:invoke	:read	nil
+1771	:fail	:read	nil	Remoting error:null
+1850	:invoke	:cas	[1 4]
+1850	:info	:cas	[1 4]	Remoting error:null
+1768	:invoke	:write	0
+1768	:info	:write	0	Remoting error:null
+1771	:invoke	:cas	[0 1]
+1771	:info	:cas	[0 1]	Remoting error:null
+1842	:invoke	:write	2
+1842	:info	:write	2	Remoting error:null
+1859	:invoke	:read	nil
+1776	:invoke	:write	2
+1859	:fail	:read	nil	Remoting error:null
+1776	:info	:write	2	Remoting error:null
+1855	:invoke	:read	nil
+1855	:fail	:read	nil	Remoting error:null
+1847	:invoke	:read	nil
+1847	:fail	:read	nil	Remoting error:null
+1773	:invoke	:cas	[2 0]
+1773	:info	:cas	[2 0]	Remoting error:null
+1859	:invoke	:cas	[2 2]
+1859	:info	:cas	[2 2]	Remoting error:null
+1847	:invoke	:cas	[2 4]
+1847	:info	:cas	[2 4]	Remoting error:null
+1781	:invoke	:write	4
+1781	:info	:write	4	Remoting error:null
+1855	:invoke	:cas	[4 2]
+1855	:info	:cas	[4 2]	Remoting error:null
+1864	:invoke	:write	3
+1864	:info	:write	3	Remoting error:null
+1778	:invoke	:read	nil
+1778	:fail	:read	nil	Remoting error:null
+1860	:invoke	:read	nil
+1860	:fail	:read	nil	Remoting error:null
+1852	:invoke	:read	nil
+1852	:fail	:read	nil	Remoting error:null
+1778	:invoke	:read	nil
+1778	:fail	:read	nil	Remoting error:null
+1786	:invoke	:write	0
+1786	:info	:write	0	Remoting error:null
+1869	:invoke	:cas	[4 3]
+1869	:info	:cas	[4 3]	Remoting error:null
+1852	:invoke	:read	nil
+1852	:fail	:read	nil	Remoting error:null
+1860	:invoke	:cas	[4 2]
+1860	:info	:cas	[4 2]	Remoting error:null
+1874	:invoke	:write	4
+1778	:invoke	:cas	[2 0]
+1791	:invoke	:write	3
+1874	:info	:write	4	Remoting error:null
+1778	:info	:cas	[2 0]	Remoting error:null
+1791	:info	:write	3	Remoting error:null
+1852	:invoke	:cas	[3 2]
+1852	:info	:cas	[3 2]	Remoting error:null
+1865	:invoke	:write	0
+1865	:info	:write	0	Remoting error:null
+1783	:invoke	:read	nil
+1783	:fail	:read	nil	Remoting error:null
+1879	:invoke	:cas	[1 0]
+1879	:info	:cas	[1 0]	Remoting error:null
+1796	:invoke	:read	nil
+1796	:fail	:read	nil	Remoting error:null
+1870	:invoke	:write	2
+1870	:info	:write	2	Remoting error:null
+1783	:invoke	:cas	[4 0]
+1783	:info	:cas	[4 0]	Remoting error:null
+1857	:invoke	:cas	[2 0]
+1857	:info	:cas	[2 0]	Remoting error:null
+1884	:invoke	:read	nil
+1884	:fail	:read	nil	Remoting error:null
+1875	:invoke	:cas	[4 1]
+1875	:info	:cas	[4 1]	Remoting error:null
+1796	:invoke	:read	nil
+1796	:fail	:read	nil	Remoting error:null
+1788	:invoke	:write	4
+1788	:info	:write	4	Remoting error:null
+1862	:invoke	:cas	[4 0]
+1862	:info	:cas	[4 0]	Remoting error:null
+1796	:invoke	:cas	[4 3]
+1796	:info	:cas	[4 3]	Remoting error:null
+1884	:invoke	:cas	[0 4]
+1884	:info	:cas	[0 4]	Remoting error:null
+1793	:invoke	:cas	[2 1]
+1793	:info	:cas	[2 1]	Remoting error:null
+1880	:invoke	:read	nil
+1880	:fail	:read	nil	Remoting error:null
+1867	:invoke	:cas	[0 3]
+1867	:info	:cas	[0 3]	Remoting error:null
+1889	:invoke	:write	2
+1889	:info	:write	2	Remoting error:null
+1801	:invoke	:cas	[0 3]
+1801	:info	:cas	[0 3]	Remoting error:null
+1880	:invoke	:cas	[0 4]
+1798	:invoke	:cas	[1 2]
+1798	:info	:cas	[1 2]	Remoting error:null
+1880	:info	:cas	[0 4]	Remoting error:null
+1894	:invoke	:write	1
+1894	:info	:write	1	Remoting error:null
+1872	:invoke	:write	4
+1872	:info	:write	4	Remoting error:null
+1885	:invoke	:write	0
+1885	:info	:write	0	Remoting error:null
+1806	:invoke	:read	nil
+1806	:fail	:read	nil	Remoting error:null
+1803	:invoke	:write	4
+1803	:info	:write	4	Remoting error:null
+1806	:invoke	:cas	[3 3]
+1806	:info	:cas	[3 3]	Remoting error:null
+1877	:invoke	:cas	[2 3]
+1877	:info	:cas	[2 3]	Remoting error:null
+1899	:invoke	:write	4
+1899	:info	:write	4	Remoting error:null
+1890	:invoke	:read	nil
+1890	:fail	:read	nil	Remoting error:null
+1811	:invoke	:cas	[4 2]
+1811	:info	:cas	[4 2]	Remoting error:null
+1808	:invoke	:write	2
+1808	:info	:write	2	Remoting error:null
+1882	:invoke	:read	nil
+1882	:fail	:read	nil	Remoting error:null
+1904	:invoke	:cas	[4 4]
+1904	:info	:cas	[4 4]	Remoting error:null
+1890	:invoke	:read	nil
+1890	:fail	:read	nil	Remoting error:null
+1813	:invoke	:cas	[1 0]
+1816	:invoke	:cas	[2 0]
+1813	:info	:cas	[1 0]	Remoting error:null
+1816	:info	:cas	[2 0]	Remoting error:null
+1882	:invoke	:cas	[0 2]
+1882	:info	:cas	[0 2]	Remoting error:null
+1909	:invoke	:cas	[0 3]
+1909	:info	:cas	[0 3]	Remoting error:null
+1890	:invoke	:cas	[1 0]
+1890	:info	:cas	[1 0]	Remoting error:null
+1914	:invoke	:read	nil
+1914	:fail	:read	nil	Remoting error:null
+1821	:invoke	:write	1
+1821	:info	:write	1	Remoting error:null
+1818	:invoke	:cas	[3 1]
+1818	:info	:cas	[3 1]	Remoting error:null
+1887	:invoke	:write	3
+1887	:info	:write	3	Remoting error:null
+1895	:invoke	:cas	[2 3]
+1895	:info	:cas	[2 3]	Remoting error:null
+1823	:invoke	:cas	[4 1]
+1823	:info	:cas	[4 1]	Remoting error:null
+1914	:invoke	:write	3
+1914	:info	:write	3	Remoting error:null
+1826	:invoke	:read	nil
+1826	:fail	:read	nil	Remoting error:null
+1892	:invoke	:write	1
+1892	:info	:write	1	Remoting error:null
+1900	:invoke	:cas	[0 0]
+1900	:info	:cas	[0 0]	Remoting error:null
+1828	:invoke	:read	nil
+1826	:invoke	:write	0
+1828	:fail	:read	nil	Remoting error:null
+1826	:info	:write	0	Remoting error:null
+1919	:invoke	:write	4
+1919	:info	:write	4	Remoting error:null
+1897	:invoke	:read	nil
+1897	:fail	:read	nil	Remoting error:null
+1831	:invoke	:read	nil
+1831	:fail	:read	nil	Remoting error:null
+1897	:invoke	:read	nil
+1897	:fail	:read	nil	Remoting error:null
+1905	:invoke	:cas	[1 4]
+1905	:info	:cas	[1 4]	Remoting error:null
+1828	:invoke	:write	1
+1828	:info	:write	1	Remoting error:null
+1924	:invoke	:cas	[3 2]
+1924	:info	:cas	[3 2]	Remoting error:null
+1910	:invoke	:write	1
+1910	:info	:write	1	Remoting error:null
+1833	:invoke	:cas	[4 1]
+1833	:info	:cas	[4 1]	Remoting error:null
+1831	:invoke	:cas	[0 4]
+1831	:info	:cas	[0 4]	Remoting error:null
+1897	:invoke	:write	1
+1897	:info	:write	1	Remoting error:null
+1915	:invoke	:read	nil
+1915	:fail	:read	nil	Remoting error:null
+1929	:invoke	:read	nil
+1929	:fail	:read	nil	Remoting error:null
+1838	:invoke	:write	4
+1902	:invoke	:cas	[0 2]
+1838	:info	:write	4	Remoting error:null
+1902	:info	:cas	[0 2]	Remoting error:null
+1836	:invoke	:cas	[2 4]
+1915	:invoke	:cas	[0 1]
+1836	:info	:cas	[2 4]	Remoting error:null
+1915	:info	:cas	[0 1]	Remoting error:null
+1929	:invoke	:write	0
+1929	:info	:write	0	Remoting error:null
+1841	:invoke	:cas	[0 2]
+1841	:info	:cas	[0 2]	Remoting error:null
+1907	:invoke	:cas	[3 1]
+1843	:invoke	:write	3
+1907	:info	:cas	[3 1]	Remoting error:null
+1843	:info	:write	3	Remoting error:null
+1920	:invoke	:read	nil
+1920	:fail	:read	nil	Remoting error:null
+1846	:invoke	:write	2
+1846	:info	:write	2	Remoting error:null
+1848	:invoke	:cas	[1 4]
+1920	:invoke	:cas	[3 0]
+1934	:invoke	:read	nil
+1920	:info	:cas	[3 0]	Remoting error:null
+1848	:info	:cas	[1 4]	Remoting error:null
+1934	:fail	:read	nil	Remoting error:null
+1912	:invoke	:read	nil
+1912	:fail	:read	nil	Remoting error:null
+1925	:invoke	:cas	[0 4]
+1925	:info	:cas	[0 4]	Remoting error:null
+1851	:invoke	:cas	[1 1]
+1912	:invoke	:write	4
+1851	:info	:cas	[1 1]	Remoting error:null
+1912	:info	:write	4	Remoting error:null
+1930	:invoke	:write	1
+1930	:info	:write	1	Remoting error:null
+1934	:invoke	:cas	[4 3]
+1853	:invoke	:read	nil
+1934	:info	:cas	[4 3]	Remoting error:null
+1853	:fail	:read	nil	Remoting error:null
+1917	:invoke	:write	1
+1917	:info	:write	1	Remoting error:null
+1935	:invoke	:cas	[1 4]
+1935	:info	:cas	[1 4]	Remoting error:null
+1856	:invoke	:write	1
+1856	:info	:write	1	Remoting error:null
+1939	:invoke	:write	0
+1939	:info	:write	0	Remoting error:null
+1853	:invoke	:write	0
+1853	:info	:write	0	Remoting error:null
+:nemesis	:info	:stop	nil
+:nemesis	:info	:stop	{"jraft.host2" [:restarted "jraft.host2"], "jraft.host4" [:restarted "jraft.host4"], "jraft.host3" [:restarted "jraft.host3"]}
+:nemesis	:info	:stop	nil
+:nemesis	:info	:stop	:not-started
+1922	:invoke	:read	nil
+1922	:fail	:read	nil	Remoting error:null
