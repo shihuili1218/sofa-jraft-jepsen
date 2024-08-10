@@ -1,0 +1,395 @@
+{:perf
+ {:latency-graph {:valid? true},
+  :rate-graph {:valid? true},
+  :valid? true},
+ :indep
+ {:valid? true,
+  :results
+  {0
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true, :model {:value 2}, :final-paths (), :configs ()},
+    :valid? true},
+   7
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true, :model {:value 4}, :final-paths (), :configs ()},
+    :valid? true},
+   20
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 2},
+       :last-op
+       {:process 3,
+        :type :ok,
+        :f :write,
+        :value 2,
+        :index 4217,
+        :time 46307542457},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   27
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 1},
+       :last-op
+       {:process 2,
+        :type :ok,
+        :f :write,
+        :value 1,
+        :index 5539,
+        :time 60329830961},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   1
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 1},
+       :last-op
+       {:process 1,
+        :type :ok,
+        :f :write,
+        :value 1,
+        :index 408,
+        :time 5344837874},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   24
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 3},
+       :last-op
+       {:process 0,
+        :type :ok,
+        :f :cas,
+        :value [4 3],
+        :index 5021,
+        :time 54917071007},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   4
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 1},
+       :last-op
+       {:process 4,
+        :type :ok,
+        :f :read,
+        :value 1,
+        :index 1005,
+        :time 12625479701},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   15
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 1},
+       :last-op
+       {:process 0,
+        :type :ok,
+        :f :read,
+        :value 1,
+        :index 3213,
+        :time 35742882756},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   21
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 3},
+       :last-op
+       {:process 3,
+        :type :ok,
+        :f :read,
+        :value 3,
+        :index 4417,
+        :time 48482966884},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   13
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 2},
+       :last-op
+       {:process 0,
+        :type :ok,
+        :f :write,
+        :value 2,
+        :index 2817,
+        :time 31631154826},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   22
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 1},
+       :last-op
+       {:process 2,
+        :type :ok,
+        :f :cas,
+        :value [2 1],
+        :index 4622,
+        :time 50503977545},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   6
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 1},
+       :last-op
+       {:process 3,
+        :type :ok,
+        :f :read,
+        :value 1,
+        :index 1409,
+        :time 16968302706},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   25
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true, :model {:value 0}, :final-paths (), :configs ()},
+    :valid? true},
+   17
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 1},
+       :last-op
+       {:process 3,
+        :type :ok,
+        :f :read,
+        :value 1,
+        :index 3615,
+        :time 40099576899},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   3
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 4},
+       :last-op
+       {:process 2,
+        :type :ok,
+        :f :read,
+        :value 4,
+        :index 799,
+        :time 10418691824},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   12
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 4},
+       :last-op
+       {:process 4,
+        :type :ok,
+        :f :cas,
+        :value [1 4],
+        :index 2609,
+        :time 29439537330},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   2
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 1},
+       :last-op
+       {:process 0,
+        :type :ok,
+        :f :read,
+        :value 1,
+        :index 601,
+        :time 8416011664},
+       :pending
+       [{:process 1,
+         :type :invoke,
+         :f :write,
+         :value 2,
+         :index 427,
+         :time 5616886169}]}
+      {:model {:value 1},
+       :last-op
+       {:process 0,
+        :type :ok,
+        :f :read,
+        :value 1,
+        :index 601,
+        :time 8416011664},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   23
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true, :model {:value 1}, :final-paths (), :configs ()},
+    :valid? true},
+   19
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true, :model {:value 3}, :final-paths (), :configs ()},
+    :valid? true},
+   11
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true, :model {:value 4}, :final-paths (), :configs ()},
+    :valid? true},
+   9
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 4},
+       :last-op
+       {:process 3,
+        :type :ok,
+        :f :read,
+        :value 4,
+        :index 2011,
+        :time 23186745243},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   5
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 3},
+       :last-op
+       {:process 4,
+        :type :ok,
+        :f :write,
+        :value 3,
+        :index 1209,
+        :time 14822489248},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   14
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 1},
+       :last-op
+       {:process 4,
+        :type :ok,
+        :f :write,
+        :value 1,
+        :index 3015,
+        :time 33621832717},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   26
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 1},
+       :last-op
+       {:process 6,
+        :type :ok,
+        :f :read,
+        :value 1,
+        :index 5427,
+        :time 59063300716},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   16
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 4},
+       :last-op
+       {:process 0,
+        :type :ok,
+        :f :write,
+        :value 4,
+        :index 3416,
+        :time 37816745135},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   10
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true, :model {:value 4}, :final-paths (), :configs ()},
+    :valid? true},
+   18
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 2},
+       :last-op
+       {:process 6,
+        :type :ok,
+        :f :write,
+        :value 2,
+        :index 3819,
+        :time 42176296339},
+       :pending []}),
+     :final-paths ()},
+    :valid? true},
+   8
+   {:timeline {:valid? true},
+    :linear
+    {:valid? true,
+     :configs
+     ({:model {:value 2},
+       :last-op
+       {:process 3,
+        :type :ok,
+        :f :read,
+        :value 2,
+        :index 1808,
+        :time 20999323996},
+       :pending []}),
+     :final-paths ()},
+    :valid? true}},
+  :failures []},
+ :valid? true}
