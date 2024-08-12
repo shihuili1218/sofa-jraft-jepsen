@@ -1,4 +1,0 @@
-{:timeline {:valid? true},
- :linear
- {:valid? true, :model {:value 1}, :final-paths (), :configs ()},
- :valid? true}
